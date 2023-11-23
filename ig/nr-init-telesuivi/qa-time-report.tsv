@@ -1,0 +1,11 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesuivi.json	4596	-	0	0	0	0	0	0	5	82	0	0	0	0	0	0	0	1	0	0	120	155	0	0	0	4	0	0
+fsh-generated/resources/CodeSystem-competence-code-system.json	6323	17	0	0	0	1	0	0	0	64	0	0	0	0	0	0	0	0	0	0	65	1906	0	0	0	1	0	0
+fsh-generated/resources/CodeSystem-type-carte-code-system.json	1011	9	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	16	52	0	0	0	1	0	0
+fsh-generated/resources/Patient-frpatient-exemple.json	456	8	0	0	0	0	0	0	0	272	0	0	0	0	0	0	0	0	0	0	9	12	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-EyeColor.json	1439	11	0	0	0	0	0	21	1	49	0	0	0	0	0	0	0	0	0	0	63	613	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-fr-patient.json	2613	11	0	0	0	0	0	247	0	211	0	0	0	0	0	0	0	1	0	0	435	1019	0	0	0	12	0	1
+fsh-generated/resources/ValueSet-EyeColorVS.json	672	9	1	0	0	0	0	0	0	164	0	0	0	0	0	0	0	0	0	0	12	2988	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-MeltingPotVS.json	890	8	0	0	0	0	0	0	0	46	0	0	0	0	0	0	0	0	0	0	15	124	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ModifiedAdministrativeGender.json	649	8	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	11	89	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-TypeCarteVS.json	423	8	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	9	83	0	0	0	0	0	0
