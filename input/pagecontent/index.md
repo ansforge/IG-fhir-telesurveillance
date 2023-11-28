@@ -9,6 +9,12 @@
 </div>
 -->
 
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml ../../schema/fhir-xhtml.xsd" xmlns="http://www.w3.org/1999/xhtml">
+<blockquote class="stu-note">
+	<strong>En travaux.</strong> Ce guide d'implémentation est en travaux, mis en visibilité pour commentaire et ne fait pas partie du CI-SIS.
+</blockquote>
+</div>
+
 ### Introduction
 
 Définir ici de quoi parle l'IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG
