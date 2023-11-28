@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/telesuivi/ImplementationGuide/ans.fhir.fr.telesuivi> a fhir:ImplementationGuide ;
+<https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "ans.fhir.fr.telesuivi"] ; # 
+  fhir:id [ fhir:v "ans.fhir.fr.telesurveillance"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesuivi/ImplementationGuide/ans.fhir.fr.telesuivi</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance</pre></div>"
   ] ; # 
-  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesuivi/ImplementationGuide/ans.fhir.fr.telesuivi"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "TLSV"] ; # 
-  fhir:title [ fhir:v "Guide d'implémentation du télésuivi"] ; # 
+  fhir:title [ fhir:v "Guide d'implémentation du telesurveillance"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-23T09:53:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-28T14:25:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -33,7 +33,7 @@
        fhir:display [ fhir:v "FRANCE" ]
      ] )
   ] ) ; # 
-  fhir:packageId [ fhir:v "ans.fhir.fr.telesuivi"] ; # 
+  fhir:packageId [ fhir:v "ans.fhir.fr.telesurveillance"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
@@ -158,7 +158,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesuivi/history.html" ]
+         fhir:value [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -395,7 +395,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesuivi/history.html" ]
+         fhir:value [ fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -540,7 +540,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/CodeSystem/competence-code-system> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/competence-code-system> ;
          fhir:reference [ fhir:v "CodeSystem/competence-code-system" ]
        ] ;
        fhir:name [ fhir:v "Compétences CodeSystem" ] ;
@@ -552,7 +552,7 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/EyeColor> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/EyeColor> ;
          fhir:reference [ fhir:v "StructureDefinition/EyeColor" ]
        ] ;
        fhir:name [ fhir:v "EyeColor" ] ;
@@ -564,7 +564,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/ValueSet/EyeColorVS> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/EyeColorVS> ;
          fhir:reference [ fhir:v "ValueSet/EyeColorVS" ]
        ] ;
        fhir:name [ fhir:v "EyeColor Value Set" ] ;
@@ -576,14 +576,14 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/Patient/frpatient-exemple> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/frpatient-exemple> ;
          fhir:reference [ fhir:v "Patient/frpatient-exemple" ]
        ] ;
        fhir:name [ fhir:v "frpatient-exemple" ] ;
        fhir:description [ fhir:v "Exemple d'un patient français" ] ;
        fhir:example [
-         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/fr-patient"^^xsd:anyURI ;
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/fr-patient>
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient>
        ]
      ] [
        fhir:extension ( [
@@ -591,7 +591,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/ValueSet/MeltingPotVS> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/MeltingPotVS> ;
          fhir:reference [ fhir:v "ValueSet/MeltingPotVS" ]
        ] ;
        fhir:name [ fhir:v "Melting Pot Value Set" ] ;
@@ -603,7 +603,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/ValueSet/ModifiedAdministrativeGender> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/ModifiedAdministrativeGender> ;
          fhir:reference [ fhir:v "ValueSet/ModifiedAdministrativeGender" ]
        ] ;
        fhir:name [ fhir:v "ModifiedAdministrativeGender" ] ;
@@ -615,7 +615,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/fr-patient> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient> ;
          fhir:reference [ fhir:v "StructureDefinition/fr-patient" ]
        ] ;
        fhir:name [ fhir:v "Patient français" ] ;
@@ -627,7 +627,7 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/ValueSet/TypeCarteVS> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TypeCarteVS> ;
          fhir:reference [ fhir:v "ValueSet/TypeCarteVS" ]
        ] ;
        fhir:name [ fhir:v "Type Carte Value Set" ] ;
@@ -639,7 +639,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/CodeSystem/type-carte-code-system> ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/type-carte-code-system> ;
          fhir:reference [ fhir:v "CodeSystem/type-carte-code-system" ]
        ] ;
        fhir:name [ fhir:v "Type de carte" ] ;

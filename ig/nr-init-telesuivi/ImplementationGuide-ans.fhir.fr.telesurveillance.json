@@ -1,16 +1,16 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "ans.fhir.fr.telesuivi",
+  "id" : "ans.fhir.fr.telesurveillance",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesuivi/ImplementationGuide/ans.fhir.fr.telesuivi</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance</pre></div>"
   },
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/ImplementationGuide/ans.fhir.fr.telesuivi",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance",
   "version" : "0.1.0",
   "name" : "TLSV",
-  "title" : "Guide d'implémentation du télésuivi",
+  "title" : "Guide d'implémentation du telesurveillance",
   "status" : "draft",
-  "date" : "2023-11-23T09:53:16+00:00",
+  "date" : "2023-11-28T14:25:42+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -26,7 +26,7 @@
       "display" : "FRANCE"
     }]
   }],
-  "packageId" : "ans.fhir.fr.telesuivi",
+  "packageId" : "ans.fhir.fr.telesurveillance",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -167,7 +167,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/history.html"
+        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -457,7 +457,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/history.html"
+        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -672,7 +672,7 @@
       },
       "name" : "frpatient-exemple",
       "description" : "Exemple d'un patient français",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/fr-patient"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient"
     },
     {
       "extension" : [{

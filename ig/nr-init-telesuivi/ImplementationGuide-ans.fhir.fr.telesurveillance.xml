@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="ans.fhir.fr.telesuivi"/>
+  <id value="ans.fhir.fr.telesurveillance"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesuivi/ImplementationGuide/ans.fhir.fr.telesuivi</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance</pre></div>
   </text>
-  <url value="https://interop.esante.gouv.fr/ig/fhir/telesuivi/ImplementationGuide/ans.fhir.fr.telesuivi"/>
+  <url value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance"/>
   <version value="0.1.0"/>
   <name value="TLSV"/>
-  <title value="Guide d'implémentation du télésuivi"/>
+  <title value="Guide d'implémentation du telesurveillance"/>
   <status value="draft"/>
-  <date value="2023-11-23T09:53:16+00:00"/>
+  <date value="2023-11-28T14:25:42+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -26,7 +26,7 @@
       <display value="FRANCE"/>
     </coding>
   </jurisdiction>
-  <packageId value="ans.fhir.fr.telesuivi"/>
+  <packageId value="ans.fhir.fr.telesurveillance"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -131,7 +131,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://interop.esante.gouv.fr/ig/fhir/telesuivi/history.html"/>
+        <valueString value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -342,7 +342,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="https://interop.esante.gouv.fr/ig/fhir/telesuivi/history.html"/>
+        <valueString value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -507,7 +507,7 @@
       </reference>
       <name value="frpatient-exemple"/>
       <description value="Exemple d'un patient français"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/fr-patient"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

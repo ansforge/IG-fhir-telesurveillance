@@ -5,13 +5,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/telesuivi/Patient/frpatient-exemple> a fhir:Patient ;
+<https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/frpatient-exemple> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "frpatient-exemple"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/fr-patient"^^xsd:anyURI ;
-       fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/fr-patient>
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient"^^xsd:anyURI ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient>
      ] )
   ] ; # 
   fhir:text [

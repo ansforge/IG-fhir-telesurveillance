@@ -102,7 +102,7 @@
       "StructureDefinition-fr-patient.html" : "Patient français"
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/ValueSet/EyeColorVS",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/EyeColorVS",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "EyeColorVS",
@@ -114,20 +114,20 @@
       "StructureDefinition-EyeColor.html" : "EyeColor"
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/ValueSet/MeltingPotVS",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/MeltingPotVS",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "MeltingPotVS",
       "title" : "Melting Pot Value Set",
       "description" : "Melting Pot Value Set.",
       "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/telesuivi/CodeSystem/competence-code-system",
-        "http://snomed.info/sct",
-        "https://interop.esante.gouv.fr/ig/fhir/telesuivi/CodeSystem/type-carte-code-system"
+        "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/type-carte-code-system",
+        "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/competence-code-system",
+        "http://snomed.info/sct"
       ]
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/ValueSet/ModifiedAdministrativeGender",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/ModifiedAdministrativeGender",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "ModifiedAdministrativeGender",
@@ -139,14 +139,14 @@
       "StructureDefinition-fr-patient.html" : "Patient français"
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/ValueSet/TypeCarteVS",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TypeCarteVS",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "TypeCarteVS",
       "title" : "Type Carte Value Set",
       "description" : "Type Carte Value Set.",
       "systems" : [
-        "https://interop.esante.gouv.fr/ig/fhir/telesuivi/CodeSystem/type-carte-code-system"
+        "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/type-carte-code-system"
       ]
     }
   ]

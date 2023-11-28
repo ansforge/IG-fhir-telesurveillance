@@ -1,11 +1,11 @@
 {
-  "package": "ans.fhir.fr.telesuivi",
+  "package": "ans.fhir.fr.telesurveillance",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "FR",
   "extensions": [
     {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/EyeColor",
+      "url": "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/EyeColor",
       "title": "EyeColor",
       "types": [
         "CodeableConcept"
@@ -15,7 +15,7 @@
   "profiles": {
     "Patient": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/fr-patient",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient",
         "title": "Patient français"
       }
     ]
@@ -62,7 +62,7 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "https://interop.esante.gouv.fr/ig/fhir/telesuivi/StructureDefinition/EyeColor": [
+    "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/EyeColor": [
       "Patient"
     ]
   }

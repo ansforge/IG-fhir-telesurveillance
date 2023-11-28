@@ -22,11 +22,11 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-EyeColorVS.html" : "EyeColor Value Set",
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
+      "ValueSet-EyeColorVS.html" : "EyeColor Value Set"
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/CodeSystem/competence-code-system",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/competence-code-system",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "CompetenceCS",
@@ -37,7 +37,7 @@
       "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/CodeSystem/type-carte-code-system",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/type-carte-code-system",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "TypeCarteCS",

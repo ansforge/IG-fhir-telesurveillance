@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/CodeSystem/competence-code-system",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/competence-code-system",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "CompetenceCS",
@@ -9,7 +9,7 @@
       "description" : "Compétences des professionnels de santé."
     },
     {
-      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesuivi/CodeSystem/type-carte-code-system",
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/type-carte-code-system",
       "version" : "0.1.0",
       "status" : "draft",
       "name" : "TypeCarteCS",
