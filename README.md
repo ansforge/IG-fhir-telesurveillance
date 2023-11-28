@@ -1,5 +1,7 @@
 Guide d'implémentation télésurveillance for comment : celui-ci ne fait pas partie du ci-sis.
 
+Intégration continue (soumis à des changements réguliers) : https://ansforge.github.io/IG-fhir-telesurveillance/ig/main
+
 <!-- ![Logo_LEF_CI-SIS](https://user-images.githubusercontent.com/48218773/227532484-eff82649-4e42-49c6-966a-dc3ea78cf59c.png) -->
 
 [![Workflow Init](https://github.com/ansforge/IG-fhir-telesurveillance/actions/workflows/fhir-workflows.yml/badge.svg)](https://github.com/ansforge/IG-fhir-telesurveillance/actions/workflows/fhir-workflows.yml)
@@ -20,7 +22,7 @@ Les workflows associés à ce repository (.github/workflows) permettent :
 
 * D'executer Sushi pour vérifier la grammaire
 * De faire les tests avec le validator_cli
-* De publier les pages : https://ansforge.github.io/{nom du repo}/ig/{nom de la branche}
+* De publier les pages : https://ansforge.github.io/IG-fhir-telesurveillance/ig/{nom de la branche}
 
 # Notes
 
