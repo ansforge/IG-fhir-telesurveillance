@@ -1,9 +1,9 @@
 # Documentation à propos de cette page : https://fshschool.org/docs/sushi/configuration/
 
-id: ans.fhir.fr.telesuivi
-canonical: https://interop.esante.gouv.fr/ig/fhir/telesuivi # the last part of canonical and id must be the same
+id: ans.fhir.fr.telesurveillance
+canonical: https://interop.esante.gouv.fr/ig/fhir/telesurveillance # the last part of canonical and id must be the same
 name: TLSV # Should be an acronym
-title: Guide d'implémentation du télésuivi
+title: Guide d'implémentation du telesurveillance
 publisher:
   name: ANS
   url: https://esante.gouv.fr
