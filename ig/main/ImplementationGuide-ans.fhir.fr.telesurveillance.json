@@ -8,9 +8,9 @@
   "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance",
   "version" : "0.1.0",
   "name" : "TLSV",
-  "title" : "Guide d'implémentation du telesurveillance",
+  "title" : "Guide d'implémentation de la télésurveillance",
   "status" : "draft",
-  "date" : "2023-11-28T15:24:19+00:00",
+  "date" : "2023-12-11T13:50:14+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
