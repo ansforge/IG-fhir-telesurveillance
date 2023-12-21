@@ -1,88 +1,46 @@
-# ╭─────────────────────────Commonly Used ImplementationGuide Properties───────────────────────────╮
-# │  The properties below are used to create the ImplementationGuide resource. The most commonly   │
-# │  used properties are included. For a list of all supported properties and their functions,     │
-# │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: tlsv
-canonical: https://interop.esante.gouv.fr/ig/fhir/tlsv
-name: TLSV
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
-status: draft # draft | active | retired | unknown
-version: 0.1.0
-fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2023+
-releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+# Documentation à propos de cette page : https://fshschool.org/docs/sushi/configuration/
+
+id: ans.fhir.fr.telesurveillance
+canonical: https://interop.esante.gouv.fr/ig/fhir/telesurveillance # the last part of canonical and id must be the same
+name: TLSV # Should be an acronym
+title: Guide d'implémentation de la télésurveillance
 publisher:
   name: ANS
-  url: https://interop.esante.gouv.fr
-  # email: test@example.org
+  url: https://esante.gouv.fr
+status: draft
+version: 0.1.0 # shall conforms to Semantic Versioning https://fr.wiktionary.org/wiki/SemVer
+fhirVersion: 4.0.1
+copyrightYear: 2020+
+releaseLabel: ci-build
+jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 
-# The dependencies property corresponds to IG.dependsOn. The key is the
-# package id and the value is the version (or dev/current). For advanced
-# use cases, the value can be an object with keys for id, uri, and version.
-#
-# dependencies:
-#   hl7.fhir.us.core: 3.1.0
-#   hl7.fhir.us.mcode:
-#     id: mcode
-#     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#     version: 1.0.0
-#
-#
-# The pages property corresponds to IG.definition.page. SUSHI can
-# auto-generate the page list, but if the author includes pages in
-# this file, it is assumed that the author will fully manage the
-# pages section and SUSHI will not generate any page entries.
-# The page file name is used as the key. If title is not provided,
-# then the title will be generated from the file name.  If a
-# generation value is not provided, it will be inferred from the
-# file name extension.  Any subproperties that are valid filenames
-# with supported extensions (e.g., .md/.xml) will be treated as
-# sub-pages.
-#
-# pages:
-#   index.md:
-#     title: Example Home
-#   implementation.xml:
-#   examples.xml:
-#     title: Examples Overview
-#     simpleExamples.xml:
-#     complexExamples.xml:
-#
-#
-# The parameters property represents IG.definition.parameter. Rather
-# than a list of code/value pairs (as in the ImplementationGuide
-# resource), the code is the YAML key. If a parameter allows repeating
-# values, the value in the YAML should be a sequence/array.
-# For parameters defined by core FHIR see:
-# http://build.fhir.org/codesystem-guide-parameter-code.html
-# For parameters defined by the FHIR Tools IG see:
-# http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
-#
-# parameters:
-#   excludettl: true
-#   validation: [allow-any-extensions, no-broken-links]
-#
-# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
-# │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
-# │ as a simple structure where the YAML key is the menu item name and the value is the URL.       │
-# │ The IG publisher currently only supports one level deep on sub-menus. To provide a             │
-# │ custom menu.xml file, do not include this property and include a `menu.xml` file in            │
-# │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
-# │ property below.                                                                                │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-menu:
-  Accueil: index.html
-  Ressources: 
-    TLSVObservation: StructureDefinition-TLSVObservation.html
-    Exemples: StructureDefinition-TLSVObservation-examples.html
-  Jeux de valeurs:
-    TLSV Category: ValueSet-TLSVCategory.html
+parameters:
+    shownav: 'true'
+
+
 
 pages:
-
-  index.md:
+    index.md:
         title: Accueil
+    
+    autres_ressources.md:
+        title: Autres Ressources
+        securite.md:
+            title: Sécurité
+        downloads.md:
+            title: Téléchargements et usages
+
+menu:
+    Accueil: index.html
+    Ressources: 
+        TLSVObservation: StructureDefinition-TLSVObservation.html
+        Exemples: StructureDefinition-TLSVObservation-examples.html
+    Jeux de valeurs:
+        TLSV Category: ValueSet-TLSVCategory.html
+    Ressources de conformité: artifacts.html
+    Autres ressources:
+        Sécurité: securite.html
+        Téléchargements et usage: downloads.html
+        "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
+        "Site de l'ANS ": new-tab https://esante.gouv.fr/
+    Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
