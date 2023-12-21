@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/tlsv/Device/phd-74E8FFFEFF051C00> a fhir:Device ;
+<https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Device/phd-74E8FFFEFF051C00> a fhir:Device ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "phd-74E8FFFEFF051C00"] ; # 
   fhir:meta [

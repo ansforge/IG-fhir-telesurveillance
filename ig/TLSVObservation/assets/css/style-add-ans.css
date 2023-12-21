@@ -3,9 +3,11 @@
 }
 
 #segment-footer > .container {
-    background-color: #464c6d;
+    background-color: #175560;
 }
-
+.navbar {
+	background-color : #175560;
+}
 
 #stripe {
 
@@ -32,17 +34,7 @@
     flex-direction: unset;
 }
 
-.navbar {
-	background-color : #464c6d;
-}
-.navbar,
-.navbar .container,
-.navbar .container-fluid,
-.navbar .container-xs {
 
-    /*display: table;*/
-
-}
 
 body {
     font-size: 14px;

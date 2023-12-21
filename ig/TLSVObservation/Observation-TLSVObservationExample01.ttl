@@ -7,13 +7,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/tlsv/Observation/TLSVObservationExample01> a fhir:Observation ;
+<https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExample01> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TLSVObservationExample01"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "https://interop.esante.gouv.fr/ig/fhir/tlsv/StructureDefinition/TLSVObservation"^^xsd:anyURI ;
-       fhir:link <https://interop.esante.gouv.fr/ig/fhir/tlsv/StructureDefinition/TLSVObservation>
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"^^xsd:anyURI ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation>
      ] )
   ] ; # 
   fhir:text [
@@ -60,7 +60,7 @@
      ] )
   ] ; # 
   fhir:device [
-     fhir:link <https://interop.esante.gouv.fr/ig/fhir/tlsv/Device/phd-74E8FFFEFF051C00> ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Device/phd-74E8FFFEFF051C00> ;
      fhir:reference [ fhir:v "Device/phd-74E8FFFEFF051C00" ]
   ] . # 
 

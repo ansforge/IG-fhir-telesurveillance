@@ -1,24 +1,32 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "tlsv",
+  "id" : "ans.fhir.fr.telesurveillance",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/tlsv/ImplementationGuide/tlsv</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance</pre></div>"
   },
-  "url" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/ImplementationGuide/tlsv",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance",
   "version" : "0.1.0",
   "name" : "TLSV",
+  "title" : "Guide d'implémentation de la télésurveillance",
   "status" : "draft",
-  "date" : "2023-12-21T14:13:42+00:00",
+  "date" : "2023-12-21T15:44:28+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://interop.esante.gouv.fr"
+      "value" : "https://esante.gouv.fr"
     }]
   }],
-  "packageId" : "tlsv",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "packageId" : "ans.fhir.fr.telesurveillance",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -49,7 +57,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2023+"
+        "valueString" : "2020+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -61,6 +69,17 @@
       {
         "url" : "value",
         "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "shownav"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -148,7 +167,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/history.html"
+        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -328,7 +347,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2023+"
+        "valueString" : "2020+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -340,6 +359,17 @@
       {
         "url" : "value",
         "valueString" : "ci-build"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "shownav"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -427,7 +457,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/history.html"
+        "valueString" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -599,6 +629,90 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/competence-code-system"
+      },
+      "name" : "Compétences CodeSystem",
+      "description" : "Compétences des professionnels de santé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/EyeColor"
+      },
+      "name" : "EyeColor",
+      "description" : "Eye color extension",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/EyeColorVS"
+      },
+      "name" : "EyeColor Value Set",
+      "description" : "Different eye colors.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/frpatient-exemple"
+      },
+      "name" : "frpatient-exemple",
+      "description" : "Exemple d'un patient français",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/MeltingPotVS"
+      },
+      "name" : "Melting Pot Value Set",
+      "description" : "Melting Pot Value Set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/ModifiedAdministrativeGender"
+      },
+      "name" : "ModifiedAdministrativeGender",
+      "description" : "AdministrativeGender without unknown code",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/fr-patient"
+      },
+      "name" : "Patient français",
+      "description" : "Description du patient français",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Device"
       }],
       "reference" : {
@@ -640,7 +754,7 @@
         "reference" : "Observation/TLSVObservationExample01"
       },
       "name" : "TLSVObservationExample01",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/StructureDefinition/TLSVObservation"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"
     },
     {
       "extension" : [{
@@ -651,7 +765,31 @@
         "reference" : "Observation/TLSVObservationExample02"
       },
       "name" : "TLSVObservationExample02",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/StructureDefinition/TLSVObservation"
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/TypeCarteVS"
+      },
+      "name" : "Type Carte Value Set",
+      "description" : "Type Carte Value Set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/type-carte-code-system"
+      },
+      "name" : "Type de carte",
+      "description" : "Type de carte professionnelle et personnelle.",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
@@ -669,6 +807,33 @@
         "nameUrl" : "index.html",
         "title" : "Accueil",
         "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "autres_ressources.html"
+        }],
+        "nameUrl" : "autres_ressources.html",
+        "title" : "Autres Ressources",
+        "generation" : "markdown",
+        "page" : [{
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "securite.html"
+          }],
+          "nameUrl" : "securite.html",
+          "title" : "Sécurité",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "downloads.html"
+          }],
+          "nameUrl" : "downloads.html",
+          "title" : "Téléchargements et usages",
+          "generation" : "markdown"
+        }]
       }]
     },
     "parameter" : [{

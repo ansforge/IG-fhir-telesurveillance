@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory> a fhir:ValueSet ;
+<https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TLSVCategory> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TLSVCategory"] ; # 
   fhir:text [
@@ -18,16 +18,23 @@
   fhir:title [ fhir:v "TLSV Categories"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-21T14:13:42+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-21T15:44:28+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://interop.esante.gouv.fr" ]
+       fhir:value [ fhir:v "https://esante.gouv.fr" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Liste des codes autorisés dans category dans le cadre du profil TLSVObservation"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ] ;
+       fhir:display [ fhir:v "FRANCE" ]
+     ] )
+  ] ) ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;

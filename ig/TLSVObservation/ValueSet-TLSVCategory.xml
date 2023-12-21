@@ -11,16 +11,23 @@
   <title value="TLSV Categories"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2023-12-21T14:13:42+00:00"/>
+  <date value="2023-12-21T15:44:28+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
     <telecom>
       <system value="url"/>
-      <value value="https://interop.esante.gouv.fr"/>
+      <value value="https://esante.gouv.fr"/>
     </telecom>
   </contact>
   <description value="Liste des codes autorisés dans category dans le cadre du profil TLSVObservation"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="FRANCE"/>
+    </coding>
+  </jurisdiction>
   <compose>
     <include>
       <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>

@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "TLSVObservationExample02",
   "meta" : {
-    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/tlsv/StructureDefinition/TLSVObservation"]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"]
   },
   "text" : {
     "status" : "generated",

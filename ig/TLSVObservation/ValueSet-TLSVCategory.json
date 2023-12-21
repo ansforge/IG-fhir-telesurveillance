@@ -11,16 +11,23 @@
   "title" : "TLSV Categories",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-12-21T14:13:42+00:00",
+  "date" : "2023-12-21T15:44:28+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
     "telecom" : [{
       "system" : "url",
-      "value" : "https://interop.esante.gouv.fr"
+      "value" : "https://esante.gouv.fr"
     }]
   }],
   "description" : "Liste des codes autorisés dans category dans le cadre du profil TLSVObservation",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/observation-category",

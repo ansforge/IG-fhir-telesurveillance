@@ -1,13 +1,28 @@
 {
-  "package": "tlsv",
+  "package": "ans.fhir.fr.telesurveillance",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "extensions": [],
+  "jurisdiction": "FR",
+  "extensions": [
+    {
+      "url": "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/EyeColor",
+      "title": "EyeColor",
+      "types": [
+        "CodeableConcept"
+      ]
+    }
+  ],
   "profiles": {
     "Observation": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/tlsv/StructureDefinition/TLSVObservation",
+        "url": "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation",
         "title": "TLSVObservation"
+      }
+    ],
+    "Patient": [
+      {
+        "url": "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient",
+        "title": "Patient français"
       }
     ]
   },
@@ -30,6 +45,9 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
       "StructureDefinition.snapshot.element"
     ],
@@ -41,7 +59,8 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
       "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page"
+      "ImplementationGuide.definition.page.page",
+      "ImplementationGuide.definition.page.page.page"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
@@ -51,6 +70,9 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
+    ],
+    "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/EyeColor": [
+      "Patient"
     ]
   }
 }
