@@ -16,6 +16,7 @@ survey : réponse à questionnaire ou score | exam : résultat d'examen clinique
 * code ^definition = "requis : le type précis d'observation"
 * subject 1..1
 * subject ^short = "requis : La référence au patient télésuivi : pointe vers la ressource Patient accessible sur un serveur ou présente dans le Bundle courant"
+* subject only Reference(Patient)
 * encounter 0..1
 * encounter ^short = "optionnel : référence à une visite d'un thérapeute au patient"
 * effective[x] 1..1
@@ -43,5 +44,6 @@ survey : réponse à questionnaire ou score | exam : résultat d'examen clinique
 * referenceRange ^short = "optionnel : un intervalle de référence applicable à ce patient pour cette observation"
 * derivedFrom 0..*
 * derivedFrom ^short = "optionnel : la ou les ressources qui contiennent les réponses du questionnaire"
+* derivedFrom only Reference(QuestionnaireResponse or Observation)
 * component 0..*
 * component ^short = "conditionnel : présent pour certaines observations combinant deux mesures concomitantes (exemple pression artérielle systolique et diastolique), et dans ce cas l'élément Observation.value n'est en général pas présent"
