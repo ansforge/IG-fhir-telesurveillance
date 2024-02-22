@@ -1,4 +1,9 @@
-  
+<p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
+<b>Brief description of this Implementation Guide</b><br>
+[Add a brief description of this IG in English]
+</p>
+
+
 <B>Bienvenue dans le guide d'implémentation des réponses aux questionnaires au format FHIR.</B>
   
 Dans le présent cas d'usage, on extrait certaines réponses significatives d'un ensemble de réponses de questionnaires, et on les véhicule sous forme d'observations.
