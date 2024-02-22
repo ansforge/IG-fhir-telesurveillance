@@ -10,7 +10,7 @@
   "name" : "TLSV",
   "title" : "Guide d'implémentation de la télésurveillance",
   "status" : "draft",
-  "date" : "2023-12-11T13:50:14+00:00",
+  "date" : "2024-02-22T10:18:21+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -338,7 +338,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#current"
+      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
     },
     {
       "extension" : [{
@@ -629,26 +629,13 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
+        "valueString" : "Device"
       }],
       "reference" : {
-        "reference" : "CodeSystem/competence-code-system"
+        "reference" : "Device/phd-74E8FFFEFF051C00"
       },
-      "name" : "Compétences CodeSystem",
-      "description" : "Compétences des professionnels de santé.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/EyeColor"
-      },
-      "name" : "EyeColor",
-      "description" : "Eye color extension",
-      "exampleBoolean" : false
+      "name" : "phd-74E8FFFEFF051C00",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -656,46 +643,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/EyeColorVS"
+        "reference" : "ValueSet/TLSVCategory"
       },
-      "name" : "EyeColor Value Set",
-      "description" : "Different eye colors.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/frpatient-exemple"
-      },
-      "name" : "frpatient-exemple",
-      "description" : "Exemple d'un patient français",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/MeltingPotVS"
-      },
-      "name" : "Melting Pot Value Set",
-      "description" : "Melting Pot Value Set.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/ModifiedAdministrativeGender"
-      },
-      "name" : "ModifiedAdministrativeGender",
-      "description" : "AdministrativeGender without unknown code",
+      "name" : "TLSV Categories",
+      "description" : "Liste des codes autorisés dans category dans le cadre du profil TLSVObservation",
       "exampleBoolean" : false
     },
     {
@@ -704,35 +655,33 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/fr-patient"
+        "reference" : "StructureDefinition/TLSVObservation"
       },
-      "name" : "Patient français",
-      "description" : "Description du patient français",
+      "name" : "TLSVObservation",
+      "description" : "Observation TéléSurveillance",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
+        "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "ValueSet/TypeCarteVS"
+        "reference" : "Observation/TLSVObservationExample01"
       },
-      "name" : "Type Carte Value Set",
-      "description" : "Type Carte Value Set.",
-      "exampleBoolean" : false
+      "name" : "TLSVObservationExample01",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
+        "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "CodeSystem/type-carte-code-system"
+        "reference" : "Observation/TLSVObservationExample02"
       },
-      "name" : "Type de carte",
-      "description" : "Type de carte professionnelle et personnelle.",
-      "exampleBoolean" : false
+      "name" : "TLSVObservationExample02",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"
     }],
     "page" : {
       "extension" : [{
@@ -750,42 +699,6 @@
         "nameUrl" : "index.html",
         "title" : "Accueil",
         "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "specifications_techniques.html"
-        }],
-        "nameUrl" : "specifications_techniques.html",
-        "title" : "Specifications Techniques",
-        "generation" : "markdown",
-        "page" : [{
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "construction_des_flux.html"
-          }],
-          "nameUrl" : "construction_des_flux.html",
-          "title" : "Construction Des Flux",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "st_flux1.html"
-          }],
-          "nameUrl" : "st_flux1.html",
-          "title" : "Flux 01",
-          "generation" : "markdown"
-        },
-        {
-          "extension" : [{
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-            "valueUrl" : "st_flux2.html"
-          }],
-          "nameUrl" : "st_flux2.html",
-          "title" : "Flux 02",
-          "generation" : "markdown"
-        }]
       },
       {
         "extension" : [{

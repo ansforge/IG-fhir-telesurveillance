@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "TLSV"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la télésurveillance"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-11T13:50:14+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-02-22T10:18:21+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -298,7 +298,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.1.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
@@ -537,77 +537,25 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [ fhir:v "Device" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/competence-code-system> ;
-         fhir:reference [ fhir:v "CodeSystem/competence-code-system" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Device/phd-74E8FFFEFF051C00> ;
+         fhir:reference [ fhir:v "Device/phd-74E8FFFEFF051C00" ]
        ] ;
-       fhir:name [ fhir:v "Compétences CodeSystem" ] ;
-       fhir:description [ fhir:v "Compétences des professionnels de santé." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:extension" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/EyeColor> ;
-         fhir:reference [ fhir:v "StructureDefinition/EyeColor" ]
-       ] ;
-       fhir:name [ fhir:v "EyeColor" ] ;
-       fhir:description [ fhir:v "Eye color extension" ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:name [ fhir:v "phd-74E8FFFEFF051C00" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/EyeColorVS> ;
-         fhir:reference [ fhir:v "ValueSet/EyeColorVS" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TLSVCategory> ;
+         fhir:reference [ fhir:v "ValueSet/TLSVCategory" ]
        ] ;
-       fhir:name [ fhir:v "EyeColor Value Set" ] ;
-       fhir:description [ fhir:v "Different eye colors." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Patient" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/frpatient-exemple> ;
-         fhir:reference [ fhir:v "Patient/frpatient-exemple" ]
-       ] ;
-       fhir:name [ fhir:v "frpatient-exemple" ] ;
-       fhir:description [ fhir:v "Exemple d'un patient français" ] ;
-       fhir:example [
-         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient"^^xsd:anyURI ;
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/MeltingPotVS> ;
-         fhir:reference [ fhir:v "ValueSet/MeltingPotVS" ]
-       ] ;
-       fhir:name [ fhir:v "Melting Pot Value Set" ] ;
-       fhir:description [ fhir:v "Melting Pot Value Set." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/ModifiedAdministrativeGender> ;
-         fhir:reference [ fhir:v "ValueSet/ModifiedAdministrativeGender" ]
-       ] ;
-       fhir:name [ fhir:v "ModifiedAdministrativeGender" ] ;
-       fhir:description [ fhir:v "AdministrativeGender without unknown code" ] ;
+       fhir:name [ fhir:v "TLSV Categories" ] ;
+       fhir:description [ fhir:v "Liste des codes autorisés dans category dans le cadre du profil TLSVObservation" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -615,36 +563,40 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient> ;
-         fhir:reference [ fhir:v "StructureDefinition/fr-patient" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation> ;
+         fhir:reference [ fhir:v "StructureDefinition/TLSVObservation" ]
        ] ;
-       fhir:name [ fhir:v "Patient français" ] ;
-       fhir:description [ fhir:v "Description du patient français" ] ;
+       fhir:name [ fhir:v "TLSVObservation" ] ;
+       fhir:description [ fhir:v "Observation TéléSurveillance" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
+         fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TypeCarteVS> ;
-         fhir:reference [ fhir:v "ValueSet/TypeCarteVS" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExample01> ;
+         fhir:reference [ fhir:v "Observation/TLSVObservationExample01" ]
        ] ;
-       fhir:name [ fhir:v "Type Carte Value Set" ] ;
-       fhir:description [ fhir:v "Type Carte Value Set." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:name [ fhir:v "TLSVObservationExample01" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/CodeSystem/type-carte-code-system> ;
-         fhir:reference [ fhir:v "CodeSystem/type-carte-code-system" ]
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExample02> ;
+         fhir:reference [ fhir:v "Observation/TLSVObservationExample02" ]
        ] ;
-       fhir:name [ fhir:v "Type de carte" ] ;
-       fhir:description [ fhir:v "Type de carte professionnelle et personnelle." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:name [ fhir:v "TLSVObservationExample02" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation>
+       ]
      ] ) ;
      fhir:page [
        fhir:extension ( [
@@ -662,39 +614,6 @@
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Accueil" ] ;
          fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "specifications_techniques.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "specifications_techniques.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Specifications Techniques" ] ;
-         fhir:generation [ fhir:v "markdown" ] ;
-         fhir:page ( [
-           fhir:extension ( [
-             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-             fhir:value [ fhir:v "construction_des_flux.html"^^xsd:anyURI ]
-           ] ) ;
-           fhir:name [ fhir:v "construction_des_flux.html"^^xsd:anyURI ] ;
-           fhir:title [ fhir:v "Construction Des Flux" ] ;
-           fhir:generation [ fhir:v "markdown" ]
-         ] [
-           fhir:extension ( [
-             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-             fhir:value [ fhir:v "st_flux1.html"^^xsd:anyURI ]
-           ] ) ;
-           fhir:name [ fhir:v "st_flux1.html"^^xsd:anyURI ] ;
-           fhir:title [ fhir:v "Flux 01" ] ;
-           fhir:generation [ fhir:v "markdown" ]
-         ] [
-           fhir:extension ( [
-             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-             fhir:value [ fhir:v "st_flux2.html"^^xsd:anyURI ]
-           ] ) ;
-           fhir:name [ fhir:v "st_flux2.html"^^xsd:anyURI ] ;
-           fhir:title [ fhir:v "Flux 02" ] ;
-           fhir:generation [ fhir:v "markdown" ]
-         ] )
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;

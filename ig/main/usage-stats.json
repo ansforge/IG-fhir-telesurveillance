@@ -3,20 +3,12 @@
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "FR",
-  "extensions": [
-    {
-      "url": "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/EyeColor",
-      "title": "EyeColor",
-      "types": [
-        "CodeableConcept"
-      ]
-    }
-  ],
+  "extensions": [],
   "profiles": {
-    "Patient": [
+    "Observation": [
       {
-        "url": "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/fr-patient",
-        "title": "Patient français"
+        "url": "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation",
+        "title": "TLSVObservation"
       }
     ]
   },
@@ -33,10 +25,10 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
-      "StructureDefinition.snapshot.element.type"
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
     ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
@@ -61,9 +53,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
-    ],
-    "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/EyeColor": [
-      "Patient"
     ]
   }
 }
