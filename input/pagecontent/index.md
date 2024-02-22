@@ -3,40 +3,22 @@
 [Add a brief description of this IG in English]
 </p>
 
-<!--  A décommenter si CI-SIS
-<div class="figure">
-    <img src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS" style="width:100%;">
+
+<B>Bienvenue dans le guide d'implémentation des réponses aux questionnaires au format FHIR.</B>
+  
+Dans le présent cas d'usage, on extrait certaines réponses significatives d'un ensemble de réponses de questionnaires, et on les véhicule sous forme d'observations.
+Chaque réponse devient une observation.
+  
+<div class="figure" style="width:65%;">
+    <img src="UserCase1.png" alt="UserCase" title="UserCase">
 </div>
--->
-
-<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml ../../schema/fhir-xhtml.xsd" xmlns="http://www.w3.org/1999/xhtml">
-<blockquote class="stu-note">
-	<strong>En travaux.</strong> Ce guide d'implémentation est en travaux, mis en visibilité pour commentaire et ne fait pas partie du CI-SIS.
-</blockquote>
-</div>
-
-### Introduction
-
-Définir ici de quoi parle l'IG (En termes non expert, compréhensible par un patient). Rajouter également les détails techniques sur le contexte et le besoin de cet IG
-
-Les principales sections de l'IG  sont :
-
-* Le contexte de l'IG, quelle problématique il résout
-* Ce que les Implémenteurs doivent mettre en place
-* Un onglet "Ressources de conformité" pour s'assurer d'un schéma global entre tous les IGs
-
-### Périmètre du projet
-
-Définir en quelques lignes en anglais quel est le périmètre du projet
-
-Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs
-
-### Auteurs et contributeurs
-
-| Role  | Nom | Organisation | Contact |
-| --- | --- | --- | --- |
-| **Primary Editor** | Prenom Nom | Agence du Numérique en Santé | prenom.nom@address.email |
-
-### Dépendances
-
-{% include dependency-table.xhtml %}
+  
+Ces spécifications ne sont pas spécifiques à une pathologie, mais implémentables par la majeure partie des solutions de télésurveillance.
+  
+Cadre du guide :
+-	Partage des données saisies par le patient ou par l’aidant (ou soignant auprès du patient à domicile par exemple) dans des questionnaires de télésurveillance
+-	Partage des scores calculés sur la base des réponses aux questionnaires 
+-	Partage des données mesurées par des dispositifs médicaux dans le cadre d’un dispositif de télésurveillance
+  
+  
+  
