@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "MeltingPotVS"] ; # 
   fhir:title [ fhir:v "Melting Pot Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-01-09T11:57:44+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-02-22T09:02:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

@@ -1,16 +1,16 @@
-﻿TLSV : Validation Results
+TLSV : Validation Results
 =========================================
 
-err = 17, warn = 23, info = 6
-IG Publisher Version: 1.5.8
-Generated Tue Jan 09 12:00:24 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/telesurveillance)
+err = 13, warn = 25, info = 19
+IG Publisher Version: 1.5.16
+Generated Thu Feb 22 09:04:44 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/telesurveillance)
  Build Errors : 4 / 7 / 0
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
- /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/Device-phd-74E8FFFEFF051C00 : 9 / 1 / 1
+ /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/Device-phd-74E8FFFEFF051C00 : 5 / 3 / 12
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance : 0 / 0 / 1
- /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/Observation-TLSVObservationExample01 : 3 / 0 / 1
- /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/Observation-TLSVObservationExample02 : 3 / 3 / 1
+ /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/Observation-TLSVObservationExample01 : 3 / 0 / 2
+ /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/Observation-TLSVObservationExample02 : 3 / 3 / 2
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/Patient-frpatient-exemple : 0 / 0 / 1
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/StructureDefinition-EyeColor : 0 / 2 / 1
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/fsh-generated/resources/StructureDefinition-TLSVObservation : 0 / 2 / 1
@@ -43,27 +43,38 @@ WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems S
 WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json ==
 ERROR: Device/phd-74E8FFFEFF051C00: Device.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice' does not resolve
-ERROR: Device/phd-74E8FFFEFF051C00: Device.identifier[0].type.coding[0]: Unknown Code System 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers'
+WARNING: Device/phd-74E8FFFEFF051C00: Device.identifier[0].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers' could not be found, so the code cannot be validated
 ERROR: Device/phd-74E8FFFEFF051C00: Device.identifier[0].type.coding[0].system: URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers' does not resolve
-ERROR: Device/phd-74E8FFFEFF051C00: Device.identifier[1].type.coding[0]: Unknown Code System 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers'
+WARNING: Device/phd-74E8FFFEFF051C00: Device.identifier[1].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers' could not be found, so the code cannot be validated
 ERROR: Device/phd-74E8FFFEFF051C00: Device.identifier[1].type.coding[0].system: URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers' does not resolve
-ERROR: Device/phd-74E8FFFEFF051C00: Device.property[0].valueCode[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaPHD'
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.specialization[0].systemType: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.version[0].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.version[1].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.version[2].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.version[3].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.property[0].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.property[0].valueCode[0].coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaPHD' could not be found, so the code cannot be validated
 ERROR: Device/phd-74E8FFFEFF051C00: Device.property[0].valueCode[0].coding[0].system: URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaPHD' does not resolve
-ERROR: Device/phd-74E8FFFEFF051C00: Device.property[1].type.coding[0]: Unknown Code System 'http://hl7.org/fhir/uv/phd/CodeSystem/ASN1ToHL7'
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.property[1].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ASN1ToHL7' could not be found, so the code cannot be validated
 ERROR: Device/phd-74E8FFFEFF051C00: Device.property[1].type.coding[0].system: URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ASN1ToHL7' does not resolve
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.property[2].type: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+INFORMATION: Device/phd-74E8FFFEFF051C00: Device.property[2].valueCode[0]: Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
 WARNING: Device/phd-74E8FFFEFF051C00: Device.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json ==
 == fsh-generated/resources/Observation-TLSVObservationExample01.json ==
 ERROR: Observation/TLSVObservationExample01: Observation.subject: Unable to resolve resource with reference 'ExamplefrPatient001'
 ERROR: Observation/TLSVObservationExample01: Observation.performer[0]: Unable to resolve resource with reference 'ExamplefrPatient001'
-ERROR: Observation/TLSVObservationExample01: Observation.method.coding[0]: Unable to find code C010402020702 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230901); Unknown Code 'C010402020702' in the system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901'; The provided code 'http://snomed.info/sct#C010402020702' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server) (for 'http://snomed.info/sct#C010402020702')
+ERROR: Observation/TLSVObservationExample01: Observation.method.coding[0].code: Unknown code 'C010402020702' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20230901'
+INFORMATION: Observation/TLSVObservationExample01: Observation.method.coding[0].code: Code C010402020702 is not a valid SNOMED CT Term, and neither could it be parsed as an expression (Concept not found (next char = "C", in "C010402020702") at character 1)
 == fsh-generated/resources/Observation-TLSVObservationExample02.json ==
-WARNING: Observation/TLSVObservationExample02: Observation.code.coding[0]: The system http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl was found but did not contain enough information to properly validate the code "C180126" ("Fatigue Severity") (mode = fragment) (from Tx-Server) (for 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C180126')
+WARNING: Observation/TLSVObservationExample02: Observation.code.coding[0].code: Unknown Code 'C180126' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
 ERROR: Observation/TLSVObservationExample02: Observation.subject: Unable to resolve resource with reference 'ExamplefrPatient001'
 ERROR: Observation/TLSVObservationExample02: Observation.performer[0]: Unable to resolve resource with reference 'ExamplefrPatient001'
-WARNING: Observation/TLSVObservationExample02: Observation.value.ofType(CodeableConcept).coding[0]: The system http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl was found but did not contain enough information to properly validate the code "C70667" ("Severe") (mode = fragment) (from Tx-Server) (for 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70667')
-WARNING: Observation/TLSVObservationExample02: Observation.interpretation[0].coding[0]: The system http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl was found but did not contain enough information to properly validate the code "C70667" ("") (mode = fragment) (from Tx-Server) (for 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70667')
-ERROR: Observation/TLSVObservationExample02: Observation.method.coding[0]: Unable to find code C010402020702 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230901); Unknown Code 'C010402020702' in the system 'http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901'; The provided code 'http://snomed.info/sct#C010402020702' is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server) (for 'http://snomed.info/sct#C010402020702')
+WARNING: Observation/TLSVObservationExample02: Observation.value.ofType(CodeableConcept).coding[0].code: Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+WARNING: Observation/TLSVObservationExample02: Observation.interpretation[0].coding[0].code: Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+ERROR: Observation/TLSVObservationExample02: Observation.method.coding[0].code: Unknown code 'C010402020702' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20230901'
+INFORMATION: Observation/TLSVObservationExample02: Observation.method.coding[0].code: Code C010402020702 is not a valid SNOMED CT Term, and neither could it be parsed as an expression (Concept not found (next char = "C", in "C010402020702") at character 1)
 == fsh-generated/resources/Patient-frpatient-exemple.json ==
 == fsh-generated/resources/StructureDefinition-EyeColor.json ==
 WARNING: StructureDefinition/EyeColor: StructureDefinition.context[0]: Review the extension type for EyeColor: extensions should not have a context of Element unless it's really intended that they can be used anywhere

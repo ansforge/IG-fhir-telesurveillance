@@ -10,8 +10,8 @@
       "oids" : ["2.16.840.1.113883.4.642.4.2"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender",
-      "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender"
+      "ValueSet-ModifiedAdministrativeGender.html" : "ModifiedAdministrativeGender",
+      "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
     },
     {
       "url" : "http://hl7.org/fhir/identifier-use",
@@ -74,8 +74,8 @@
       "ValueSet-EyeColorVS.html" : "EyeColor Value Set",
       "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
       "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures"
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",

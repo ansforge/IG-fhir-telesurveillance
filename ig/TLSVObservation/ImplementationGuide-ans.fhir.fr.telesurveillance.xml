@@ -10,7 +10,7 @@
   <name value="TLSV"/>
   <title value="Guide d'implémentation de la télésurveillance"/>
   <status value="draft"/>
-  <date value="2024-01-09T11:57:44+00:00"/>
+  <date value="2024-02-22T09:02:06+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -255,7 +255,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#current"/>
+      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">

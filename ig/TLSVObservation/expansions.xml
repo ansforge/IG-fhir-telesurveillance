@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="e0ed467d-0823-4b13-a8b9-7bba0724f148"/>
+  <id value="aceabd6c-2a3b-4ee7-abfa-b3bacd9b7c55"/>
   <meta>
-    <lastUpdated value="2024-01-09T11:57:44.607+00:00"/>
+    <lastUpdated value="2024-02-22T09:02:06.258+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -13,14 +13,8 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion based on: </p>
-              <ul>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
-              </ul>
-            </div>
-            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-Sep 2023</p>
+            <p>This value set contains 3 concepts.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -42,7 +36,7 @@
                   <a href="http://snomed.info/id/405738005">405738005</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Blue color</td>
+                <td>Blue color (qualifier value)</td>
                 <td/>
               </tr>
               <tr>
@@ -51,7 +45,7 @@
                   <a href="http://snomed.info/id/371254008">371254008</a>
                 </td>
                 <td>http://snomed.info/sct</td>
-                <td>Brown color</td>
+                <td>Brown color (qualifier value)</td>
                 <td/>
               </tr>
               <tr>
@@ -71,7 +65,7 @@
         <name value="EyeColorVS"/>
         <title value="EyeColor Value Set"/>
         <status value="draft"/>
-        <date value="2024-01-09T11:57:44+00:00"/>
+        <date value="2024-02-22T09:02:06+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -80,9 +74,18 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9385720c-ffb2-4e7a-8fd6-93ab50c8009d"/>
-          <timestamp value="2024-01-09T11:58:02+00:00"/>
+          <identifier value="urn:uuid:defac272-0fd9-4063-9a2f-1084f5a693e0"/>
+          <timestamp value="2024-02-22T09:02:24+00:00"/>
           <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -90,10 +93,6 @@
           <parameter>
             <name value="used-valueset"/>
             <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -106,12 +105,12 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="405738005"/>
-            <display value="Blue color"/>
+            <display value="Blue color (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="371254008"/>
-            <display value="Brown color"/>
+            <display value="Brown color (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -140,10 +139,9 @@
                 <li>
                   <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
                 </li>
-                <li>SNOMED CT International edition 01-Sep 2023</li>
               </ul>
             </div>
-            <p>This value set contains 7 concepts</p>
+            <p>This value set contains 7 concepts.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -259,7 +257,7 @@
         <name value="MeltingPotVS"/>
         <title value="Melting Pot Value Set"/>
         <status value="draft"/>
-        <date value="2024-01-09T11:57:44+00:00"/>
+        <date value="2024-02-22T09:02:06+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -268,9 +266,18 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:46cb7ee1-b1da-40f1-85f0-be347ddc9504"/>
-          <timestamp value="2024-01-09T11:58:02+00:00"/>
+          <identifier value="urn:uuid:f9bb2328-31ee-4bb4-952c-80da6152b72d"/>
+          <timestamp value="2024-02-22T09:02:24+00:00"/>
           <total value="7"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -278,10 +285,6 @@
           <parameter>
             <name value="used-valueset"/>
             <valueUri value="null"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
@@ -348,7 +351,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="http://hl7.org/fhir/R4/codesystem-administrative-gender.html">codesystem AdministrativeGender v4.0.1 (CodeSystem)</a>
             </p>
-            <p>This value set contains 3 concepts</p>
+            <p>This value set contains 3 concepts.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -414,7 +417,7 @@
         <name value="ModifiedAdministrativeGender"/>
         <title value="ModifiedAdministrativeGender"/>
         <status value="draft"/>
-        <date value="2024-01-09T11:57:44+00:00"/>
+        <date value="2024-02-22T09:02:06+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -423,9 +426,18 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9a9d886c-b32f-434c-939c-2b26e98df767"/>
-          <timestamp value="2024-01-09T11:58:02+00:00"/>
+          <identifier value="urn:uuid:2f61e47e-124b-4c34-a330-aa60377643f3"/>
+          <timestamp value="2024-02-22T09:02:24+00:00"/>
           <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -463,7 +475,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html">codesystem Observation Category Codes v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 5 concepts</p>
+            <p>This value set contains 5 concepts.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -558,7 +570,7 @@
         <title value="TLSV Categories"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-01-09T11:57:44+00:00"/>
+        <date value="2024-02-22T09:02:06+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -567,9 +579,18 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b4ab364d-d6dc-4287-845d-7c5ce193bd66"/>
-          <timestamp value="2024-01-09T11:58:02+00:00"/>
+          <identifier value="urn:uuid:afcd1f79-f761-4101-837b-24cd6f7c9b22"/>
+          <timestamp value="2024-02-22T09:02:24+00:00"/>
           <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -617,7 +638,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
               <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 4 concepts</p>
+            <p>This value set contains 4 concepts.</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -697,7 +718,7 @@
         <name value="TypeCarteVS"/>
         <title value="Type Carte Value Set"/>
         <status value="draft"/>
-        <date value="2024-01-09T11:57:44+00:00"/>
+        <date value="2024-02-22T09:02:06+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -706,9 +727,18 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9de6889c-7658-4d39-9b14-3c487b5f0b34"/>
-          <timestamp value="2024-01-09T11:58:02+00:00"/>
+          <identifier value="urn:uuid:2adee1ce-43d5-4b9e-af56-a523f6c8652b"/>
+          <timestamp value="2024-02-22T09:02:24+00:00"/>
           <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
