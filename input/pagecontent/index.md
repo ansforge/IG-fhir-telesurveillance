@@ -25,3 +25,4 @@ Ce guide peut être utilisé en complément du guide [mesures de santé](https:/
 La liste ci-dessous expose la liste des profils.
 
 {% sql SELECT '[' || Title ||'](StructureDefinition-' || id || '.html)' as "Titre du profil", Description, json_extract(Json, '$.baseDefinition') as "URL canonique de la ressource parent" FROM Resources WHERE Type = 'StructureDefinition' and Description like "Profil%" %}
+

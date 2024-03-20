@@ -1,5 +1,7 @@
 Profile: TLSVObservation
 Parent: Observation
+Id: tlsv-observation
+Title: "Observation Télésurveillance"
 Description: "Profil de la ressource Observation dans le cadre de la télésurveillance pour transmettre une information de questionnaire"
 * identifier 0..* MS
 * identifier ^definition = "recommandé : identifiant métier unique attribué à cette mesure/réponse"
