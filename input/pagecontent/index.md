@@ -1,5 +1,5 @@
 <p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
-<b>Brief description of this Implementation Guide</b> Transmitting questionnaire responses via an Observation resource<br>
+<b>Remote monitoring Implementation Guide</b> Transmitting questionnaire responses using an Observation resource for remote monitoring<br>
 </p>
 
 <B>Bienvenue dans le guide d'implémentation des réponses aux questionnaires au format FHIR.</B>
