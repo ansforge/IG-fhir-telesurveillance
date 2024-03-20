@@ -10,7 +10,7 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     }
   ]
 }

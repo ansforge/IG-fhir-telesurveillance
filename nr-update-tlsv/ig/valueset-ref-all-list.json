@@ -12,7 +12,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -26,7 +26,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -40,7 +40,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -54,7 +54,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -70,7 +70,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -84,7 +84,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -98,7 +98,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -115,7 +115,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -131,7 +131,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory",
@@ -143,7 +143,7 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
       "uses" : {
       },
-      "StructureDefinition-TLSVObservation.html" : "TLSVObservation"
+      "StructureDefinition-tlsv-observation.html" : "Observation Telesurveillance"
     }
   ]
 }

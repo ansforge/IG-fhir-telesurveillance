@@ -10,7 +10,7 @@
   <name value="TLSV"/>
   <title value="Guide d'implémentation de la télésurveillance"/>
   <status value="draft"/>
-  <date value="2024-03-20T13:18:38+00:00"/>
+  <date value="2024-03-20T13:57:09+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -467,6 +467,17 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/tlsv-observation"/>
+      </reference>
+      <name value="Observation Telesurveillance"/>
+      <description value="Profil de la ressource Observation dans le cadre de la télésurveillance pour transmettre une information de questionnaire"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Device"/>
       </extension>
       <reference>
@@ -488,24 +499,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/TLSVObservation"/>
-      </reference>
-      <name value="TLSVObservation"/>
-      <description value="Profil de la ressource Observation dans le cadre de la télésurveillance pour transmettre une information de questionnaire"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Observation"/>
       </extension>
       <reference>
         <reference value="Observation/TLSVObservationExample01"/>
       </reference>
       <name value="TLSVObservationExample01"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -515,7 +515,7 @@
         <reference value="Observation/TLSVObservationExample02"/>
       </reference>
       <name value="TLSVObservationExample02"/>
-      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation"/>
+      <exampleCanonical value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

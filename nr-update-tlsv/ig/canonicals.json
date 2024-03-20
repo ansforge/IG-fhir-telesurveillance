@@ -7,9 +7,9 @@
     "name" : "TLSV"
   },
   {
-    "id" : "TLSVObservation",
+    "id" : "tlsv-observation",
     "type" : "StructureDefinition",
-    "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/TLSVObservation",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation",
     "version" : "0.1.0",
     "name" : "TLSVObservation"
   },
