@@ -1,0 +1,19 @@
+{
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance",
+  "name" : "TLSV",
+  "title" : "Guide d'implémentation de la télésurveillance",
+  "description" : null,
+  "status" : "draft",
+  "package-id" : "ans.fhir.fr.telesurveillance",
+  "ig-ver" : "0.1.0",
+  "date" : "Wed, 20 Mar, 2024 10:01:20 +0000",
+  "dateISO8601" : "2024-03-20T10:01:20+00:00",
+  "errs" : 17,
+  "warnings" : 16,
+  "hints" : 16,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1559136000
+}
