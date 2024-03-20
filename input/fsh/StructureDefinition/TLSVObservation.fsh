@@ -4,18 +4,17 @@ Id: tlsv-observation
 Title: "Observation Télésurveillance"
 Description: "Profil de la ressource Observation dans le cadre de la télésurveillance pour transmettre une information de questionnaire"
 * identifier 0..* MS
-* identifier ^definition = "recommandé : identifiant métier unique attribué à cette mesure/réponse"
 * identifier ^short = "recommandé : identifiant métier unique attribué à cette mesure/réponse"
+
 * status 1..1 
 * status ^short = "requis : statut de la mesure/réponse: final | corrected | entered-in-error"
-//* status ^definition = "requis : statut de la mesure/réponse: final | corrected | entered-in-error"
+
 * category 0..* MS
 * category ^short = "recommandé : Grande catégorie qui peut servir à identifier les différentes sources d'observations en télésurveillance: vital-sign : constantes physiologiques, signes vitaux, mesures | laboratory : résultat de labo (hors périmètre de ce profil) 
 survey : réponse à questionnaire ou score | exam : résultat d'examen clinique (hors périmètre TLS) | activity : activité physique (#pas, #longueurs de piscine, ...)"
 * category from https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory (required)
 * code 1..1
 * code ^short = "requis : le type précis d'observation"
-* code ^definition = "requis : le type précis d'observation"
 * subject 1..1
 * subject ^short = "requis : La référence au patient télésuivi : pointe vers la ressource Patient accessible sur un serveur ou présente dans le Bundle courant"
 * subject only Reference(Patient)
