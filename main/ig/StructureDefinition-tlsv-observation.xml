@@ -33,7 +33,7 @@ survey : réponse à questionnaire ou score | exam : résultat d'examen clinique
   <name value="TLSVObservation"/>
   <title value="Observation Telesurveillance"/>
   <status value="draft"/>
-  <date value="2024-03-21T08:28:42+00:00"/>
+  <date value="2024-03-21T08:38:30+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>

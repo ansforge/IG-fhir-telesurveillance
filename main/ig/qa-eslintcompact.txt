@@ -10,7 +10,6 @@ Generic: line 0, col 0, Error - The link 'ExamplefrPatient001' for "ExamplefrPat
 Generic: line 0, col 0, Error - The link 'ExamplefrPatient001' for "ExamplefrPatient001: Pierre Durand" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
-Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
 /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json: line 6, col 65, Error - Canonical URL 'http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice' does not resolve (INVALID)
 /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json: line 11, col 8, Warning - A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers' could not be found, so the code cannot be validated (NOTFOUND)
@@ -52,5 +51,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/ValueSet-TLSVCategory.json: line 1, col 3319, Info - This include has some concepts with displays and some without - check that this is what is intended (BUSINESSRULE)
 /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/ValueSet-TLSVCategory.json: line 0, col 0, Error - URL Mismatch https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TLSVCategory vs https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory (BUSINESSRULE)
 
-err = 17, warn = 15, info = 14
+err = 17, warn = 14, info = 14
 IG Publisher Version: 1.6.3
