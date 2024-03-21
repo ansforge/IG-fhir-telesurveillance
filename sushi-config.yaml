@@ -20,24 +20,15 @@ parameters:
 pages:
     index.md:
         title: Accueil
-    
     autres_ressources.md:
         title: Autres Ressources
-        securite.md:
-            title: Sécurité
         downloads.md:
             title: Téléchargements et usages
 
 menu:
     Accueil: index.html
-    Ressources: 
-        TLSVObservation: StructureDefinition-TLSVObservation.html
-        Exemples: StructureDefinition-TLSVObservation-examples.html
-    Jeux de valeurs:
-        TLSV Category: ValueSet-TLSVCategory.html
     Ressources de conformité: artifacts.html
     Autres ressources:
-        Sécurité: securite.html
         Téléchargements et usage: downloads.html
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
         "Site de l'ANS ": new-tab https://esante.gouv.fr/
