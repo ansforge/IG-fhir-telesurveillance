@@ -1,0 +1,68 @@
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-TLSVObservationExample02.json 08:31:32
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[10, 4] Observation.code.coding[0].code: Warning - Unknown Code 'C180126' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+[25, 4] Observation.value.ofType(CodeableConcept).coding[0].code: Warning - Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+[45, 6] Observation.interpretation[0].coding[0].code: Warning - Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+[45, 6] Observation.interpretation[0]: Warning - None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70667)
+[53, 6] Observation.interpretation[1]: Warning - None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://snomed.info/sct#24484000)
+[68, 4] Observation.method.coding[0].code: Error - Unknown code 'C010402020702' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20230131'
+[68, 4] Observation.method.coding[0].code: Information - Code C010402020702 is not a valid SNOMED CT Term, and neither could it be parsed as an expression (Concept not found (next char = "C", in "C010402020702") at character 1)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/ValueSet-TLSVCategory.json 08:31:32
+[1, 2] ValueSet: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet|4.0.1
+[1, 2] ValueSet: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[13, 8] ValueSet.compose.include[0]: Information - This include has some concepts with displays and some without - check that this is what is intended
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json 08:31:32
+[1, 2] Device: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device|4.0.1
+[1, 2] Device: Information - Validate resource against profile http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice|1.0.0 (per meta)
+[1, 2] Device: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[11, 8] Device.identifier[0].type: Information - Reference to experimental CodeSystem http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers|1.0.0
+[11, 8] Device.identifier[0].type: Warning - None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers#SYSID)
+[23, 8] Device.identifier[1].type: Information - Reference to experimental CodeSystem http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers|1.0.0
+[23, 8] Device.identifier[1].type: Warning - None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers#BTMAC)
+[38, 4] Device.type: Information - Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+[49, 8] Device.specialization[0].systemType: Information - Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+[63, 8] Device.version[0].type: Information - Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+[75, 8] Device.version[1].type: Information - Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+[87, 8] Device.version[2].type: Information - Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+[99, 8] Device.version[3].type: Information - Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+[113, 8] Device.property[0].type: Information - Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+[123, 10] Device.property[0].valueCode[0]: Information - Reference to experimental CodeSystem http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaPHD|1.0.0
+[134, 8] Device.property[1].type: Information - Reference to experimental CodeSystem http://hl7.org/fhir/uv/phd/CodeSystem/ASN1ToHL7|1.0.0
+[156, 8] Device.property[2].type: Information - Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+[166, 10] Device.property[2].valueCode[0]: Information - Reference to draft CodeSystem urn:iso:std:iso:11073:10101|2023-04-26
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json 08:31:32
+[1, 2] ImplementationGuide: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1
+[1, 2] ImplementationGuide: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[102, 32] ImplementationGuide.definition.parameter[0].code: Error - The value provided ('copyrightyear') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'copyrightyear' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#copyrightyear'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+[106, 31] ImplementationGuide.definition.parameter[1].code: Error - The value provided ('releaselabel') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'releaselabel' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#releaselabel'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+[110, 26] ImplementationGuide.definition.parameter[2].code: Error - The value provided ('shownav') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'shownav' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#shownav'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/StructureDefinition-tlsv-observation.json 08:31:32
+[1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
+[1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[114, 62] StructureDefinition.differential.element[14].short: Warning - value should not start or finish with whitespace 'optionnel : la méthode de mesure employée '
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-TLSVObservationExample01.json 08:31:32
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[51, 4] Observation.method.coding[0].code: Error - Unknown code 'C010402020702' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20230131'
+[51, 4] Observation.method.coding[0].code: Information - Code C010402020702 is not a valid SNOMED CT Term, and neither could it be parsed as an expression (Concept not found (next char = "C", in "C010402020702") at character 1)
+

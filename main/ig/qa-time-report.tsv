@@ -1,0 +1,7 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json	3021	-	0	0	0	0	0	0	4	44	0	0	0	0	0	0	0	0	0	0	90	92	0	0	0	4	0	1
+fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json	3916	22	0	0	0	0	0	0	1	594	0	0	0	0	0	0	0	1	0	0	26	24	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExample01.json	1173	20	1	0	0	0	0	0	0	356	0	0	0	0	0	0	0	0	0	0	13	27	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExample02.json	1546	20	0	0	0	0	0	0	0	302	0	0	0	0	0	0	0	0	0	0	15	19	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-tlsv-observation.json	5991	20	0	0	0	0	0	111	0	68	0	0	0	0	0	0	0	1	0	0	404	2210	0	0	0	18	0	1
+fsh-generated/resources/ValueSet-TLSVCategory.json	944	13	0	0	0	0	0	0	1	73	0	0	0	0	0	0	0	0	0	0	16	3996	0	0	0	1	0	0
