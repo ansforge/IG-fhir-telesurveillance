@@ -1,5 +1,5 @@
 <p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
-<b>Remote monitoring Implementation Guide</b> Transmitting questionnaire responses using an Observation resource for remote monitoring<br>
+<b>Remote monitoring Implementation Guide</b><br> Transmission of questionnaire responses using an Observation resource for remote monitoring<br>
 </p>
 
 <B>Bienvenue dans le guide d'implémentation des réponses aux questionnaires au format FHIR.</B>
@@ -18,11 +18,9 @@ Cadre du guide :
 * Partage des scores calculés sur la base des réponses aux questionnaires
 * Partage des données mesurées par des dispositifs médicaux dans le cadre d’un dispositif de télésurveillance
 
-Ce guide peut être utilisé en complément du guide [mesures de santé](https://interop.esante.gouv.fr/ig/fhir/mesures) permettant de transmettre des données de signes vitaux
+Ce guide peut être utilisé en complément du guide [mesures de santé](https://interop.esante.gouv.fr/ig/fhir/mesures) permettant de transmettre des données de signes vitaux.
 
 ### Ressources profilées
-
-La liste ci-dessous expose la liste des profils.
 
 {% sql SELECT '[' || Title ||'](StructureDefinition-' || id || '.html)' as "Titre du profil", Description, json_extract(Json, '$.baseDefinition') as "URL canonique de la ressource parent" FROM Resources WHERE Type = 'StructureDefinition' and Description like "Profil%" %}
 
