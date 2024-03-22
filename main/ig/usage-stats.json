@@ -8,7 +8,7 @@
     "Observation": [
       {
         "url": "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation",
-        "title": "Observation Telesurveillance"
+        "title": "Profil Observation pour la telesurveillance"
       }
     ]
   },

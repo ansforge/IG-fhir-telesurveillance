@@ -10,7 +10,7 @@
   "name" : "TLSV",
   "title" : "Guide d'implémentation de la télésurveillance",
   "status" : "draft",
-  "date" : "2024-03-21T08:38:54+00:00",
+  "date" : "2024-03-22T13:10:55+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -629,18 +629,6 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/tlsv-observation"
-      },
-      "name" : "Observation Telesurveillance",
-      "description" : "Profil de la ressource Observation dans le cadre de la télésurveillance pour transmettre une information de questionnaire",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Device"
       }],
       "reference" : {
@@ -648,6 +636,18 @@
       },
       "name" : "phd-74E8FFFEFF051C00",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/tlsv-observation"
+      },
+      "name" : "Profil Observation pour la telesurveillance",
+      "description" : "Profil de la ressource Observation dans le cadre de la télésurveillance pour transmettre une information de questionnaire",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
