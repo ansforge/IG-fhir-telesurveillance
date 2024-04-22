@@ -211,6 +211,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
+  <li><a href="#auteurs" id="markdown-toc-auteurs">Auteurs</a></li>
   <li><a href="#ressources-profilées" id="markdown-toc-ressources-profilées">Ressources profilées</a></li>
   <li><a href="#dépendances" id="markdown-toc-dépendances">Dépendances</a></li>
 </ul>
@@ -222,18 +223,29 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p><b>Bienvenue dans le guide d’implémentation des réponses aux questionnaires au format FHIR.</b></p>
 
-<p>Dans le présent cas d’usage, on extrait certaines réponses significatives d’un ensemble de réponses de questionnaires, et on les véhicule sous forme d’observations. Chaque réponse devient une observation.</p>
+<p>Ce guide a été conçu pour faciliter l’échange de données entre les solutions de télésurveillance et les systèmes d’informations hospitaliers (Dossier Patient Informatisé et Entrepôt de Données de Santé notamment).</p>
 
-<p>Ces spécifications ne sont pas spécifiques à une pathologie, mais implémentables par la majeure partie des solutions de télésurveillance.</p>
+<p>Les spécifications techniques reposent sur le standard HL7 FHIR et des profils français de la ressource Observation. Dans le présent cas d’usage, les réponses significatives sont extraites d’un ensemble de réponses de questionnaires, et sont véhiculées sous forme de ressources Observation.</p>
 
-<p>Cadre du guide :</p>
+<p><strong>Cadre du Guide</strong> : Le guide traite du partage de données saisies par le patient ou l’aidant, des scores calculés à partir de questionnaires et des données mesurées par des dispositifs médicaux dans le cadre de la télésurveillance.
+Dans le cadre des données issues de questionnaires : un scénario d’utilisation spécifique consiste à extraire des réponses significatives des questionnaires pour les convertir en observations. Chaque réponse capturée devient une observation distincte qui est ensuite partagée entre les solutions de télésurveillance et les systèmes d’informations hospitaliers.</p>
 
-<ul>
-  <li>Partage des données saisies par le patient ou par l’aidant (ou soignant auprès du patient à domicile par exemple) dans des questionnaires de télésurveillance</li>
-  <li>Partage des scores calculés sur la base des réponses aux questionnaires</li>
-</ul>
+<p><strong>Dans le Scope</strong>: Questionnaires standard et personnalisés, partage des scores et données mesurées.</p>
 
-<p>Ce guide peut être utilisé en complément du guide <a href="https://interop.esante.gouv.fr/ig/fhir/mesures">mesures de santé</a> permettant de transmettre des données de signes vitaux.</p>
+<p><strong>Hors Scope</strong>: Alertes, actions relatives aux alertes, mesures de biologie, informations administratives.</p>
+
+<p><strong>Non-Spécificité de la Pathologie</strong>: Ce processus n’est pas limité à une pathologie spécifique, ce qui le rend adaptable à une large variété de cas cliniques couverts par les solutions de télésurveillance. Des exemples de questionnaires en oncologie, rhumatologie, santé mentale sont fournis. Cette liste pourra être complétée par d’autres exemples jugés pertinents.
+Cadre du guide :</p>
+
+<p>Ce guide peut être complémentaire au guide <a href="https://interop.esante.gouv.fr/ig/fhir/mesures">mesures de santé</a> permettant une transmission harmonieuse des données de signes vitaux en parallèle avec les informations extraites des questionnaires.</p>
+
+<h3 id="auteurs">Auteurs</h3>
+
+<p>Ce guide d’implémentation est issu d’une collaboration entre l’ANS et InteropSanté dans le cadre du GT Télésurveillance.</p>
+
+<div class="figure" style="width:20%;">
+    <img style="height: auto; width: 100%;" src="LOGO_IS.png" alt="LOGO-IS" title="Logo IS" />
+</div>
 
 <h3 id="ressources-profilées">Ressources profilées</h3>
 
@@ -298,7 +310,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.telesurveillance#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 22, 2024 13:23+0000">2024-04-22</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fhir.fr.telesurveillance#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 22, 2024 14:23+0000">2024-04-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
