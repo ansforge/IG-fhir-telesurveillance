@@ -6,4 +6,4 @@
 
 ## Preview
 
-https://ansforge.github.io/IG-fhir-telesurveillance/ig/[ajouter_nom_de_la_branche] 
+https://ansforge.github.io/IG-fhir-telesurveillance/[ajouter_nom_de_la_branche]/ig
