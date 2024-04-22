@@ -3,17 +3,32 @@
 </p>
 
 <B>Bienvenue dans le guide d'implémentation des réponses aux questionnaires au format FHIR.</B>
+
+Ce guide a été conçu pour faciliter l'échange de données entre les solutions de télésurveillance et les systèmes d'informations hospitaliers (Dossier Patient Informatisé et Entrepôt de Données de Santé notamment).
+
+Les spécifications techniques reposent sur le standard HL7 FHIR et des profils français de la ressource Observation. Dans le présent cas d'usage, les réponses significatives sont extraites d'un ensemble de réponses de questionnaires, et sont véhiculées sous forme de ressources Observation.
   
-Dans le présent cas d'usage, on extrait certaines réponses significatives d'un ensemble de réponses de questionnaires, et on les véhicule sous forme d'observations. Chaque réponse devient une observation.
-  
-Ces spécifications ne sont pas spécifiques à une pathologie, mais implémentables par la majeure partie des solutions de télésurveillance.
-  
+**Cadre du Guide** : Le guide traite du partage de données saisies par le patient ou l'aidant, des scores calculés à partir de questionnaires et des données mesurées par des dispositifs médicaux dans le cadre de la télésurveillance.
+Dans le cadre des données issues de questionnaires : un scénario d'utilisation spécifique consiste à extraire des réponses significatives des questionnaires pour les convertir en observations. Chaque réponse capturée devient une observation distincte qui est ensuite partagée entre les solutions de télésurveillance et les systèmes d'informations hospitaliers.
+
+**Dans le Scope**: Questionnaires standard et personnalisés, partage des scores et données mesurées.
+
+**Hors Scope**: Alertes, actions relatives aux alertes, mesures de biologie, informations administratives.
+
+**Non-Spécificité de la Pathologie**: Ce processus n'est pas limité à une pathologie spécifique, ce qui le rend adaptable à une large variété de cas cliniques couverts par les solutions de télésurveillance. Des exemples de questionnaires en oncologie, rhumatologie, santé mentale sont fournis. Cette liste pourra être complétée par d’autres exemples jugés pertinents.
 Cadre du guide :
 
-* Partage des données saisies par le patient ou par l’aidant (ou soignant auprès du patient à domicile par exemple) dans des questionnaires de télésurveillance
-* Partage des scores calculés sur la base des réponses aux questionnaires
+Ce guide peut être complémentaire au guide [mesures de santé](https://interop.esante.gouv.fr/ig/fhir/mesures) permettant une transmission harmonieuse des données de signes vitaux en parallèle avec les informations extraites des questionnaires.
 
-Ce guide peut être utilisé en complément du guide [mesures de santé](https://interop.esante.gouv.fr/ig/fhir/mesures) permettant de transmettre des données de signes vitaux.
+### Auteurs
+
+Ce guide d'implémentation est issu d'une collaboration entre l'ANS et InteropSanté dans le cadre du GT Télésurveillance.
+
+<div class="figure" style="width:20%;">
+    <img style="height: auto; width: 100%;" src="LOGO_IS.png" alt="LOGO-IS" title="Logo IS">
+</div>
+
+
 
 ### Ressources profilées
 
