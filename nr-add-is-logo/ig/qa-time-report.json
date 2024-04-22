@@ -1,0 +1,267 @@
+{
+  "date" : "Mon, 22 Apr, 2024 14:09:08 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json",
+      "size" : 3036,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 20
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 25,
+          "length" : 4
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 25,
+          "length" : 36
+        },
+        {
+          "activity" : "validate",
+          "start" : 28,
+          "length" : 548
+        },
+        {
+          "activity" : "generate1",
+          "start" : 30,
+          "length" : 87
+        },
+        {
+          "activity" : "generate2",
+          "start" : 32,
+          "length" : 75
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 176,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 179,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json",
+      "size" : 3916,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 13
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 25,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 25,
+          "length" : 344
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 29,
+          "length" : 1
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 464
+        },
+        {
+          "activity" : "generate1",
+          "start" : 30,
+          "length" : 37
+        },
+        {
+          "activity" : "generate2",
+          "start" : 32,
+          "length" : 19
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 179,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-TLSVObservationExample01.json",
+      "size" : 1173,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 25,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 25,
+          "length" : 158
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 127
+        },
+        {
+          "activity" : "generate1",
+          "start" : 30,
+          "length" : 18
+        },
+        {
+          "activity" : "generate2",
+          "start" : 32,
+          "length" : 22
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-TLSVObservationExample02.json",
+      "size" : 1546,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 25,
+          "length" : 141
+        },
+        {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 172
+        },
+        {
+          "activity" : "generate1",
+          "start" : 30,
+          "length" : 14
+        },
+        {
+          "activity" : "generate2",
+          "start" : 32,
+          "length" : 16
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-tlsv-observation.json",
+      "size" : 5820,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 18
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 16
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 25,
+          "length" : 115
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 26,
+          "length" : 70
+        },
+        {
+          "activity" : "validate",
+          "start" : 26,
+          "length" : 2121
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 29,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 30,
+          "length" : 431
+        },
+        {
+          "activity" : "generate2",
+          "start" : 32,
+          "length" : 1907
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 176,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 176,
+          "length" : 15
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 179,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-TLSVCategory.json",
+      "size" : 766,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 25,
+          "length" : 10
+        },
+        {
+          "activity" : "load",
+          "start" : 25,
+          "length" : 24
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 25,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 26,
+          "length" : 69
+        },
+        {
+          "activity" : "validate",
+          "start" : 26,
+          "length" : 437
+        },
+        {
+          "activity" : "generate1",
+          "start" : 30,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 34,
+          "length" : 2995
+        }
+      ]
+    }
+  ]
+}
