@@ -10,8 +10,8 @@ Description: "Profil de la ressource Observation dans le cadre de la télésurve
 * status ^short = "requis : statut de la mesure/réponse: final | corrected | entered-in-error"
 
 * category 0..* MS
-* category ^short = "recommandé : Grande catégorie qui peut servir à identifier les différentes sources d'observations en télésurveillance: vital-sign : constantes physiologiques, signes vitaux, mesures | laboratory : résultat de labo (hors périmètre de ce profil) 
-survey : réponse à questionnaire ou score | exam : résultat d'examen clinique (hors périmètre TLS) | activity : activité physique (#pas, #longueurs de piscine, ...)"
+* category ^short = "recommandé : Grande catégorie qui peut servir à identifier les différentes sources d'observations en télésurveillance: vital-sign : constantes physiologiques, signes vitaux, mesures | 
+survey : réponse à questionnaire ou score |  activity : activité physique (#pas, #longueurs de piscine, ...)"
 * category from https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory (required)
 * code 1..1
 * code ^short = "requis : le type précis d'observation"
@@ -22,7 +22,7 @@ survey : réponse à questionnaire ou score | exam : résultat d'examen clinique
 * encounter ^short = "optionnel : référence à une visite d'un thérapeute au patient"
 * effective[x] 1..1
 * effective[x] only dateTime or Period
-* effective[x] ^short = "requis : le temps clinique ou physiologique de l'observation : par exemple la journée pour un comptage de pas, ou la date et heure de prélèvement pour un résultat de labo, ou la date et heure de pesage"
+* effective[x] ^short = "requis : le temps clinique ou physiologique de l'observation : par exemple la journée pour un comptage de pas, ou la date et heure de pesage"
 * issued 0..1
 * issued ^short = "recommandé : date et heure de mise à disposition de cette version de l'observation"
 * performer 0..*

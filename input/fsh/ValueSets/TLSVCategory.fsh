@@ -8,6 +8,4 @@ Description: "Liste des codes autorisés dans category dans le cadre du profil T
 * ^experimental = false
 * CAT#survey "Survey"
 * CAT#vital-signs
-* CAT#laboratory "Laboratory"
-* CAT#exam "Exam"
 * CAT#activity "Activity"
