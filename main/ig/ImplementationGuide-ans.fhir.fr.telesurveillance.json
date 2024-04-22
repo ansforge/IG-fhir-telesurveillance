@@ -10,7 +10,7 @@
   "name" : "TLSV",
   "title" : "Guide d'implémentation de la télésurveillance",
   "status" : "draft",
-  "date" : "2024-03-22T13:32:14+00:00",
+  "date" : "2024-04-22T13:23:40+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -37,7 +37,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "5.5.0"
   },
   {
     "id" : "hl7ext",

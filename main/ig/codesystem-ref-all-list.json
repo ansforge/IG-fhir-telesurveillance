@@ -35,12 +35,12 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods"
+      "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-      "version" : "0.1.0",
+      "version" : "1.0.0",
       "status" : "active",
       "name" : "DataAbsentReason",
       "title" : "DataAbsentReason",
@@ -52,7 +52,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
-      "version" : "0.1.0",
+      "version" : "1.0.0",
       "status" : "draft",
       "name" : "ObservationCategoryCodes",
       "title" : "Observation Category Codes",
@@ -64,7 +64,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
-      "version" : "0.1.0",
+      "version" : "1.0.0",
       "status" : "draft",
       "name" : "ObservationReferenceRangeMeaningCodes",
       "title" : "Observation Reference Range Meaning Codes",
@@ -76,7 +76,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-      "version" : "2.1.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ObservationInterpretation",
       "title" : "ObservationInterpretation",
