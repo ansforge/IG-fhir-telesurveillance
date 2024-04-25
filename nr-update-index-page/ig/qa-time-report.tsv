@@ -1,7 +1,7 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json	3036	-	0	0	0	0	0	0	4	45	0	0	0	0	0	0	0	0	0	0	90	80	0	1	0	2	0	1
-fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json	3916	25	0	0	0	0	0	0	0	408	0	0	0	0	0	0	0	0	0	0	35	22	0	0	0	0	0	0
-fsh-generated/resources/Observation-TLSVObservationExample01.json	1173	23	0	0	0	0	0	0	1	170	0	0	0	0	0	0	0	0	0	0	17	19	0	0	0	0	0	0
-fsh-generated/resources/Observation-TLSVObservationExample02.json	1546	23	1	0	0	0	0	0	0	141	0	0	0	0	0	0	0	0	0	0	14	14	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-tlsv-observation.json	5820	24	0	0	0	0	0	93	0	67	0	0	1	0	0	0	0	2	0	0	432	2289	0	0	0	17	0	2
-fsh-generated/resources/ValueSet-TLSVCategory.json	766	24	0	0	0	0	0	0	0	69	0	0	0	0	0	0	0	1	0	0	17	3566	0	0	0	0	0	0
+/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json	3036	-	0	0	0	0	0	0	5	51	0	0	0	0	0	0	0	0	0	0	89	78	0	0	0	3	0	1
+fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json	3916	17	0	0	0	0	0	0	0	429	0	0	0	0	0	0	0	0	0	0	34	22	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExample01.json	1173	14	0	0	0	0	0	0	1	191	0	0	0	0	0	0	0	0	0	0	17	21	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExample02.json	1546	15	0	0	0	0	0	0	0	145	0	0	0	0	0	0	0	1	0	0	20	13	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-tlsv-observation.json	5820	18	0	0	0	0	0	99	0	69	0	0	0	0	0	0	0	2	0	0	429	1812	0	0	0	15	0	1
+fsh-generated/resources/ValueSet-TLSVCategory.json	766	9	1	0	0	0	0	0	0	74	0	0	0	0	0	0	0	0	0	0	18	3567	0	0	0	0	0	0
