@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "ans.fhir.fr.telesurveillance",
   "ig-ver" : "0.1.0",
-  "date" : "Thu, 25 Apr, 2024 07:52:09 +0000",
-  "dateISO8601" : "2024-04-25T07:52:09+00:00",
+  "date" : "Thu, 25 Apr, 2024 07:57:56 +0000",
+  "dateISO8601" : "2024-04-25T07:57:56+00:00",
   "errs" : 20,
   "warnings" : 14,
   "hints" : 14,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2515870176
+  "maxMemory" : 2253868288
 }
