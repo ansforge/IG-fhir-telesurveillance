@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "TLSVCategory",
+      "title" : "TLSV Categories",
+      "description" : "Liste des codes autorisés dans category dans le cadre du profil TLSVObservation",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "uses" : {
+      },
+      "StructureDefinition-tlsv-observation.html" : "Profil Observation pour la telesurveillance"
+    }
+  ]
+}
