@@ -20,7 +20,7 @@ Dans le cadre des données issues de questionnaires : un scénario d'utilisation
 
 **Dans le périmètre du guide** : questionnaires standard et personnalisés, partage des scores et données mesurées.
 
-**Hors périmètre** : alertes, actions relatives aux alertes, mesures de biologie, informations administratives.
+**Hors périmètre** : alertes, actions relatives aux alertes, mesures de biologie, informations administratives, le transfert de réponses de grands questionnaires avec un grand nombre d'observations. Si des besoins similaire apparaîssent, n'hésitez pas à nous en faire part en issue.
 
 **Non-Spécificité de la Pathologie** : ce processus n'est pas limité à une pathologie spécifique, ce qui le rend adaptable à une large variété de cas cliniques couverts par les solutions de télésurveillance. Des exemples de questionnaires en oncologie, rhumatologie, santé mentale sont fournis. Cette liste pourra être complétée par d’autres exemples jugés pertinents.
 
