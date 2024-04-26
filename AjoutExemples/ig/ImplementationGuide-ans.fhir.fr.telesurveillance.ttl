@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "TLSV"] ; # 
   fhir:title [ fhir:v "Guide d'implémentation de la télésurveillance"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-26T08:56:46+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-04-26T09:05:32+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -60,6 +60,14 @@
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
      fhir:version [ fhir:v "1.0.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_fr_core" ] ;
+     fhir:uri [
+       fhir:v "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core"^^xsd:anyURI ;
+       fhir:link <https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.fr.core" ] ;
+     fhir:version [ fhir:v "2.0.1" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -537,6 +545,17 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+         fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ]
+       ] ;
+       fhir:name [ fhir:v "ExamplefrCorePatient001" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Device" ]
        ] ) ;
        fhir:reference [
@@ -593,6 +612,104 @@
          fhir:reference [ fhir:v "Observation/TLSVObservationExample02" ]
        ] ;
        fhir:name [ fhir:v "TLSVObservationExample02" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExample03> ;
+         fhir:reference [ fhir:v "Observation/TLSVObservationExample03" ]
+       ] ;
+       fhir:name [ fhir:v "TLSVObservationExample03" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExample04> ;
+         fhir:reference [ fhir:v "Observation/TLSVObservationExample04" ]
+       ] ;
+       fhir:name [ fhir:v "TLSVObservationExample04" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExample05> ;
+         fhir:reference [ fhir:v "Observation/TLSVObservationExample05" ]
+       ] ;
+       fhir:name [ fhir:v "TLSVObservationExample05" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-01> ;
+         fhir:reference [ fhir:v "Observation/TLSVObservationExampleDAS28-01" ]
+       ] ;
+       fhir:name [ fhir:v "TLSVObservationExampleDAS28-01" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-02> ;
+         fhir:reference [ fhir:v "Observation/TLSVObservationExampleDAS28-02" ]
+       ] ;
+       fhir:name [ fhir:v "TLSVObservationExampleDAS28-02" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-03> ;
+         fhir:reference [ fhir:v "Observation/TLSVObservationExampleDAS28-03" ]
+       ] ;
+       fhir:name [ fhir:v "TLSVObservationExampleDAS28-03" ] ;
+       fhir:example [
+         fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-04> ;
+         fhir:reference [ fhir:v "Observation/TLSVObservationExampleDAS28-04" ]
+       ] ;
+       fhir:name [ fhir:v "TLSVObservationExampleDAS28-04" ] ;
        fhir:example [
          fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
          fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
