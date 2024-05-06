@@ -1,0 +1,262 @@
+{
+  "date" : "Mon, 06 May, 2024 08:46:44 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json",
+      "size" : 3036,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 27,
+          "length" : 30
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 27,
+          "length" : 9
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 27,
+          "length" : 54
+        },
+        {
+          "activity" : "validate",
+          "start" : 31,
+          "length" : 444
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 33,
+          "length" : 95
+        },
+        {
+          "activity" : "generate2",
+          "start" : 36,
+          "length" : 98
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 3
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 185,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json",
+      "size" : 3916,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 23
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 27,
+          "length" : 472
+        },
+        {
+          "activity" : "validate",
+          "start" : 32,
+          "length" : 562
+        },
+        {
+          "activity" : "generate1",
+          "start" : 33,
+          "length" : 39
+        },
+        {
+          "activity" : "generate2",
+          "start" : 36,
+          "length" : 24
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-TLSVObservationExample01.json",
+      "size" : 1173,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 20
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 27,
+          "length" : 206
+        },
+        {
+          "activity" : "validate",
+          "start" : 32,
+          "length" : 160
+        },
+        {
+          "activity" : "generate1",
+          "start" : 33,
+          "length" : 19
+        },
+        {
+          "activity" : "generate2",
+          "start" : 36,
+          "length" : 23
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/Observation-TLSVObservationExample02.json",
+      "size" : 1546,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 13
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 27,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 166
+        },
+        {
+          "activity" : "validate",
+          "start" : 32,
+          "length" : 214
+        },
+        {
+          "activity" : "generate1",
+          "start" : 33,
+          "length" : 21
+        },
+        {
+          "activity" : "generate2",
+          "start" : 36,
+          "length" : 15
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-tlsv-observation.json",
+      "size" : 5820,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 19
+        },
+        {
+          "activity" : "load",
+          "start" : 27,
+          "length" : 17
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 27,
+          "length" : 104
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 70
+        },
+        {
+          "activity" : "validate",
+          "start" : 30,
+          "length" : 888
+        },
+        {
+          "activity" : "checkConformanceResources",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 32,
+          "length" : 1
+        },
+        {
+          "activity" : "generate1",
+          "start" : 33,
+          "length" : 416
+        },
+        {
+          "activity" : "generate2",
+          "start" : 36,
+          "length" : 2337
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 19
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 185,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-TLSVCategory.json",
+      "size" : 766,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 27,
+          "length" : 11
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 27,
+          "length" : 1
+        },
+        {
+          "activity" : "load",
+          "start" : 27,
+          "length" : 26
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 28,
+          "length" : 69
+        },
+        {
+          "activity" : "validate",
+          "start" : 28,
+          "length" : 2256
+        },
+        {
+          "activity" : "generate1",
+          "start" : 33,
+          "length" : 13
+        },
+        {
+          "activity" : "generate2",
+          "start" : 39,
+          "length" : 3545
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 182,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}
