@@ -26,6 +26,15 @@ Dans le cadre des données issues de questionnaires : un scénario d'utilisation
 
 Ce guide peut être utilisé en complément du guide [mesures de santé](https://interop.esante.gouv.fr/ig/fhir/mesures) permettant de transmettre des données de signes vitaux.
 
+### Auteurs
+
+Ce guide d'implémentation est issu du GT Télésurveillance organisé par Interopsanté auquel a participé l'ANS, notamment dans la création de ce guide d'implémentation.
+
+<div class="figure" style="width:20%;">
+    <img style="height: auto; width: 100%;" src="LOGO_IS.png" alt="LOGO-IS" title="Logo IS">
+</div>
+
+
 ### Ressources profilées
 
 {% sql SELECT '[' || Title ||'](StructureDefinition-' || id || '.html)' as "Titre du profil", Description, json_extract(Json, '$.baseDefinition') as "URL canonique de la ressource parent" FROM Resources WHERE Type = 'StructureDefinition' and Description like "Profil%" %}
