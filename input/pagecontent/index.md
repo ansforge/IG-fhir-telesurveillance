@@ -28,7 +28,7 @@ Ce guide peut être utilisé en complément du guide [mesures de santé](https:/
 
 ### Auteurs
 
-Ce guide d'implémentation est issu du [GT Télésurveillance](https://groups.google.com/g/is-gt-telesurveillance) organisé par Interopsanté et dirigé par Julie Dumons et François Macary. L'ANS a participé à ce GT et a rédigé ce guide (Nicolas Arnoux, Philippe Finet, Nicolas Riss).
+Ce guide d'implémentation est issu du [GT Télésurveillance](https://groups.google.com/g/is-gt-telesurveillance) organisé par Interopsanté et dirigé par Julie Dumons et François Macary. L'ANS a participé à ce GT et a rédigé ce guide (Nicolas Arnoux, Philippe Finet, Nicolas Riss) avec la contribution de Manuel Metz.
 
 <div class="figure" style="width:20%;">
     <img style="height: auto; width: 100%;" src="LOGO_IS.png" alt="LOGO-IS" title="Logo IS">
