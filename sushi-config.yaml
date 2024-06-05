@@ -14,6 +14,10 @@ copyrightYear: 2020+
 releaseLabel: ci-build
 jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 
+dependencies:
+  hl7.fhir.fr.core: 2.0.1
+ 
+
 parameters:
     shownav: 'true'
 
