@@ -10,7 +10,7 @@
   "name" : "TLSV",
   "title" : "Guide d'implémentation de la télésurveillance",
   "status" : "draft",
-  "date" : "2024-05-06T08:47:22+00:00",
+  "date" : "2024-06-05T15:37:27+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -48,6 +48,12 @@
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "5.1.0"
+  },
+  {
+    "id" : "hl7_fhir_fr_core",
+    "uri" : "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core",
+    "packageId" : "hl7.fhir.fr.core",
+    "version" : "2.0.1"
   }],
   "definition" : {
     "extension" : [{
@@ -629,6 +635,17 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/ExamplefrCorePatient001"
+      },
+      "name" : "ExamplefrCorePatient001",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Device"
       }],
       "reference" : {
@@ -681,6 +698,83 @@
         "reference" : "Observation/TLSVObservationExample02"
       },
       "name" : "TLSVObservationExample02",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TLSVObservationExample03"
+      },
+      "name" : "TLSVObservationExample03",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TLSVObservationExample04"
+      },
+      "name" : "TLSVObservationExample04",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TLSVObservationExample05"
+      },
+      "name" : "TLSVObservationExample05",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TLSVObservationExampleDAS28-01"
+      },
+      "name" : "TLSVObservationExampleDAS28-01",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TLSVObservationExampleDAS28-02"
+      },
+      "name" : "TLSVObservationExampleDAS28-02",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TLSVObservationExampleDAS28-03"
+      },
+      "name" : "TLSVObservationExampleDAS28-03",
+      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/TLSVObservationExampleDAS28-04"
+      },
+      "name" : "TLSVObservationExampleDAS28-04",
       "exampleCanonical" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
     }],
     "page" : {

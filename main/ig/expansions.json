@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "a3691147-0d43-4094-897b-550c9e36f276",
+  "id" : "ae990856-cd31-4c62-8405-525d4e1ea5f8",
   "meta" : {
-    "lastUpdated" : "2024-05-06T08:47:22.581+00:00"
+    "lastUpdated" : "2024-06-05T15:37:27.847+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -11,7 +11,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html\">codesystem Observation Category Codes v1.0.0 (CodeSystem)</a></p><p>This value set contains 3 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-survey\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html#observation-category-survey\">survey</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Survey</td><td><div><p>Assessment tool/survey instrument observations (e.g., Apgar Scores, Montreal Cognitive Assessment (MoCA)).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-vital-signs\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html#observation-category-vital-signs\">vital-signs</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Vital Signs</td><td><div><p>Clinical observations measure the body's basic functions such as blood pressure, heart rate, respiratory rate, height, weight, body mass index, head circumference, pulse oximetry, temperature, and body surface area.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-activity\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html#observation-category-activity\">activity</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Activity</td><td><div><p>Observations that measure or record any bodily activity that enhances or maintains physical fitness and overall health and wellness.  Not under direct supervision of practitioner such as a physical therapist. (e.g., laps swum, steps, sleep data)</p>\n</div></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html\">codesystem Observation Category Codes v1.0.0 (CodeSystem)</a></p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-survey\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html#observation-category-survey\">survey</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Survey</td><td><div><p>Assessment tool/survey instrument observations (e.g., Apgar Scores, Montreal Cognitive Assessment (MoCA)).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-vital-signs\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html#observation-category-vital-signs\">vital-signs</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Vital Signs</td><td><div><p>Clinical observations measure the body's basic functions such as blood pressure, heart rate, respiratory rate, height, weight, body mass index, head circumference, pulse oximetry, temperature, and body surface area.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---terminology.hl7.org-CodeSystem-observation-category-activity\"> </a>\u00a0\u00a0<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html#observation-category-activity\">activity</a></td><td>http://terminology.hl7.org/CodeSystem/observation-category</td><td>Activity</td><td><div><p>Observations that measure or record any bodily activity that enhances or maintains physical fitness and overall health and wellness.  Not under direct supervision of practitioner such as a physical therapist. (e.g., laps swum, steps, sleep data)</p>\n</div></td></tr></table></div>"
       },
       "url" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory",
       "version" : "0.1.0",
@@ -19,7 +19,7 @@
       "title" : "TLSV Categories",
       "status" : "draft",
       "experimental" : false,
-      "date" : "2024-05-06T08:47:22+00:00",
+      "date" : "2024-06-05T15:37:27+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:42859c7b-2b1f-4081-839b-36875fbbdbac",
-        "timestamp" : "2024-05-06T08:47:36+00:00",
+        "identifier" : "urn:uuid:d4b1db7d-82e5-447c-9f88-59dc5fd742a3",
+        "timestamp" : "2024-06-05T15:37:46+00:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

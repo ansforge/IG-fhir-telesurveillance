@@ -1,36 +1,75 @@
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-TLSVObservationExample02.json 08:50:02
-[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
-[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[10, 4] Observation.code.coding[0].code: Warning - Unknown Code 'C180126' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
-[25, 4] Observation.value.ofType(CodeableConcept).coding[0].code: Warning - Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
-[45, 6] Observation.interpretation[0].coding[0].code: Warning - Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
-[45, 6] Observation.interpretation[0]: Warning - None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70667)
-[53, 6] Observation.interpretation[1]: Warning - None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://snomed.info/sct#24484000)
-[68, 4] Observation.method.coding[0].code: Error - Unknown code 'C010402020702' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20230131'
-[68, 4] Observation.method.coding[0].code: Information - Code C010402020702 is not a valid SNOMED CT Term, and neither could it be parsed as an expression (Concept not found (next char = "C", in "C010402020702") at character 1)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/Observation-TLSVObservationExample01.json 08:50:02
-[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
-[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
-[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[51, 4] Observation.method.coding[0].code: Error - Unknown code 'C010402020702' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20230131'
-[51, 4] Observation.method.coding[0].code: Information - Code C010402020702 is not a valid SNOMED CT Term, and neither could it be parsed as an expression (Concept not found (next char = "C", in "C010402020702") at character 1)
-
-
-----------------------------------------------------------------------------------
-./fsh-generated/resources/StructureDefinition-tlsv-observation.json 08:50:02
+./fsh-generated/resources/StructureDefinition-tlsv-observation.json 03:40:16
 [1, 2] StructureDefinition: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition|4.0.1
 [1, 2] StructureDefinition: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 [114, 62] StructureDefinition.differential.element[14].short: Warning - value should not start or finish with whitespace 'optionnel : la méthode de mesure employée '
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json 08:50:02
+./fsh-generated/resources/Observation-TLSVObservationExample04.json 03:40:16
+[1, 2] Observation: Error - Slice 'Observation.category:VSCat': minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1)
+[1, 2] Observation: Information - Validate Observation against the Body weight profile (http://hl7.org/fhir/StructureDefinition/bodyweight) which is required by the FHIR specification because the LOINC code 29463-7 was found
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[11, 6] Observation.category[0]: Information - This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+[34, 4] Observation.value.ofType(Quantity).code: Error - Unknown code '[kg]' in the CodeSystem 'http://unitsofmeasure.org' version '2.0.1'
+[34, 4] Observation.value.ofType(Quantity).code: Information - Error processing Unit: '[kg]': The unit "[kg]" is unknown at character 1
+[36, 19] Observation.value.ofType(Quantity).code: Error - The value provided ('[kg]') was not found in the value set 'Body Weight Units' (http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code '[kg]' in the ValueSet 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1'; None of the provided codes ['#[kg]'] are in the value set 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1')
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-TLSVObservationExample01.json 03:40:16
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json 03:40:16
+[1, 2] ImplementationGuide: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1
+[1, 2] ImplementationGuide: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[166, 32] ImplementationGuide.definition.parameter[0].code: Error - The value provided ('copyrightyear') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'copyrightyear' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#copyrightyear'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+[170, 31] ImplementationGuide.definition.parameter[1].code: Error - The value provided ('releaselabel') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'releaselabel' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#releaselabel'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+[174, 26] ImplementationGuide.definition.parameter[2].code: Error - The value provided ('shownav') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'shownav' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#shownav'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-TLSVObservationExample05.json 03:40:16
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-TLSVObservationExample03.json 03:40:16
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-TLSVObservationExample02.json 03:40:16
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[10, 4] Observation.code.coding[0].code: Warning - Unknown Code 'C180126' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+[28, 4] Observation.value.ofType(CodeableConcept).coding[0].code: Warning - Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+[48, 6] Observation.interpretation[0].coding[0].code: Warning - Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+[48, 6] Observation.interpretation[0]: Warning - None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C70667)
+[56, 6] Observation.interpretation[1]: Warning - None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://snomed.info/sct#24484000)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/ValueSet-TLSVCategory.json 03:40:16
+[1, 2] ValueSet: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet|4.0.1
+[1, 2] ValueSet: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[13, 8] ValueSet.compose.include[0]: Information - This include has some concepts with displays and some without - check that this is what is intended
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json 03:40:16
 [1, 2] Device: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Device|4.0.1
 [1, 2] Device: Information - Validate resource against profile http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice|1.0.0 (per meta)
 [1, 2] Device: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
@@ -52,17 +91,51 @@
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json 08:50:02
-[1, 2] ImplementationGuide: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1
-[1, 2] ImplementationGuide: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[102, 32] ImplementationGuide.definition.parameter[0].code: Error - The value provided ('copyrightyear') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'copyrightyear' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#copyrightyear'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
-[106, 31] ImplementationGuide.definition.parameter[1].code: Error - The value provided ('releaselabel') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'releaselabel' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#releaselabel'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
-[110, 26] ImplementationGuide.definition.parameter[2].code: Error - The value provided ('shownav') was not found in the value set 'GuideParameterCode' (http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'shownav' in the ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1'; None of the provided codes ['#shownav'] are in the value set 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1')
+./fsh-generated/resources/Observation-TLSVObservationExampleDAS28-02.json 03:40:16
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 
 
 ----------------------------------------------------------------------------------
-./fsh-generated/resources/ValueSet-TLSVCategory.json 08:50:02
-[1, 2] ValueSet: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet|4.0.1
-[1, 2] ValueSet: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
-[13, 8] ValueSet.compose.include[0]: Information - This include has some concepts with displays and some without - check that this is what is intended
+./fsh-generated/resources/Observation-TLSVObservationExampleDAS28-04.json 03:40:16
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Best Practice Recommendation: In general, all observations should have a performer
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[38, 6] Observation.interpretation[0]: Warning - None of the codings provided are in the value set 'Observation Interpretation Codes' (http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = http://loinc.org#LA9642-5)
+[62, 8] Observation.referenceRange[0].type: Information - None of the codings provided are in the value set 'Observation Reference Range Meaning Codes' (http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1), and a coding is recommended to come from this value set) (codes = http://snomed.info/sct#277022003)
+[79, 8] Observation.referenceRange[1].type: Information - None of the codings provided are in the value set 'Observation Reference Range Meaning Codes' (http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1), and a coding is recommended to come from this value set) (codes = http://loinc.org#LA28784-9)
+[96, 8] Observation.referenceRange[2].type: Information - None of the codings provided are in the value set 'Observation Reference Range Meaning Codes' (http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1), and a coding is recommended to come from this value set) (codes = http://loinc.org#LA28786-4)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-TLSVObservationExampleDAS28-03.json 03:40:16
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Observation-TLSVObservationExampleDAS28-01.json 03:40:16
+[1, 2] Observation: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation|4.0.1
+[1, 2] Observation: Information - Validate resource against profile https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation (per meta)
+[1, 2] Observation: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+
+
+----------------------------------------------------------------------------------
+./fsh-generated/resources/Patient-ExamplefrCorePatient001.json 03:40:16
+[1, 2] Patient: Information - Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
+[1, 2] Patient: Information - Validate resource against profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins|2.0.1 (per meta)
+[1, 2] Patient: Warning - Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
+[6, 76] Patient.meta.profile[0]: Information - This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins|2.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+[15, 12] Patient.extension[0].extension[0].value.ofType(Coding): Information - Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445|2.0.1
+[28, 14] Patient.extension[1].value.ofType(Address).extension[0].value.ofType(Coding).system: Error - A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+[28, 14] Patient.extension[1].value.ofType(Address).extension[0].value.ofType(Coding): Error - The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#01006) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.0.1), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+[28, 14] Patient.extension[1].value.ofType(Address).extension[0].value.ofType(Coding): Error - The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#01006) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.0.1), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.0.1' because the code system https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune| was not found
+[28, 14] Patient.extension[1].value.ofType(Address).extension[0].value.ofType(Coding): Information - A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+[28, 14] Patient.extension[1].value.ofType(Address).extension[0].value.ofType(Coding): Warning - Unable to check whether the code is in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.0.1' because the code system https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune| was not found
+[42, 10] Patient.name[0].extension[0]: Information - This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+[56, 8] Patient.identifier[0].type: Information - Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203|2.0.1
+[56, 8] Patient.identifier[0].type: Warning - None of the codings provided are in the value set 'IdentifierType' (http://hl7.org/fhir/ValueSet/identifier-type|4.0.1), and a coding should come from this value set unless it has no suitable code (note that the validator cannot judge what is suitable) (codes = https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0203#INS-NIR)
 

@@ -17,7 +17,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"TLSVObservationExample02\"> </a><a name=\"hcTLSVObservationExample02\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;TLSVObservationExample02&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-tlsv-observation.html\">Profil Observation pour la telesurveillance</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: Fatigue Severity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-v3-nciThesaurus.html\">NCI Thesaurus</a>#C180126)</span></p><p><b>subject</b>: <a href=\"ExamplefrPatient001\">ExamplefrPatient001: Pierre Durand</a></p><p><b>effective</b>: 2023-10-09</p><p><b>issued</b>: Oct 12, 2023, 11:28:17 AM</p><p><b>performer</b>: <a href=\"ExamplefrPatient001\">ExamplefrPatient001: Pierre Durand</a></p><p><b>value</b>: Severe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-v3-nciThesaurus.html\">NCI Thesaurus</a>#C70667)</span></p><p><b>interpretation</b>: C70667 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-v3-nciThesaurus.html\">NCI Thesaurus</a>#C70667)</span>, Severe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#24484000)</span></p><p><b>method</b>: C010402020702 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#C010402020702)</span></p></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation </b><a name=\"TLSVObservationExample02\"> </a><a name=\"hcTLSVObservationExample02\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceObservation &quot;TLSVObservationExample02&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-tlsv-observation.html\">Profil Observation pour la telesurveillance</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: Fatigue Severity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-nciThesaurus.html\">NCI Thesaurus</a>#C180126)</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Patient/ExamplefrCorePatient001: Pierre Durand</a> &quot; DURAND&quot;</p><p><b>effective</b>: 2023-10-09 --&gt; 2023-10-15</p><p><b>issued</b>: Oct 12, 2023, 11:28:17 AM</p><p><b>performer</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Patient/ExamplefrCorePatient001: Pierre Durand</a> &quot; DURAND&quot;</p><p><b>value</b>: Severe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-nciThesaurus.html\">NCI Thesaurus</a>#C70667)</span></p><p><b>interpretation</b>: C70667 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-nciThesaurus.html\">NCI Thesaurus</a>#C70667)</span>, Severe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#24484000)</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse001\">QuestionnaireResponse001: QuestionnaireResponse001</a></p></div>"
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
@@ -34,13 +34,19 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:reference [ fhir:v "ExamplefrPatient001" ] ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+     fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ] ;
      fhir:display [ fhir:v "Pierre Durand" ]
   ] ; # 
-  fhir:effective [ fhir:v "2023-10-09"^^xsd:date] ; # 
+  fhir:effective [
+     a fhir:Period ;
+     fhir:start [ fhir:v "2023-10-09"^^xsd:date ] ;
+     fhir:end [ fhir:v "2023-10-15"^^xsd:date ]
+  ] ; # 
   fhir:issued [ fhir:v "2023-10-12T13:28:17.239+02:00"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:reference [ fhir:v "ExamplefrPatient001" ] ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+     fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ] ;
      fhir:display [ fhir:v "Pierre Durand" ]
   ] ) ; # 
   fhir:value [
@@ -63,13 +69,10 @@
        fhir:code [ fhir:v "24484000" ]
      ] )
   ] ) ; # 
-  fhir:method [
-     fhir:coding ( [
-       a sct:C010402020702 ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "C010402020702" ]
-     ] )
-  ] . # 
+  fhir:derivedFrom ( [
+     fhir:reference [ fhir:v "QuestionnaireResponse001" ] ;
+     fhir:display [ fhir:v "QuestionnaireResponse001" ]
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 
