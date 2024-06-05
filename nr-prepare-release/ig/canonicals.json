@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "ans.fhir.fr.telesurveillance",
+    "type" : "ImplementationGuide",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance",
+    "version" : "0.1.0-ballot",
+    "name" : "TLSV"
+  },
+  {
+    "id" : "tlsv-observation",
+    "type" : "StructureDefinition",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation",
+    "version" : "0.1.0-ballot",
+    "name" : "TLSVObservation"
+  },
+  {
+    "id" : "TLSVCategory",
+    "type" : "ValueSet",
+    "url" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory",
+    "version" : "0.1.0-ballot",
+    "name" : "TLSVCategory"
+  }
+]
