@@ -1,0 +1,61 @@
+{
+  "resourceType" : "Observation",
+  "id" : "TLSVObservationExample02",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation </b><a name=\"TLSVObservationExample02\"> </a><a name=\"hcTLSVObservationExample02\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceObservation &quot;TLSVObservationExample02&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-tlsv-observation.html\">Profil Observation pour la telesurveillance</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: Fatigue Severity <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-nciThesaurus.html\">NCI Thesaurus</a>#C180126)</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Patient/ExamplefrCorePatient001: Pierre Durand</a> &quot; DURAND&quot;</p><p><b>effective</b>: 2023-10-09 --&gt; 2023-10-15</p><p><b>issued</b>: Oct 12, 2023, 11:28:17 AM</p><p><b>performer</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Patient/ExamplefrCorePatient001: Pierre Durand</a> &quot; DURAND&quot;</p><p><b>value</b>: Severe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-nciThesaurus.html\">NCI Thesaurus</a>#C70667)</span></p><p><b>interpretation</b>: C70667 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-v3-nciThesaurus.html\">NCI Thesaurus</a>#C70667)</span>, Severe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#24484000)</span></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse001\">QuestionnaireResponse001: QuestionnaireResponse001</a></p></div>"
+  },
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "survey"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "code" : "C180126",
+      "display" : "Fatigue Severity"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/ExamplefrCorePatient001",
+    "display" : "Pierre Durand"
+  },
+  "effectivePeriod" : {
+    "start" : "2023-10-09",
+    "end" : "2023-10-15"
+  },
+  "issued" : "2023-10-12T13:28:17.239+02:00",
+  "performer" : [{
+    "reference" : "Patient/ExamplefrCorePatient001",
+    "display" : "Pierre Durand"
+  }],
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "code" : "C70667",
+      "display" : "Severe"
+    }]
+  },
+  "interpretation" : [{
+    "coding" : [{
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "code" : "C70667"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "24484000"
+    }]
+  }],
+  "derivedFrom" : [{
+    "reference" : "QuestionnaireResponse001",
+    "display" : "QuestionnaireResponse001"
+  }]
+}

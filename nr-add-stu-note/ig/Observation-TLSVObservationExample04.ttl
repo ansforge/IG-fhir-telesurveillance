@@ -1,0 +1,65 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <https://loinc.org/rdf/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExample04> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TLSVObservationExample04"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation </b><a name=\"TLSVObservationExample04\"> </a><a name=\"hcTLSVObservationExample04\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">ResourceObservation &quot;TLSVObservationExample04&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-tlsv-observation.html\">Profil Observation pour la telesurveillance</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: weight <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#29463-7)</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Patient/ExamplefrCorePatient001: Pierre Durand</a> &quot; DURAND&quot;</p><p><b>effective</b>: 2023-10-09</p><p><b>performer</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Patient/ExamplefrCorePatient001: Pierre Durand</a> &quot; DURAND&quot;</p><p><b>value</b>: 62 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code[kg] = '[kg]')</span></p><p><b>device</b>: <a href=\"Device-phd-74E8FFFEFF051C00.html\">Device/phd-74E8FFFEFF051C00</a></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse001\">QuestionnaireResponse001: QuestionnaireResponse001</a></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "survey" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a loinc:29463-7 ;
+       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "29463-7" ] ;
+       fhir:display [ fhir:v "weight" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+     fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ] ;
+     fhir:display [ fhir:v "Pierre Durand" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2023-10-09"^^xsd:date] ; # 
+  fhir:performer ( [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+     fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ] ;
+     fhir:display [ fhir:v "Pierre Durand" ]
+  ] ) ; # 
+  fhir:value [
+     a fhir:Quantity ;
+     fhir:value [ fhir:v "62"^^xsd:decimal ] ;
+     fhir:unit [ fhir:v "kg" ] ;
+     fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+     fhir:code [ fhir:v "[kg]" ]
+  ] ; # 
+  fhir:device [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Device/phd-74E8FFFEFF051C00> ;
+     fhir:reference [ fhir:v "Device/phd-74E8FFFEFF051C00" ]
+  ] ; # 
+  fhir:derivedFrom ( [
+     fhir:reference [ fhir:v "QuestionnaireResponse001" ] ;
+     fhir:display [ fhir:v "QuestionnaireResponse001" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

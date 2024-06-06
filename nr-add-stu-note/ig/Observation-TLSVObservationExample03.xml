@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="TLSVObservationExample03"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Observation </b><a name="TLSVObservationExample03"> </a><a name="hcTLSVObservationExample03"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">ResourceObservation &quot;TLSVObservationExample03&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-tlsv-observation.html">Profil Observation pour la telesurveillance</a></p></div><p><b>status</b>: final</p><p><b>category</b>: Survey <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.5.0/CodeSystem-observation-category.html">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: Pain finding at anatomical site <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://browser.ihtsdotools.org/">SNOMED CT</a>#279001004)</span></p><p><b>subject</b>: <a href="Patient-ExamplefrCorePatient001.html">Patient/ExamplefrCorePatient001: Pierre Durand</a> &quot; DURAND&quot;</p><p><b>effective</b>: 2023-10-09 --&gt; 2023-10-15</p><p><b>performer</b>: <a href="Patient-ExamplefrCorePatient001.html">Patient/ExamplefrCorePatient001: Pierre Durand</a> &quot; DURAND&quot;</p><p><b>value</b>: J'ai pris un anti-douleur</p><p><b>device</b>: <a href="Device-phd-74E8FFFEFF051C00.html">Device/phd-74E8FFFEFF051C00</a></p><p><b>derivedFrom</b>: <a href="QuestionnaireResponse001">QuestionnaireResponse001: QuestionnaireResponse001</a></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="survey"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="279001004"/>
+      <display value="Pain finding at anatomical site"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/ExamplefrCorePatient001"/>
+    <display value="Pierre Durand"/>
+  </subject>
+  <effectivePeriod>
+    <start value="2023-10-09"/>
+    <end value="2023-10-15"/>
+  </effectivePeriod>
+  <performer>
+    <reference value="Patient/ExamplefrCorePatient001"/>
+    <display value="Pierre Durand"/>
+  </performer>
+  <valueString value="J'ai pris un anti-douleur"/>
+  <device>
+    <reference value="Device/phd-74E8FFFEFF051C00"/>
+  </device>
+  <derivedFrom>
+    <reference value="QuestionnaireResponse001"/>
+    <display value="QuestionnaireResponse001"/>
+  </derivedFrom>
+</Observation>
