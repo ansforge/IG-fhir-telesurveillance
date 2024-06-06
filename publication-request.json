@@ -1,0 +1,16 @@
+
+{
+    "package-id" : "ans.fhir.fr.telesurveillance",
+    "version" : "0.1.O-ballot",
+    "path" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/0.1.O-ballot",
+    "mode" : "working",
+    "status" : "release",
+    "sequence" : "trial-use",
+    "desc" : "Publication 0.1.O-ballot du guide d'implémentation télésurveillance",
+    "descmd": "@release-notes.md",
+    "ci-build" : "https://ansforge.github.io/IG-fhir-telesurveillance-de-sante/main/ig",
+    "first": "true",
+    "title" : "Guide d'implémentation de la télésurveillance",
+    "category" : "Personal Healthcare",
+    "introduction" : "Guide d'implémentation de la télésurveillance permettant la transmission de résultats de questionnaire"
+  }
