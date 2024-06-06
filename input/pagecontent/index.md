@@ -2,6 +2,7 @@
 <b>Remote Patient Monitoring Implementation Guide</b><br> Transmission of questionnaire responses using an Observation resource for remote patient monitoring<br>
 </p>
 
+<B>Bienvenue dans le guide d'implémentation des réponses aux questionnaires au format FHIR.</B>
 
 <blockquote class="stu-note">
 <p>
@@ -13,7 +14,6 @@
 </blockquote>
 
 
-<B>Bienvenue dans le guide d'implémentation des réponses aux questionnaires au format FHIR.</B>
 
 Ce guide a été conçu pour faciliter l'échange de données entre les solutions de télésurveillance et les systèmes d'informations hospitaliers (Dossier Patient Informatisé et Entrepôt de Données de Santé notamment).
 
