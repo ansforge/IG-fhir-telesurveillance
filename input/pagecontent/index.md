@@ -2,6 +2,17 @@
 <b>Remote Patient Monitoring Implementation Guide</b><br> Transmission of questionnaire responses using an Observation resource for remote patient monitoring<br>
 </p>
 
+
+<blockquote class="stu-note">
+<p>
+  <b>Attention !</b> Cet Implementation Guide est une version en concertation, elle n'est pas en version courante et risque de changer avant publication officielle. La version courante sera accessible ici : https://interop.esante.gouv.fr/ig/fhir/telesurveillance
+</p>
+<p>
+    Ce guide d'implémentation a été fait en collaboration avec InteropSanté et est hors ci-sis.
+</p>
+</blockquote>
+
+
 <B>Bienvenue dans le guide d'implémentation des réponses aux questionnaires au format FHIR.</B>
 
 Ce guide a été conçu pour faciliter l'échange de données entre les solutions de télésurveillance et les systèmes d'informations hospitaliers (Dossier Patient Informatisé et Entrepôt de Données de Santé notamment).
