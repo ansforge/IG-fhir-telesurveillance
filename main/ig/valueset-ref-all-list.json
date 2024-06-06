@@ -135,7 +135,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory",
-      "version" : "0.1.0",
+      "version" : "0.1.0-ballot",
       "status" : "draft",
       "name" : "TLSVCategory",
       "title" : "TLSV Categories",

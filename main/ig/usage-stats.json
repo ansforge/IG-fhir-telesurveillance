@@ -1,6 +1,6 @@
 {
   "package": "ans.fhir.fr.telesurveillance",
-  "version": "0.1.0",
+  "version": "0.1.0-ballot",
   "fhirVersion": "4.0.1",
   "jurisdiction": "FR",
   "extensions": [],

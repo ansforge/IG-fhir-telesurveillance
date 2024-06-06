@@ -6,11 +6,11 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance</pre></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance"/>
-  <version value="0.1.0"/>
+  <version value="0.1.0-ballot"/>
   <name value="TLSV"/>
   <title value="Guide d'implémentation de la télésurveillance"/>
   <status value="draft"/>
-  <date value="2024-06-05T15:37:27+00:00"/>
+  <date value="2024-06-06T09:48:48+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -64,7 +64,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="draft"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -275,7 +275,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="draft"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
