@@ -2,8 +2,8 @@ TLSV : Validation Results
 =========================================
 
 err = 25, warn = 24, info = 20
-IG Publisher Version: 1.6.10
-Generated Thu Jun 06 09:51:35 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/fhir/telesurveillance)
+IG Publisher Version: 1.6.11
+Generated Mon Jun 17 15:40:30 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/fhir/telesurveillance)
  Build Errors : 4 / 14 / 0
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Device-phd-74E8FFFEFF051C00 : 5 / 3 / 12
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance : 0 / 0 / 1

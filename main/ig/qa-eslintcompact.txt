@@ -76,4 +76,4 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/ValueSet-TLSVCategory.json: line 0, col 0, Error - URL Mismatch https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TLSVCategory vs https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory (BUSINESSRULE)
 
 err = 25, warn = 24, info = 20
-IG Publisher Version: 1.6.10
+IG Publisher Version: 1.6.11
