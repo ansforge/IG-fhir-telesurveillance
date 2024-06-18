@@ -1,6 +1,6 @@
 {
   "version" : "0.1.0-ballot",
-  "date" : "20240617153859",
+  "date" : "20240618074222",
   "notForPublication" : true,
   "name" : "ans.fhir.fr.telesurveillance.r4"
 }
