@@ -1,0 +1,15 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json	5441	-	0	0	0	0	0	0	4	81	0	0	0	0	0	0	0	1	0	0	106	143	0	0	0	2	0	1
+fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json	3916	20	0	0	0	1	0	0	0	203	0	0	0	0	0	0	0	0	0	0	42	26	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExample01.json	1064	8	0	0	0	0	0	0	0	537	0	0	0	0	0	0	0	0	0	0	14	25	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExample02.json	1606	8	0	0	0	0	0	0	1	141	0	0	0	0	0	0	0	0	0	0	17	27	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExample03.json	1145	7	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	25	27	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExample04.json	1147	4	0	0	0	0	0	0	0	64	0	0	0	0	0	0	0	0	0	0	25	28	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExample05.json	1044	7	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	16	30	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExampleDAS28-01.json	1136	4	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	15	28	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExampleDAS28-02.json	1137	6	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	16	28	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExampleDAS28-03.json	1340	4	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	27	29	0	0	0	0	0	0
+fsh-generated/resources/Observation-TLSVObservationExampleDAS28-04.json	2420	4	0	0	0	0	0	0	1	4	0	0	0	0	0	0	0	0	0	0	29	32	0	0	0	0	0	0
+fsh-generated/resources/Patient-ExamplefrCorePatient001.json	2383	4	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	23	35	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-tlsv-observation.json	5820	5	1	0	0	0	0	93	0	74	0	0	0	0	0	0	0	2	0	0	440	1971	0	1	0	15	0	2
+fsh-generated/resources/ValueSet-TLSVCategory.json	766	4	0	0	0	0	0	0	0	81	0	0	0	0	0	0	0	0	0	0	20	5824	0	0	0	1	0	0
