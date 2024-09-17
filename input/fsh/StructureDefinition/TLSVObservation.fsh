@@ -10,8 +10,7 @@ Description: "Profil de la ressource Observation dans le cadre de la télésurve
 * status ^short = "Statut de la mesure/réponse: final | corrected | entered-in-error"
 
 * category 0..* MS
-* category ^short = "(recommandé) Grande catégorie qui peut servir à identifier les différentes sources d'observations en télésurveillance: vital-sign : constantes physiologiques, signes vitaux, mesures | 
-survey : réponse à questionnaire ou score |  activity : activité physique (#pas, #longueurs de piscine, ...)"
+* category ^short = "(recommandé) Grande catégorie qui peut servir à identifier les différentes sources d'observations en télésurveillance: vital-sign : constantes physiologiques, signes vitaux, mesures | survey : réponse à questionnaire ou score |  activity : activité physique (#pas, #longueurs de piscine, ...)"
 * category from https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory (required)
 
 * code 1..1
