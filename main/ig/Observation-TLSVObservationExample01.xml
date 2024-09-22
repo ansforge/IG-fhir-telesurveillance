@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="TLSVObservationExample01"/>
+  <meta>
+    <profile value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Observation TLSVObservationExample01</b></p><a name="TLSVObservationExample01"> </a><a name="hcTLSVObservationExample01"> </a><a name="TLSVObservationExample01-fr-FR"> </a><p><b>status</b>: Final</p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}">Survey</span></p><p><b>code</b>: <span title="Codes:{http://loinc.org 65502-7}">Falling asleep in past 7 days [QIDS]</span></p><p><b>subject</b>: <a href="Patient-ExamplefrCorePatient001.html">Pierre Durand</a></p><p><b>effective</b>: 2023-10-09</p><p><b>performer</b>: <a href="Patient-ExamplefrCorePatient001.html">Pierre Durand</a></p><p><b>value</b>: <span title="Codes:{http://loinc.org LA14809-0}">I take at least 30 minutes to fall asleep, less than half the time</span></p><p><b>device</b>: <a href="Device-phd-74E8FFFEFF051C00.html">Device: identifier = SYSID,BTMAC; manufacturer = Nonin_Medical_Inc.; serialNumber = 501900083; modelNumber = Model 3230; type = MDC_MOC_VMS_MDS_SIMP</a></p></div>
+  </text>
+  <status value="final"/>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+      <code value="survey"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="65502-7"/>
+      <display value="Falling asleep in past 7 days [QIDS]"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/ExamplefrCorePatient001"/>
+    <display value="Pierre Durand"/>
+  </subject>
+  <effectiveDateTime value="2023-10-09"/>
+  <performer>
+    <reference value="Patient/ExamplefrCorePatient001"/>
+    <display value="Pierre Durand"/>
+  </performer>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="LA14809-0"/>
+    </coding>
+  </valueCodeableConcept>
+  <device>
+    <reference value="Device/phd-74E8FFFEFF051C00"/>
+  </device>
+</Observation>

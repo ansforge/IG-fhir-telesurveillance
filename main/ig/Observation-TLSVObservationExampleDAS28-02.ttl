@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-02> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "TLSVObservationExampleDAS28-02"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation TLSVObservationExampleDAS28-02</b></p><a name=\"TLSVObservationExampleDAS28-02\"> </a><a name=\"hcTLSVObservationExampleDAS28-02\"> </a><a name=\"TLSVObservationExampleDAS28-02-fr-FR\"> </a><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 442687006}\">Swollen 28 joint count</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2023-10-09 10:45:00+0200</p><p><b>performer</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>value</b>: 3</p><h3>ReferenceRanges</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Low</b></td><td><b>High</b></td></tr><tr><td style=\"display: none\">*</td><td>0</td><td>28</td></tr></table><p><b>derivedFrom</b>: <a href=\"https://somefhirserver.fr/QuestionResponse/4365462658738\">https://somefhirserver.fr/QuestionResponse/4365462658738</a></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "survey" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:442687006 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "442687006" ] ;
+       fhir:display [ fhir:v "Swollen 28 joint count" ]
+     ] )
+  ] ; # 
+  fhir:subject [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+     fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ] ;
+     fhir:display [ fhir:v "Pierre Durand" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2023-10-09T10:45:00+02:00"^^xsd:dateTime] ; # 
+  fhir:performer ( [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+     fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ] ;
+     fhir:display [ fhir:v "Pierre Durand" ]
+  ] ) ; # 
+  fhir:value [ fhir:v "3"^^xsd:integer] ; # 
+  fhir:referenceRange ( [
+     fhir:low [
+       fhir:value [ fhir:v "0"^^xsd:decimal ]
+     ] ;
+     fhir:high [
+       fhir:value [ fhir:v "28"^^xsd:decimal ]
+     ]
+  ] ) ; # 
+  fhir:derivedFrom ( [
+     fhir:link <https://somefhirserver.fr/QuestionResponse/4365462658738> ;
+     fhir:reference [ fhir:v "https://somefhirserver.fr/QuestionResponse/4365462658738" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

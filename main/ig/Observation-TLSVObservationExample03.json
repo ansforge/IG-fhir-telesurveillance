@@ -1,0 +1,45 @@
+{
+  "resourceType" : "Observation",
+  "id" : "TLSVObservationExample03",
+  "meta" : {
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation TLSVObservationExample03</b></p><a name=\"TLSVObservationExample03\"> </a><a name=\"hcTLSVObservationExample03\"> </a><a name=\"TLSVObservationExample03-fr-FR\"> </a><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 279001004}\">Pain finding at anatomical site</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2023-10-09 --&gt; 2023-10-15</p><p><b>performer</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>value</b>: J'ai pris un anti-douleur</p><p><b>device</b>: <a href=\"Device-phd-74E8FFFEFF051C00.html\">Device: identifier = SYSID,BTMAC; manufacturer = Nonin_Medical_Inc.; serialNumber = 501900083; modelNumber = Model 3230; type = MDC_MOC_VMS_MDS_SIMP</a></p><p><b>derivedFrom</b>: <a href=\"QuestionnaireResponse001\">QuestionnaireResponse001</a></p></div>"
+  },
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "survey"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "279001004",
+      "display" : "Pain finding at anatomical site"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/ExamplefrCorePatient001",
+    "display" : "Pierre Durand"
+  },
+  "effectivePeriod" : {
+    "start" : "2023-10-09",
+    "end" : "2023-10-15"
+  },
+  "performer" : [{
+    "reference" : "Patient/ExamplefrCorePatient001",
+    "display" : "Pierre Durand"
+  }],
+  "valueString" : "J'ai pris un anti-douleur",
+  "device" : {
+    "reference" : "Device/phd-74E8FFFEFF051C00"
+  },
+  "derivedFrom" : [{
+    "reference" : "QuestionnaireResponse001",
+    "display" : "QuestionnaireResponse001"
+  }]
+}
