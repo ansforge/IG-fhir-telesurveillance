@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="515486d0-10c9-427f-a7b0-21cda9c5486a"/>
+  <id value="31f83a2e-fe7a-4217-9e67-1c132722fd42"/>
   <meta>
-    <lastUpdated value="2024-09-22T18:53:12.812+00:00"/>
+    <lastUpdated value="2024-09-22T18:56:09.374+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -81,12 +81,12 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory"/>
-        <version value="0.1.0-ballot"/>
+        <version value="0.1.0"/>
         <name value="TLSVCategory"/>
         <title value="TLSV Categories"/>
         <status value="draft"/>
         <experimental value="false"/>
-        <date value="2024-09-22T18:53:12+00:00"/>
+        <date value="2024-09-22T18:56:09+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -95,8 +95,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:315f96c5-e6d2-433e-b21c-e78991e3dae0"/>
-          <timestamp value="2024-09-22T18:53:34+00:00"/>
+          <identifier value="urn:uuid:a3765343-0101-40b2-992e-531ff7aa7e0e"/>
+          <timestamp value="2024-09-22T18:56:34+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

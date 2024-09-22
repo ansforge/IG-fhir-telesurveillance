@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "407ee9aa-02e2-4c0e-bcb6-c8ab587ca15e-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/407ee9aa-02e2-4c0e-bcb6-c8ab587ca15e-8",
+  "name" : "UnionTLSVCategoryAndTLSVCategory",
+  "title" : "Union of TLSV Categories And TLSV Categories",
+  "status" : "draft",
+  "date" : "2024-09-22T18:56:20+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "survey",
+        "display" : "Survey"
+      },
+      {
+        "code" : "vital-signs"
+      },
+      {
+        "code" : "activity",
+        "display" : "Activity"
+      }]
+    }]
+  }
+}
