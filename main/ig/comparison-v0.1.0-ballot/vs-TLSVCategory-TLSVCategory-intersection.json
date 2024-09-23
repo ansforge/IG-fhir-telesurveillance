@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5c4d837d-57d7-4c5f-a867-e3c7823672b0-9",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5c4d837d-57d7-4c5f-a867-e3c7823672b0-9",
+  "name" : "IntersectionTLSVCategoryAndTLSVCategory",
+  "title" : "Intersection of TLSV Categories And TLSV Categories",
+  "status" : "draft",
+  "date" : "2024-09-23T10:27:09+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "survey",
+        "display" : "Survey"
+      },
+      {
+        "code" : "vital-signs"
+      },
+      {
+        "code" : "activity",
+        "display" : "Activity"
+      }]
+    }]
+  }
+}
