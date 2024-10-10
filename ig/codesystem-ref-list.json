@@ -2,8 +2,8 @@
   "codeSystems" : [
     {
       "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "ObservationCategoryCodes",
       "title" : "Observation Category Codes",
       "description" : "Observation Category codes.",

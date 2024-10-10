@@ -1,7 +1,7 @@
 {
-  "version" : "0.1.0-ballot",
+  "version" : "0.1.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20240704113722",
+  "date" : "20241010094311",
   "name" : "ans.fhir.fr.telesurveillance",
   "jurisdiction" : "urn:iso:std:iso:3166#FR"
 }

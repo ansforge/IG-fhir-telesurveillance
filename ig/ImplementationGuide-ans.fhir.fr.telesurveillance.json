@@ -3,14 +3,14 @@
   "id" : "ans.fhir.fr.telesurveillance",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.telesurveillance</b></p><a name=\"ans.fhir.fr.telesurveillance\"> </a><a name=\"hcans.fhir.fr.telesurveillance\"> </a><a name=\"hcans.fhir.fr.telesurveillance-fr-FR\"> </a><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.telesurveillance</b></p><a name=\"ans.fhir.fr.telesurveillance\"> </a><a name=\"hcans.fhir.fr.telesurveillance\"> </a><a name=\"ans.fhir.fr.telesurveillance-fr-FR\"> </a><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance</pre></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance",
-  "version" : "0.1.0-ballot",
+  "version" : "0.1.0",
   "name" : "TLSV",
   "title" : "Guide d'implémentation de la télésurveillance",
-  "status" : "draft",
-  "date" : "2024-07-04T11:37:57+00:00",
+  "status" : "active",
+  "date" : "2024-10-10T09:43:44+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -37,7 +37,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.5.0"
+    "version" : "6.0.2"
   },
   {
     "id" : "hl7ext",
@@ -53,7 +53,7 @@
     "id" : "hl7_fhir_fr_core",
     "uri" : "https://hl7.fr/ig/fhir/core/ImplementationGuide/hl7.fhir.fr.core",
     "packageId" : "hl7.fhir.fr.core",
-    "version" : "2.0.1"
+    "version" : "2.1.0"
   }],
   "definition" : {
     "extension" : [{
@@ -74,7 +74,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "draft"
+        "valueString" : "trial-use"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -344,7 +344,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
+      "valueCode" : "hl7.fhir.uv.tools#0.2.0"
     },
     {
       "extension" : [{
@@ -364,7 +364,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "draft"
+        "valueString" : "trial-use"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
