@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "5c4d837d-57d7-4c5f-a867-e3c7823672b0-9",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/5c4d837d-57d7-4c5f-a867-e3c7823672b0-9",
+  "id" : "0892476f-1d63-4d49-910e-b3cf43b3abdc-9",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0892476f-1d63-4d49-910e-b3cf43b3abdc-9",
   "name" : "IntersectionTLSVCategoryAndTLSVCategory",
   "title" : "Intersection of TLSV Categories And TLSV Categories",
   "status" : "draft",
-  "date" : "2024-09-23T10:27:09+00:00",
+  "date" : "2024-10-10T08:49:52+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
