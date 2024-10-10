@@ -3,17 +3,17 @@
   "name" : "TLSV",
   "title" : "Guide d'implémentation de la télésurveillance",
   "description" : null,
-  "status" : "draft",
+  "status" : "active",
   "package-id" : "ans.fhir.fr.telesurveillance",
-  "ig-ver" : "0.1.0-ballot",
-  "date" : "Thu, 10 Oct, 2024 08:36:22 +0000",
-  "dateISO8601" : "2024-10-10T08:36:22+00:00",
+  "ig-ver" : "0.1.0",
+  "date" : "Thu, 10 Oct, 2024 08:49:22 +0000",
+  "dateISO8601" : "2024-10-10T08:49:22+00:00",
   "errs" : 23,
   "warnings" : 24,
-  "hints" : 8,
+  "hints" : 7,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2162363656
+  "maxMemory" : 2400904960
 }

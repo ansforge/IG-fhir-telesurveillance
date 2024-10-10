@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fhir.fr.telesurveillance</b></p><a name="ans.fhir.fr.telesurveillance"> </a><a name="hcans.fhir.fr.telesurveillance"> </a><a name="ans.fhir.fr.telesurveillance-fr-FR"> </a><h2>TLSV</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance</pre></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ImplementationGuide/ans.fhir.fr.telesurveillance"/>
-  <version value="0.1.0-ballot"/>
+  <version value="0.1.0"/>
   <name value="TLSV"/>
   <title value="Guide d'implémentation de la télésurveillance"/>
-  <status value="draft"/>
-  <date value="2024-10-10T08:36:22+00:00"/>
+  <status value="active"/>
+  <date value="2024-10-10T08:49:22+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -64,7 +64,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="draft"/>
+        <valueString value="trial-use"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -275,7 +275,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="draft"/>
+        <valueString value="trial-use"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

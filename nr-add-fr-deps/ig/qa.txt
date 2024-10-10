@@ -1,16 +1,16 @@
 TLSV : Validation Results
 =========================================
 
-err = 23, warn = 24, info = 8
+err = 23, warn = 24, info = 7
 IG Publisher Version: 1.6.29
-Generated Thu Oct 10 08:36:50 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/fhir/telesurveillance)
+Generated Thu Oct 10 08:50:04 UTC 2024. FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/fhir/telesurveillance)
  Build Errors : 4 / 14 / 0
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Device-phd-74E8FFFEFF051C00 : 5 / 5 / 1
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance : 0 / 0 / 1
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample01 : 0 / 0 / 1
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample02 : 2 / 3 / 1
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample03 : 2 / 0 / 1
- /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample04 : 5 / 0 / 5
+ /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample04 : 5 / 0 / 4
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample05 : 2 / 0 / 1
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExampleDAS28-01 : 1 / 0 / 1
  /home/runner/work/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExampleDAS28-02 : 1 / 0 / 1
@@ -67,7 +67,6 @@ INFORMATION: Observation/TLSVObservationExample04: Observation.value.ofType(Quan
 ERROR: Observation/TLSVObservationExample04: Observation.derivedFrom[0]: Unable to resolve resource with reference 'QuestionnaireResponse001'
 INFORMATION: Observation/TLSVObservationExample04: Observation.category[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
 ERROR: Observation/TLSVObservationExample04: Observation: Slice 'Observation.category:VSCat': a matching slice is required, but not found (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1). Note that other slices are allowed in addition to this required slice
-INFORMATION: Observation/TLSVObservationExample04: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1
 ERROR: Observation/TLSVObservationExample04: Observation.value.ofType(Quantity).code: The value provided ('[kg]') was not found in the value set 'Body Weight Units' (http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code '[kg]' in the ValueSet 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1'; The provided code '#[kg]' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1')
 ERROR: Observation.text.div: Hyperlink 'QuestionnaireResponse001' at 'div/p/a' for 'QuestionnaireResponse001' does not resolve
 == fsh-generated/resources/Observation-TLSVObservationExample05.json ==
