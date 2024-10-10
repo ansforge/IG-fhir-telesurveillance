@@ -36,12 +36,13 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for TLSV</h1>
- <p>Generated Tue Sep 17 15:25:02 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0-ballot (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/telesurveillance">https://interop.esante.gouv.fr/ig/fhir/telesurveillance</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Thu Oct 10 08:36:13 UTC 2024, FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0-ballot (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/telesurveillance">https://interop.esante.gouv.fr/ig/fhir/telesurveillance</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.24</span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.6.29</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ans.fhir.fr.telesurveillance, Canonical = https://interop.esante.gouv.fr/ig/fhir/telesurveillance</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Publication Request:</td><td><ul><li>Version 0.1.0-ballot has already been published <img src="icon-warning.png" height="16px" width="16px"/></li>
+<li>This is not the first publication, so first must not be true <img src="icon-error.gif" height="16px" width="16px"/></li>
 <li>Publication Request is for version v0.1.0-ballot which is already published <img src="icon-error.gif" height="16px" width="16px"/></li>
 </ul>
 </td></tr>
@@ -76,7 +77,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (1 uses),     <a href="http://hl7.org/fhir/R4/medicationrequest.html">MedicationRequest</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/nutritionorder.html">NutritionOrder</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/episodeofcare.html">EpisodeOfCare</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/appointment.html">Appointment</a>
  (10 uses),     <a href="http://hl7.org/fhir/R4/medicationadministration.html">MedicationAdministration</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispense</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a>
@@ -93,14 +94,14 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMEDCTBodyStructures</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-methods.html">ObservationMethods</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/specimen.html">Specimen</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/device.html">Device</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4/device.html">Device</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/devicemetric.html">DeviceMetric</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/medicationknowledge.html">MedicationKnowledge</a>
- (4 uses),     <a href="http://hl7.org/fhir/R4/valueset-referencerange-meaning.html">ObservationReferenceRangeMeaningCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/molecularsequence.html">MolecularSequence</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4/valueset-referencerange-meaning.html">ObservationReferenceRangeMeaningCodes</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html">ObservationReferenceRangeAppliesToCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/observationdefinition.html">ObservationDefinition</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a>
- (3 uses),     <a href="http://hl7.org/fhir/R4/molecularsequence.html">MolecularSequence</a>
- (1 uses)
+ (3 uses)
   </li>
   <li>
 hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureDefinition-resource-sort.html">ResourceSortExt</a>
@@ -112,6 +113,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
  <tr><td>Previous Version Comparison:</td><td> </td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
+ <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
  <tr><td>Summary:</td><td> errors = 23, warn = 24, info = 8, broken links = 4</td></tr>
 </table>
  <table class="grid">
@@ -194,16 +196,16 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Device/phd-74E8FFFEFF051C00.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="Observation-TLSVObservationExample02.html#l384">output&#8203;/Observation-TLSVObservationExample02&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/p&#8203;/a at Line 210, column 1147</a></b></td><td><b>error</b></td><td><b>The link 'QuestionnaireResponse001' for &quot;QuestionnaireResponse001&quot; cannot be resolved</b></td>
+     <td><b><a href="Observation-TLSVObservationExample02.html#l384">output&#8203;/Observation-TLSVObservationExample02&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/p&#8203;/a at Line 210, column 1108</a></b></td><td><b>error</b></td><td><b>The link 'QuestionnaireResponse001' for &quot;QuestionnaireResponse001&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="Observation-TLSVObservationExample03.html#l375">output&#8203;/Observation-TLSVObservationExample03&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/p&#8203;/a at Line 210, column 1047</a></b></td><td><b>error</b></td><td><b>The link 'QuestionnaireResponse001' for &quot;QuestionnaireResponse001&quot; cannot be resolved</b></td>
+     <td><b><a href="Observation-TLSVObservationExample03.html#l375">output&#8203;/Observation-TLSVObservationExample03&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/p&#8203;/a at Line 210, column 1008</a></b></td><td><b>error</b></td><td><b>The link 'QuestionnaireResponse001' for &quot;QuestionnaireResponse001&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="Observation-TLSVObservationExample04.html#l377">output&#8203;/Observation-TLSVObservationExample04&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/p&#8203;/a at Line 210, column 1065</a></b></td><td><b>error</b></td><td><b>The link 'QuestionnaireResponse001' for &quot;QuestionnaireResponse001&quot; cannot be resolved</b></td>
+     <td><b><a href="Observation-TLSVObservationExample04.html#l377">output&#8203;/Observation-TLSVObservationExample04&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/p&#8203;/a at Line 210, column 1026</a></b></td><td><b>error</b></td><td><b>The link 'QuestionnaireResponse001' for &quot;QuestionnaireResponse001&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="Observation-TLSVObservationExample05.html#l375">output&#8203;/Observation-TLSVObservationExample05&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/p&#8203;/a at Line 210, column 1050</a></b></td><td><b>error</b></td><td><b>The link 'QuestionnaireResponse001' for &quot;QuestionnaireResponse001&quot; cannot be resolved</b></td>
+     <td><b><a href="Observation-TLSVObservationExample05.html#l375">output&#8203;/Observation-TLSVObservationExample05&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/p&#8203;/a at Line 210, column 1011</a></b></td><td><b>error</b></td><td><b>The link 'QuestionnaireResponse001' for &quot;QuestionnaireResponse001&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>1</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide</b></td>
@@ -246,7 +248,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Device&#8203;.property[0]&#8203;.valueCode[0]&#8203;.coding[0]&#8203;.system (l127&#8203;/c76)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaPHD' does not resolve</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Device&#8203;.property[1]&#8203;.type&#8203;.coding[0]&#8203;.system (l134&#8203;/c8)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ASN1ToHL7' could not be found, so the code cannot be validated</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>Device&#8203;.property[1]&#8203;.type&#8203;.coding[0]&#8203;.system (l134&#8203;/c8)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ASN1ToHL7' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Device&#8203;.property[1]&#8203;.type&#8203;.coding[0]&#8203;.system (l138&#8203;/c72)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ASN1ToHL7' does not resolve</b></td>
@@ -265,13 +267,13 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Observation&#8203;.code&#8203;.coding[0]&#8203;.code (l10&#8203;/c4)</b></td><td><b>warning</b></td><td><b>Unknown Code 'C180126' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>Observation&#8203;.code&#8203;.coding[0]&#8203;.code (l10&#8203;/c4)</b></td><td><b>warning</b></td><td><b>Unknown Code 'C180126' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Observation&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.code (l28&#8203;/c4)</b></td><td><b>warning</b></td><td><b>Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>Observation&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.code (l28&#8203;/c4)</b></td><td><b>warning</b></td><td><b>Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Observation&#8203;.interpretation[0]&#8203;.coding[0]&#8203;.code (l48&#8203;/c6)</b></td><td><b>warning</b></td><td><b>Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>Observation&#8203;.interpretation[0]&#8203;.coding[0]&#8203;.code (l48&#8203;/c6)</b></td><td><b>warning</b></td><td><b>Unknown Code 'C70667' in the system 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version '' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation.derivedFrom[0] (l72/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'QuestionnaireResponse001'</b></td>
@@ -306,10 +308,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l34&#8203;/c4)</b></td><td><b>error</b></td><td><b>Unknown code '[kg]' in the CodeSystem 'http://unitsofmeasure.org' version '2.0.1'</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>, see <a href="qa-tx.html#l30">log</a>)</td>
+     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l34&#8203;/c4)</b></td><td><b>error</b></td><td><b>Unknown code '[kg]' in the CodeSystem 'http://unitsofmeasure.org' version '2.0.1'</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>, see <a href="qa-tx.html#l29">log</a>)</td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l34&#8203;/c4)</b></td><td><b>information</b></td><td><b>Error processing Unit: '[kg]': The unit &quot;[kg]&quot; is unknown at character 1</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>, see <a href="qa-tx.html#l30">log</a>)</td>
+     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l34&#8203;/c4)</b></td><td><b>information</b></td><td><b>Error processing Unit: '[kg]': The unit &quot;[kg]&quot; is unknown at character 1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>, see <a href="qa-tx.html#l29">log</a>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation.derivedFrom[0] (l50/c6)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'QuestionnaireResponse001'</b></td>
@@ -321,7 +323,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Observation (l1/c2)</b></td><td><b>error</b></td><td title="Validation_VAL_Profile_Minimum_SLICE"><b>Slice 'Observation.category:VSCat': a matching slice is required, but not found (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1). Note that other slices are allowed in addition to this required slice</b></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>Observation.category[0] (l11/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
+     <td><b>Observation.category[0] (l11/c6)</b></td><td><b>information</b></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l36&#8203;/c19)</b></td><td><b>error</b></td><td title="Terminology_TX_NoValid_16"><b>The value provided ('[kg]') was not found in the value set 'Body Weight Units' (http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code '[kg]' in the ValueSet 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1'; The provided code '#[kg]' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1')</b></td>
@@ -417,10 +419,10 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
      <td><b>Patient&#8203;.extension[0]&#8203;.extension[0]&#8203;.value&#8203;.ofType(Coding) (l15&#8203;/c12)</b></td><td><b>information</b></td><td title="MSG_DRAFT"><b>Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445|2.1.0</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>Patient&#8203;.extension[1]&#8203;.value&#8203;.ofType(Address)&#8203;.extension[0]&#8203;.value&#8203;.ofType(Coding)&#8203;.system (l28&#8203;/c14)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated</b> (from <a href="qa-txsrvr.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>, see <a href="qa-tx.html#l42">log</a>)</td>
+     <td><b>Patient&#8203;.extension[1]&#8203;.value&#8203;.ofType(Address)&#8203;.extension[0]&#8203;.value&#8203;.ofType(Coding)&#8203;.system (l28&#8203;/c14)</b></td><td><b>warning</b></td><td><b>A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</ta>, see <a href="qa-tx.html#l41">log</a>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Patient&#8203;.extension[1]&#8203;.value&#8203;.ofType(Address)&#8203;.extension[0]&#8203;.value&#8203;.ofType(Coding) (l28&#8203;/c14)</b></td><td><b>error</b></td><td><b>The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#01006) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#01006' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'</b> (from <a href="qa-txsrvr.html#"></ta>, see <a href="qa-tx.html#l42">log</a>)</td>
+     <td><b>Patient&#8203;.extension[1]&#8203;.value&#8203;.ofType(Address)&#8203;.extension[0]&#8203;.value&#8203;.ofType(Coding) (l28&#8203;/c14)</b></td><td><b>error</b></td><td><b>The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#01006) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated; The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#01006' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'</b> (from <a href="qa-txservers.html#"></ta>, see <a href="qa-tx.html#l41">log</a>)</td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Patient&#8203;.extension[1]&#8203;.value&#8203;.ofType(Address)&#8203;.extension[0]&#8203;.value&#8203;.ofType(Coding) (l28&#8203;/c14)</b></td><td><b>information</b></td><td title="UNKNOWN_CODESYSTEM"><b>A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated</b></td>
@@ -500,7 +502,7 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
 <h2>MSG_DRAFT</h2>
  <table class="grid">
    <tr style="background-color: #fffff2">
-     <td><a href="Observation-TLSVObservationExample04.html">fsh-generated/resources/Observation-TLSVObservationExample04.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1</b></td>
+     <td><a href="Observation-TLSVObservationExample04.html">fsh-generated/resources/Observation-TLSVObservationExample04.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
    </tr>
    <tr style="background-color: #fffff2">
      <td><a href="Patient-ExamplefrCorePatient001.html">fsh-generated/resources/Patient-ExamplefrCorePatient001.json</a></td><td><b>Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445|2.1.0</b></td>
@@ -565,6 +567,20 @@ hl7.fhir.uv.tools#0.2.0:     <a href="http://hl7.org/fhir/tools/0.2.0/StructureD
  <table class="grid">
    <tr style="background-color: #ffeeee">
      <td><a href="Observation-TLSVObservationExample04.html">fsh-generated/resources/Observation-TLSVObservationExample04.json</a></td><td><b>The value provided ('[kg]') was not found in the value set 'Body Weight Units' (http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code '[kg]' in the ValueSet 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1'; The provided code '#[kg]' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="This_element_does_not_match_any_known_slice_"> </a>
+<h2>This_element_does_not_match_any_known_slice_</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-TLSVObservationExample04.html">fsh-generated/resources/Observation-TLSVObservationExample04.json</a></td><td><b>This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Patient-ExamplefrCorePatient001.html">fsh-generated/resources/Patient-ExamplefrCorePatient001.json</a></td><td><b>This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Patient-ExamplefrCorePatient001.html">fsh-generated/resources/Patient-ExamplefrCorePatient001.json</a></td><td><b>This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)</b></td>
    </tr>
 </table>
 <hr/>
