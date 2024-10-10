@@ -1,11 +1,11 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "0892476f-1d63-4d49-910e-b3cf43b3abdc-8",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/0892476f-1d63-4d49-910e-b3cf43b3abdc-8",
+  "id" : "a2b6492f-08dc-43c5-8d40-1e839f7341eb-8",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a2b6492f-08dc-43c5-8d40-1e839f7341eb-8",
   "name" : "UnionTLSVCategoryAndTLSVCategory",
   "title" : "Union of TLSV Categories And TLSV Categories",
   "status" : "draft",
-  "date" : "2024-10-10T08:49:52+00:00",
+  "date" : "2024-10-10T08:54:37+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
