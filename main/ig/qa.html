@@ -47,37 +47,17 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for TLSV</h1>
- <p>Generated Wed Dec 03 10:57:46 UTC 2025, FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/telesurveillance">https://interop.esante.gouv.fr/ig/fhir/telesurveillance</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Wed Dec 03 10:58:00 UTC 2025, FHIR version 4.0.1 for ans.fhir.fr.telesurveillance#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/ig/fhir/telesurveillance">https://interop.esante.gouv.fr/ig/fhir/telesurveillance</a> (<a href="https://interop.esante.gouv.fr/ig/fhir/telesurveillance/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.0.27</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = ans.fhir.fr.telesurveillance, Canonical = https://interop.esante.gouv.fr/ig/fhir/telesurveillance</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Language Info:</td><td>This IG has no language information</td></tr>
  <tr><td>Publication Request:</td><td><table class="grid">
- <tr><td>package-id</d><td>ans.fhir.fr.telesurveillance</td></tr>
- <tr><td>version</d><td>0.1.0</td></tr>
- <tr><td>path</d><td>https://interop.esante.gouv.fr/ig/fhir/telesurveillance/0.1.0</td></tr>
- <tr><td>Pub-Mode</d><td>milestone</td></tr>
- <tr><td>status</d><td>release</td></tr>
- <tr><td>Release-Label</d><td>trial-use</td></tr>
- <tr><td>Sequence (Group)</d><td>trial-use</td></tr>
- <tr><td>desc</d><td>Publication 0.1.0 du guide d'implémentation télésurveillance</td></tr>
- <tr><td>descmd</d><td><p><strong>Release 0.1.0 de l'Implementation Guide télésurveillance.</strong></p>
-<p><a href="https://github.com/ansforge/IG-fhir-telesurveillance/milestone/1?closed=1">Modifications apportées dans cette release</a> :</p>
-<ul>
-<li>Ajout de la dépendance à FrCore <a href="https://github.com/ansforge/IG-fhir-telesurveillance/pull/23">23</a></li>
-</ul>
-</td></tr>
  <tr><td>RelatedIgs</d><td>(None Found)</td></tr>
 </table>
-<ul><li>Error fetching package-list from https://interop.esante.gouv.fr/ig/fhir/telesurveillance: Error parsing JSON source: Unexpected content '<' in json format at Line 1 (path=[null]) <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li>This appears to be the first publication, so first must be true <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li>descmd cannot contain a ' <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li>This IG is not yet published at all, so there must be "first" : true in the publication request <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li>No publication request category found (needed for first publication - consult FHIR product director for a value <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li>No publication request title found (needed for first publication) <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li>No publication request introduction found (needed for first publication) <img src="icon-error.gif" height="16px" width="16px"/></li>
-<li>No publication request ci-build found (needed for first publication) <img src="icon-error.gif" height="16px" width="16px"/></li>
+<ul><li>Version 0.1.0 has already been published <img src="icon-warning.png" height="16px" width="16px"/></li>
+<li>Publication Request is for version v0.1.0 which is already published <img src="icon-error.gif" height="16px" width="16px"/></li>
 </ul>
 </td></tr>
  <tr><td>Supressed Messages:</td><td><a href="#suppressed">19 Suppressed Issues</a>
@@ -438,12 +418,12 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Observation&#8203;.code&#8203;.coding[0]&#8203;.display (l10&#8203;/c4)</b></td><td><b>information</b></td><td><b>'Pain finding at anatomical site' is the default display; the code system http://snomed.info/sct has no Display Names for the language fr-FR</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l41">log</a>, or see <a href="#vmi39" onClick="document.getElementById('vmi39').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">NO_VALID_DISPLAY_FOUND_LANG_NONE</span><div id="vmi39" style="display:none"><br/><pre>0 0 : start
-15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
-15 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-15 0    : 0ms  : Prepare include: "()"
-15 0    : 0ms  : Validate "[http://snomed.info/sct#279001004 ("Pain finding at anatomical site")]"
-15 0    : 0ms  : Check "http://snomed.info/sct#279001004"
-15 0    : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
+0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
+0 0     : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+0 0     : 0ms  : Prepare include: "()"
+0 0     : 0ms  : Validate "[http://snomed.info/sct#279001004 ("Pain finding at anatomical site")]"
+0 0     : 0ms  : Check "http://snomed.info/sct#279001004"
+0 0     : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
@@ -461,32 +441,32 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation&#8203;.code&#8203;.coding[0]&#8203;.display (l20&#8203;/c4)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'weight' for http://loinc.org#29463-7. Valid display is 'Poids corporel [Masse] Patient ; Numérique' (fr-FR) (for the language(s) 'fr-FR')</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l42">log</a>, or see <a href="#vmi41" onClick="document.getElementById('vmi41').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Display_Name_for__should_be_one_of__instead_of</span><div id="vmi41" style="display:none"><br/><pre>0 0 : start
-16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
-16 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-16 0    : 0ms  : Prepare include: "()"
-16 0    : 0ms  : Validate "[http://loinc.org#29463-7 ("weight")]"
-16 0    : 0ms  : Check "http://loinc.org#29463-7"
-16 0    : 0ms  : Using CodeSystem "http://loinc.org|2.81" (content = complete)
+0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
+0 0     : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+0 0     : 0ms  : Prepare include: "()"
+0 0     : 0ms  : Validate "[http://loinc.org#29463-7 ("weight")]"
+0 0     : 0ms  : Check "http://loinc.org#29463-7"
+0 0     : 0ms  : Using CodeSystem "http://loinc.org|2.81" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l34&#8203;/c4)</b></td><td><b>error</b></td><td><b>Unknown code '[kg]' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l14">log</a>, or see <a href="#vmi42" onClick="document.getElementById('vmi42').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unknown_Code_in_Version</span><div id="vmi42" style="display:none"><br/><pre>0 0 : start
-16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
-16 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-16 0    : 0ms  : Prepare include: "()"
-16 0    : 0ms  : Validate "[http://unitsofmeasure.org#[kg] ("")]"
-16 0    : 0ms  : Check "http://unitsofmeasure.org#[kg]"
-16 0    : 0ms  : Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
+0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
+0 0     : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+0 0     : 0ms  : Prepare include: "()"
+0 0     : 0ms  : Validate "[http://unitsofmeasure.org#[kg] ("")]"
+0 0     : 0ms  : Check "http://unitsofmeasure.org#[kg]"
+0 0     : 0ms  : Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l34&#8203;/c4)</b></td><td><b>information</b></td><td><b>Error processing Unit: '[kg]': The unit &quot;[kg]&quot; is unknown at character 1</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l14">log</a>, or see <a href="#vmi43" onClick="document.getElementById('vmi43').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span><div id="vmi43" style="display:none"><br/><pre>0 0 : start
-16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
-16 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-16 0    : 0ms  : Prepare include: "()"
-16 0    : 0ms  : Validate "[http://unitsofmeasure.org#[kg] ("")]"
-16 0    : 0ms  : Check "http://unitsofmeasure.org#[kg]"
-16 0    : 0ms  : Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
+0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
+0 0     : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+0 0     : 0ms  : Prepare include: "()"
+0 0     : 0ms  : Validate "[http://unitsofmeasure.org#[kg] ("")]"
+0 0     : 0ms  : Check "http://unitsofmeasure.org#[kg]"
+0 0     : 0ms  : Using CodeSystem "http://unitsofmeasure.org|2.2" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
@@ -529,12 +509,12 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Observation&#8203;.code&#8203;.coding[0]&#8203;.display (l10&#8203;/c4)</b></td><td><b>information</b></td><td><b>'Tender 28 joint count' is the default display; the code system http://snomed.info/sct has no Display Names for the language fr-FR</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l44">log</a>, or see <a href="#vmi50" onClick="document.getElementById('vmi50').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">NO_VALID_DISPLAY_FOUND_LANG_NONE</span><div id="vmi50" style="display:none"><br/><pre>0 0 : start
-16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
-16 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-16 0    : 0ms  : Prepare include: "()"
-16 0    : 0ms  : Validate "[http://snomed.info/sct#442736000 ("Tender 28 joint count")]"
-16 0    : 0ms  : Check "http://snomed.info/sct#442736000"
-16 0    : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
+0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
+0 0     : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+0 0     : 0ms  : Prepare include: "()"
+0 0     : 0ms  : Validate "[http://snomed.info/sct#442736000 ("Tender 28 joint count")]"
+0 0     : 0ms  : Check "http://snomed.info/sct#442736000"
+0 0     : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
@@ -552,12 +532,12 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Observation&#8203;.code&#8203;.coding[0]&#8203;.display (l10&#8203;/c4)</b></td><td><b>information</b></td><td><b>'Swollen 28 joint count' is the default display; the code system http://snomed.info/sct has no Display Names for the language fr-FR</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l45">log</a>, or see <a href="#vmi52" onClick="document.getElementById('vmi52').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">NO_VALID_DISPLAY_FOUND_LANG_NONE</span><div id="vmi52" style="display:none"><br/><pre>0 0 : start
-15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
-15 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-15 0    : 0ms  : Prepare include: "()"
-15 0    : 0ms  : Validate "[http://snomed.info/sct#442687006 ("Swollen 28 joint count")]"
-15 0    : 0ms  : Check "http://snomed.info/sct#442687006"
-15 0    : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
+0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
+0 0     : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+0 0     : 0ms  : Prepare include: "()"
+0 0     : 0ms  : Validate "[http://snomed.info/sct#442687006 ("Swollen 28 joint count")]"
+0 0     : 0ms  : Check "http://snomed.info/sct#442687006"
+0 0     : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
@@ -575,22 +555,22 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Observation&#8203;.code&#8203;.coding[0]&#8203;.display (l10&#8203;/c4)</b></td><td><b>information</b></td><td><b>'Visual analog scale pain score' is the default display; the code system http://snomed.info/sct has no Display Names for the language fr-FR</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l46">log</a>, or see <a href="#vmi54" onClick="document.getElementById('vmi54').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">NO_VALID_DISPLAY_FOUND_LANG_NONE</span><div id="vmi54" style="display:none"><br/><pre>0 0 : start
-16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
-16 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-16 0    : 0ms  : Prepare include: "()"
-16 0    : 0ms  : Validate "[http://snomed.info/sct#443394008 ("Visual analog scale pain score")]"
-16 0    : 0ms  : Check "http://snomed.info/sct#443394008"
-16 0    : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
+0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
+0 0     : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+0 0     : 0ms  : Prepare include: "()"
+0 0     : 0ms  : Validate "[http://snomed.info/sct#443394008 ("Visual analog scale pain score")]"
+0 0     : 0ms  : Check "http://snomed.info/sct#443394008"
+0 0     : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Observation&#8203;.method&#8203;.coding[0]&#8203;.display (l41&#8203;/c4)</b></td><td><b>information</b></td><td><b>'Assessment using visual analog pain scale' is the default display; the code system http://snomed.info/sct has no Display Names for the language fr-FR</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l47">log</a>, or see <a href="#vmi55" onClick="document.getElementById('vmi55').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">NO_VALID_DISPLAY_FOUND_LANG_NONE</span><div id="vmi55" style="display:none"><br/><pre>0 0 : start
-16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
-16 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-16 0    : 0ms  : Prepare include: "()"
-16 0    : 0ms  : Validate "[http://snomed.info/sct#445719003 ("Assessment using visual analog pain scale")]"
-16 0    : 0ms  : Check "http://snomed.info/sct#445719003"
-16 0    : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
+0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
+0 0     : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+0 0     : 0ms  : Prepare include: "()"
+0 0     : 0ms  : Validate "[http://snomed.info/sct#445719003 ("Assessment using visual analog pain scale")]"
+0 0     : 0ms  : Check "http://snomed.info/sct#445719003"
+0 0     : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">
@@ -618,42 +598,42 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation&#8203;.interpretation[0]&#8203;.coding[0]&#8203;.display (l38&#8203;/c6)</b></td><td><b>warning</b></td><td><b>Wrong Display Name 'Moderate activity' for http://loinc.org#LA9642-5. Valid display is one of  choices: 'Moderate activity' (en-US) (for the language(s) 'fr-FR')</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l49">log</a>, or see <a href="#vmi58" onClick="document.getElementById('vmi58').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Display_Name_for__should_be_one_of__instead_of</span><div id="vmi58" style="display:none"><br/><pre>0 0 : start
-47 47   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1 for validation purposes
-47 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-47 0    : 0ms  : Prepare include: "(http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation)"
-47 0    : 0ms  : CodeSystem found: "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|3.0.0"
-47 0    : 0ms  : Validate "[http://loinc.org#LA9642-5 ("Moderate activity")]"
-47 0    : 0ms  : Check "http://loinc.org#LA9642-5"
+62 62   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1 for validation purposes
+62 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+62 0    : 0ms  : Prepare include: "(http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation)"
+78 16   : 16ms : CodeSystem found: "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|3.0.0"
+78 0    : 16ms : Validate "[http://loinc.org#LA9642-5 ("Moderate activity")]"
+78 0    : 16ms : Check "http://loinc.org#LA9642-5"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Observation&#8203;.method&#8203;.coding[0]&#8203;.display (l48&#8203;/c4)</b></td><td><b>information</b></td><td><b>'Assessment of rheumatoid arthritis' is the default display; the code system http://snomed.info/sct has no Display Names for the language fr-FR</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l50">log</a>, or see <a href="#vmi59" onClick="document.getElementById('vmi59').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">NO_VALID_DISPLAY_FOUND_LANG_NONE</span><div id="vmi59" style="display:none"><br/><pre>0 0 : start
-16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
-16 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-16 0    : 0ms  : Prepare include: "()"
-16 0    : 0ms  : Validate "[http://snomed.info/sct#444009006 ("Assessment of rheumatoid arthritis")]"
-16 0    : 0ms  : Check "http://snomed.info/sct#444009006"
-16 0    : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
+0 0     : 0ms  : Analysing http://hl7.org/fhir/ValueSet/@all for validation purposes
+0 0     : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+0 0     : 0ms  : Prepare include: "()"
+0 0     : 0ms  : Validate "[http://snomed.info/sct#444009006 ("Assessment of rheumatoid arthritis")]"
+0 0     : 0ms  : Check "http://snomed.info/sct#444009006"
+0 0     : 0ms  : Using CodeSystem "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20250201" (content = complete)
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>Observation&#8203;.referenceRange[1]&#8203;.type&#8203;.coding[0]&#8203;.display (l79&#8203;/c8)</b></td><td><b>warning</b></td><td><b>Wrong Display Name 'Low activity' for http://loinc.org#LA28784-9. Valid display is one of  choices: 'Low activity' (en-US) (for the language(s) 'fr-FR')</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l52">log</a>, or see <a href="#vmi60" onClick="document.getElementById('vmi60').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Display_Name_for__should_be_one_of__instead_of</span><div id="vmi60" style="display:none"><br/><pre>0 0 : start
-16 16   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1 for validation purposes
-16 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
-16 0    : 0ms  : Prepare include: "(http://terminology.hl7.org/CodeSystem/referencerange-meaning)"
-16 0    : 0ms  : CodeSystem found: "http://terminology.hl7.org/CodeSystem/referencerange-meaning|1.0.1"
-16 0    : 0ms  : Validate "[http://loinc.org#LA28784-9 ("Low activity")]"
-16 0    : 0ms  : Check "http://loinc.org#LA28784-9"
-</pre></div></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Observation&#8203;.referenceRange[2]&#8203;.type&#8203;.coding[0]&#8203;.display (l96&#8203;/c8)</b></td><td><b>warning</b></td><td><b>Wrong Display Name 'High activity' for http://loinc.org#LA28786-4. Valid display is one of  choices: 'High activity' (en-US) (for the language(s) 'fr-FR')</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l53">log</a>, or see <a href="#vmi61" onClick="document.getElementById('vmi61').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Display_Name_for__should_be_one_of__instead_of</span><div id="vmi61" style="display:none"><br/><pre>0 0 : start
 15 15   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1 for validation purposes
 15 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
 15 0    : 0ms  : Prepare include: "(http://terminology.hl7.org/CodeSystem/referencerange-meaning)"
 15 0    : 0ms  : CodeSystem found: "http://terminology.hl7.org/CodeSystem/referencerange-meaning|1.0.1"
-15 0    : 0ms  : Validate "[http://loinc.org#LA28786-4 ("High activity")]"
-15 0    : 0ms  : Check "http://loinc.org#LA28786-4"
+15 0    : 0ms  : Validate "[http://loinc.org#LA28784-9 ("Low activity")]"
+15 0    : 0ms  : Check "http://loinc.org#LA28784-9"
+</pre></div></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Observation&#8203;.referenceRange[2]&#8203;.type&#8203;.coding[0]&#8203;.display (l96&#8203;/c8)</b></td><td><b>warning</b></td><td><b>Wrong Display Name 'High activity' for http://loinc.org#LA28786-4. Valid display is one of  choices: 'High activity' (en-US) (for the language(s) 'fr-FR')</b> (from <a href="qa-txservers.html#https://tx.fhir.org/r4">https://tx.fhir.org/r4</a>, see <a href="qa-tx.html#l53">log</a>, or see <a href="#vmi61" onClick="document.getElementById('vmi61').style.display='block'">the servers logic</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Display_Name_for__should_be_one_of__instead_of</span><div id="vmi61" style="display:none"><br/><pre>0 0 : start
+31 31   : 0ms  : Analysing http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1 for validation purposes
+31 0    : 0ms  : Parameters: disp-lang=fr-FR, default-to-latest
+31 0    : 0ms  : Prepare include: "(http://terminology.hl7.org/CodeSystem/referencerange-meaning)"
+31 0    : 0ms  : CodeSystem found: "http://terminology.hl7.org/CodeSystem/referencerange-meaning|1.0.1"
+31 0    : 0ms  : Validate "[http://loinc.org#LA28786-4 ("High activity")]"
+31 0    : 0ms  : Check "http://loinc.org#LA28786-4"
 </pre></div></td>
    </tr>
    <tr style="background-color: #ffcccc">

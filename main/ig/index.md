@@ -69,7 +69,7 @@ Ce guide d’implémentation est issu du [GT Télésurveillance](https://groups.
   "name" : "TLSV",
   "title" : "Guide d'implémentation de la télésurveillance",
   "status" : "active",
-  "date" : "2025-12-03T10:56:11+00:00",
+  "date" : "2025-12-03T10:56:15+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
