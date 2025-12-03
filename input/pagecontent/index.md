@@ -13,6 +13,18 @@
 </p>
 </blockquote> -->
 
+{% if site.data.info.releaselabel == 'ci-build' %}
+<div style="width: 65%">
+<blockquote class="stu-note">
+<p>
+  <b>Attention !</b> Cette version du guide d'implémentation est en intégration continue (version de travail) et est soumise à des changements réguliers. La version officielle est accessible à l'adresse https://interop.esante.gouv.fr/ig/fhir/annuaire</b>
+</p>
+</blockquote>
+</div>
+{% endif %}
+
+
+
 <blockquote class="stu-note">
 <p>
     Ce guide d'implémentation a été fait en collaboration avec InteropSanté et est hors ci-sis.
