@@ -4,25 +4,17 @@
 
 <B>Bienvenue dans le guide d'implémentation des réponses aux questionnaires au format FHIR.</B>
 
-<!-- <blockquote class="stu-note">
-<p>
-  <b>Attention !</b> Cet Implementation Guide est une version en concertation, elle n'est pas en version courante et risque de changer avant publication officielle. La version courante sera accessible ici : https://interop.esante.gouv.fr/ig/fhir/telesurveillance
-</p>
-<p>
-    Ce guide d'implémentation a été fait en collaboration avec InteropSanté et est hors ci-sis.
-</p>
-</blockquote> -->
+
 
 {% if site.data.info.releaselabel == 'ci-build' %}
 <div style="width: 65%">
 <blockquote class="stu-note">
 <p>
-  <b>Attention !</b> Cette version du guide d'implémentation est en intégration continue (version de travail) et est soumise à des changements réguliers. La version officielle est accessible à l'adresse https://interop.esante.gouv.fr/ig/fhir/telesurveillance</b>
+  <b>Attention !</b> Cette version du guide d'implémentation est en intégration continue (version de travail) et est soumise à des changements réguliers. La version officielle est accessible à l'adresse https://interop.esante.gouv.fr/ig/fhir/telesurveillance
 </p>
 </blockquote>
 </div>
 {% endif %}
-
 
 
 <blockquote class="stu-note">
