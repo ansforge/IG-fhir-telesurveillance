@@ -13,39 +13,45 @@
   fhir:meta [
      fhir:profile ( [
        fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
-       fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+       fhir:l <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation TLSVObservationExample01</b></p><a name=\"TLSVObservationExample01\"> </a><a name=\"hcTLSVObservationExample01\"> </a><a name=\"TLSVObservationExample01-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-tlsv-observation.html\">Profil Observation pour la telesurveillance</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 65502-7}\">Falling asleep in past 7 days [QIDS]</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2023-10-09</p><p><b>performer</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>value</b>: <span title=\"Codes:{http://loinc.org LA14809-0}\">I take at least 30 minutes to fall asleep, less than half the time</span></p><p><b>device</b>: <a href=\"Device-phd-74E8FFFEFF051C00.html\">Device : identifier = SYSID,BTMAC; manufacturer = Nonin_Medical_Inc.; serialNumber = 501900083; modelNumber = Model 3230; type = MDC_MOC_VMS_MDS_SIMP</a></p></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Observation TLSVObservationExample01</b></p><a name=\"TLSVObservationExample01\"> </a><a name=\"hcTLSVObservationExample01\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-tlsv-observation.html\">Profil Observation pour la telesurveillance</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes :{http://loinc.org 65502-7}\">Falling asleep in past 7 days [QIDS]</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2023-10-09</p><p><b>performer</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>value</b>: <span title=\"Codes :{http://loinc.org LA14809-0}\">I take at least 30 minutes to fall asleep, less than half the time</span></p><p><b>device</b>: <a href=\"Device-phd-74E8FFFEFF051C00.html\">Device : identifier = SYSID,BTMAC; manufacturer = Nonin_Medical_Inc.; serialNumber = 501900083; modelNumber = Model 3230; type = MDC_MOC_VMS_MDS_SIMP</a></p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:status [ fhir:v "final"] ; # 
   fhir:category ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
+       ] ;
        fhir:code [ fhir:v "survey" ]
      ] )
   ] ) ; # 
   fhir:code [
      fhir:coding ( [
        a loinc:65502-7 ;
-       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
        fhir:code [ fhir:v "65502-7" ] ;
        fhir:display [ fhir:v "Falling asleep in past 7 days [QIDS]" ]
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
      fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ] ;
      fhir:display [ fhir:v "Pierre Durand" ]
   ] ; # 
   fhir:effective [
-     a fhir:dateTime ;
+     a fhir:DateTime ;
      fhir:v "2023-10-09"^^xsd:date
   ] ; # 
   fhir:performer ( [
-     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
      fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ] ;
      fhir:display [ fhir:v "Pierre Durand" ]
   ] ) ; # 
@@ -53,12 +59,15 @@
      a fhir:CodeableConcept ;
      fhir:coding ( [
        a loinc:LA14809-0 ;
-       fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "http://loinc.org"^^xsd:anyURI ;
+         fhir:l <http://loinc.org>
+       ] ;
        fhir:code [ fhir:v "LA14809-0" ]
      ] )
   ] ; # 
   fhir:device [
-     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Device/phd-74E8FFFEFF051C00> ;
+     fhir:l <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Device/phd-74E8FFFEFF051C00> ;
      fhir:reference [ fhir:v "Device/phd-74E8FFFEFF051C00" ]
   ] . # 
 

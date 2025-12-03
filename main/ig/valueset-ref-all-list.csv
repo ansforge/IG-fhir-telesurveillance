@@ -1,4 +1,4 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
 http://hl7.org/fhir/ValueSet/body-site,4.0.1,draft,"2.16.840.1.113883.4.642.3.141",SNOMEDCTBodyStructures,SNOMED CT Body Structures,"This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).","StructureDefinition/tlsv-observation","SCT"
 http://hl7.org/fhir/ValueSet/data-absent-reason,4.0.1,active,"2.16.840.1.113883.4.642.3.5",DataAbsentReason,DataAbsentReason,"Used to specify why the normally expected content of the data element is missing.","StructureDefinition/tlsv-observation","THO"
 http://hl7.org/fhir/ValueSet/languages,4.0.1,draft,"2.16.840.1.113883.4.642.3.20",CommonLanguages,Common Languages,"This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)","StructureDefinition/tlsv-observation","hl7.terminology.r4"
