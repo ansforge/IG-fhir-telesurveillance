@@ -16,6 +16,8 @@
 
 **Bienvenue dans le guide d’implémentation des réponses aux questionnaires au format FHIR.**
 
+> **Attention !**Cette version du guide d'implémentation est en intégration continue (version de travail) et est soumise à des changements réguliers. La version officielle est accessible à l'adresse https://interop.esante.gouv.fr/ig/fhir/telesurveillance</b>
+
 > Ce guide d'implémentation a été fait en collaboration avec InteropSanté et est hors ci-sis.
 
 Ce guide a été conçu pour faciliter l’échange de données entre les solutions de télésurveillance et les systèmes d’informations hospitaliers (Dossier Patient Informatisé et Entrepôt de Données de Santé notamment).
@@ -69,7 +71,7 @@ Ce guide d’implémentation est issu du [GT Télésurveillance](https://groups.
   "name" : "TLSV",
   "title" : "Guide d'implémentation de la télésurveillance",
   "status" : "active",
-  "date" : "2025-12-03T10:56:15+00:00",
+  "date" : "2025-12-03T10:56:47+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -151,7 +153,7 @@ Ce guide d’implémentation est issu du [GT Télésurveillance](https://groups.
           },
           {
             "url" : "value",
-            "valueString" : "trial-use"
+            "valueString" : "ci-build"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -493,7 +495,7 @@ Ce guide d’implémentation est issu du [GT Télésurveillance](https://groups.
           },
           {
             "url" : "value",
-            "valueString" : "trial-use"
+            "valueString" : "ci-build"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"

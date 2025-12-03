@@ -10,7 +10,7 @@
   "name" : "TLSV",
   "title" : "Guide d'implémentation de la télésurveillance",
   "status" : "active",
-  "date" : "2025-12-03T10:56:15+00:00",
+  "date" : "2025-12-03T10:56:47+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -74,7 +74,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "trial-use"
+        "valueString" : "ci-build"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -364,7 +364,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "trial-use"
+        "valueString" : "ci-build"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
