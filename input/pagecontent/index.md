@@ -17,7 +17,7 @@
 <div style="width: 65%">
 <blockquote class="stu-note">
 <p>
-  <b>Attention !</b> Cette version du guide d'implémentation est en intégration continue (version de travail) et est soumise à des changements réguliers. La version officielle est accessible à l'adresse https://interop.esante.gouv.fr/ig/fhir/annuaire</b>
+  <b>Attention !</b> Cette version du guide d'implémentation est en intégration continue (version de travail) et est soumise à des changements réguliers. La version officielle est accessible à l'adresse https://interop.esante.gouv.fr/ig/fhir/telesurveillance</b>
 </p>
 </blockquote>
 </div>
