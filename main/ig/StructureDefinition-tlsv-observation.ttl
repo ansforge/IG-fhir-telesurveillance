@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "TLSVObservation"] ; # 
   fhir:title [ fhir:v "Profil Observation pour la telesurveillance"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-12-03T10:56:47+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-03T11:18:09+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

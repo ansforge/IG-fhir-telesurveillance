@@ -57,7 +57,7 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
   "title" : "TLSV Categories",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-03T10:56:47+00:00",
+  "date" : "2025-12-03T11:18:09+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
