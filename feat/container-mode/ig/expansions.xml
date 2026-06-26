@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="95cbe6d3-d001-4de5-9ea4-51ff2d3b3e80"/>
+  <meta>
+    <lastUpdated value="2026-06-26T11:48:55.861+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion effectuée en interne basée sur 
+              <a href="http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html">codesystem Observation Category Codes v2.0.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/observation-category|2.0.0" title="Cliquer pour copier l'URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>Ce jeu de valeur (ValueSet) contient 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>Système</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Affichage (fr)</b>
+                </td>
+                <td>
+                  <b>Définition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/observation-category-survey"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/observation-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html#observation-category-survey">survey</a>
+                </td>
+                <td/>
+                <td>Observations from survey instruments (e.g., patient experience surveys), questionnaires, forms (e.g., patient admission forms) and assessment tools (e.g., Apgar Scores, Montreal Cognitive Assessment [MoCA]).</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;survey&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;survey&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/observation-category-vital-signs"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/observation-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html#observation-category-vital-signs">vital-signs</a>
+                </td>
+                <td/>
+                <td>Clinical observations measure the body's basic functions such as blood pressure, heart rate, respiratory rate, height, weight, body mass index, head circumference, pulse oximetry, temperature, and body surface area.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;vital-signs&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;vital-signs&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://terminology.hl7.org/CodeSystem/observation-category-activity"> </a>
+                  <code>http://terminology.hl7.org/CodeSystem/observation-category</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html#observation-category-activity">activity</a>
+                </td>
+                <td/>
+                <td>Observations that measure or record any bodily activity that enhances or maintains physical fitness and overall health and wellness.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;, &quot;version&quot;: &quot;2.0.0&quot;, &quot;code&quot;: &quot;activity&quot;}" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://terminology.hl7.org/CodeSystem/observation-category&quot;&gt;&lt;version value=&quot;2.0.0&quot;&gt;&lt;code value=&quot;activity&quot;&gt;&lt;/coding&gt;" title="Cliquer pour copier en tant que Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory"/>
+        <version value="0.1.0"/>
+        <name value="TLSVCategory"/>
+        <title value="TLSV Categories"/>
+        <status value="draft"/>
+        <experimental value="false"/>
+        <date value="2026-06-26T11:48:55+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="FR"/>
+            <display value="FRANCE"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:bd6f4ff4-49e7-4b57-9266-94b7df0ba840"/>
+          <timestamp value="2026-06-26T11:50:07+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="fr"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/observation-category|2.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="survey"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="vital-signs"/>
+          </contains>
+          <contains>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="activity"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

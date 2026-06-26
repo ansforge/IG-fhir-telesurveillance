@@ -1,0 +1,109 @@
+TLSV : Validation Results
+=========================================
+
+err = 24, warn = 27, info = 21
+$--
+Generated $--. FHIR version $-- for ans.fhir.fr.telesurveillance#$-- (canonical = https://interop.esante.gouv.fr/ig/fhir/telesurveillance)
+ Build Errors : 0 / 14 / 0
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Device-phd-74E8FFFEFF051C00 : 5 / 5 / 1
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance : 1 / 1 / 2
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample01 : 0 / 0 / 2
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample02 : 1 / 3 / 1
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample03 : 1 / 0 / 2
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample04 : 6 / 0 / 4
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExample05 : 1 / 0 / 1
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExampleDAS28-01 : 1 / 0 / 2
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExampleDAS28-02 : 1 / 0 / 2
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExampleDAS28-03 : 1 / 0 / 3
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Observation-TLSVObservationExampleDAS28-04 : 1 / 1 / 6
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/Patient-ExamplefrCorePatient001 : 1 / 2 / 4
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/StructureDefinition-tlsv-observation : 1 / 0 / 3
+ /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/ValueSet-TLSVCategory : 3 / 1 / 3
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/ExamplefrCorePatient001.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/TLSVObservationExample01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/TLSVObservationExample02.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/TLSVObservationExample03.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/TLSVObservationExample04.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/TLSVObservationExample05.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/TLSVObservationExampleDAS28-01.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/TLSVObservationExampleDAS28-02.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/TLSVObservationExampleDAS28-03.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/TLSVObservationExampleDAS28-04.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Device/phd-74E8FFFEFF051C00.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Device-phd-74E8FFFEFF051C00.json ==
+ERROR: Device/phd-74E8FFFEFF051C00: Device.meta.profile[0]: A definition could not be found for Canonical URL 'http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice'
+WARNING: Device/phd-74E8FFFEFF051C00: Device.identifier[0].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers' could not be found, so the code cannot be validated
+ERROR: Device/phd-74E8FFFEFF051C00: Device.identifier[0].type.coding[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers'
+WARNING: Device/phd-74E8FFFEFF051C00: Device.identifier[1].type.coding[0]: A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers' could not be found, so the code cannot be validated
+ERROR: Device/phd-74E8FFFEFF051C00: Device.identifier[1].type.coding[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaDeviceIdentifiers'
+WARNING: Device/phd-74E8FFFEFF051C00: Device.property[0].valueCode[0].coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaPHD' could not be found, so the code cannot be validated
+ERROR: Device/phd-74E8FFFEFF051C00: Device.property[0].valueCode[0].coding[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ContinuaPHD'
+WARNING: Device/phd-74E8FFFEFF051C00: Device.property[1].type.coding[0].system: A definition for CodeSystem 'http://hl7.org/fhir/uv/phd/CodeSystem/ASN1ToHL7' could not be found, so the code cannot be validated
+ERROR: Device/phd-74E8FFFEFF051C00: Device.property[1].type.coding[0].system: No definition could be found for URL value 'http://hl7.org/fhir/uv/phd/CodeSystem/ASN1ToHL7'
+WARNING: Device/phd-74E8FFFEFF051C00: Device.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/phd/StructureDefinition/PhdDevice' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ImplementationGuide-ans.fhir.fr.telesurveillance.json ==
+ERROR: ImplementationGuide/ans.fhir.fr.telesurveillance: ImplementationGuide.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr-FR')
+WARNING: ImplementationGuide/ans.fhir.fr.telesurveillance: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.fr.core#2.1.0 released on 2024-09-04, but the most recent appropriate version is 2.2.0. This reference is getting old and the more recent version should be considered
+INFORMATION: Resource: The resource ImplementationGuide/ans.fhir.fr.telesurveillance could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/Observation-TLSVObservationExample01.json ==
+INFORMATION: Observation/TLSVObservationExample01: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#65502-7 for language(s) 'fr-FR'. The display is 'Falling asleep in past 7 days [QIDS]' which is a valid display for the default language
+== fsh-generated/resources/Observation-TLSVObservationExample02.json ==
+WARNING: Observation/TLSVObservationExample02: Observation.code.coding[0].code: Unknown Code 'C180126' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version 'null' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+WARNING: Observation/TLSVObservationExample02: Observation.value.ofType(CodeableConcept).coding[0].code: Unknown Code 'C70667' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version 'null' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+WARNING: Observation/TLSVObservationExample02: Observation.interpretation[0].coding[0].code: Unknown Code 'C70667' in the CodeSystem 'http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl' version 'null' - note that the code system is labeled as a fragment, so the code may be valid in some other fragment
+ERROR: Observation/TLSVObservationExample02: Observation.derivedFrom[0]: Unable to resolve resource with reference 'QuestionnaireResponse001'
+== fsh-generated/resources/Observation-TLSVObservationExample03.json ==
+INFORMATION: Observation/TLSVObservationExample03: Observation.code.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#279001004 for language(s) 'fr-FR'. The display is 'Pain finding at anatomical site' which is a valid display for the default language
+ERROR: Observation/TLSVObservationExample03: Observation.derivedFrom[0]: Unable to resolve resource with reference 'QuestionnaireResponse001'
+== fsh-generated/resources/Observation-TLSVObservationExample04.json ==
+ERROR: Observation/TLSVObservationExample04: Observation.code.coding[0].display: Wrong Display Name 'weight' for http://loinc.org#29463-7. Valid display is 'Poids corporel [Masse] Patient ; Numérique' (fr-FR) (for the language(s) 'fr-FR')
+ERROR: Observation/TLSVObservationExample04: Observation.value.ofType(Quantity).code: Unknown code '[kg]' in the CodeSystem 'http://unitsofmeasure.org' version '2.2'
+INFORMATION: Observation/TLSVObservationExample04: Observation.value.ofType(Quantity).code: Error processing unit '[kg]': The unit '[kg]' is unknown at character 1
+ERROR: Observation/TLSVObservationExample04: Observation.derivedFrom[0]: Unable to resolve resource with reference 'QuestionnaireResponse001'
+INFORMATION: Observation/TLSVObservationExample04: Observation.category[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1 (this may not be a problem, but you should check that it's not intended to match a slice)
+ERROR: Observation/TLSVObservationExample04: Observation: Slice 'Observation.category:VSCat': a matching slice is required, but not found (from http://hl7.org/fhir/StructureDefinition/bodyweight|4.0.1). Note that other slices are allowed in addition to this required slice
+ERROR: Observation/TLSVObservationExample04: Observation.value.ofType(Quantity).code: The System URI could not be determined for the code '[kg]' in the ValueSet 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1'
+ERROR: Observation/TLSVObservationExample04: Observation.value.ofType(Quantity).code: The value provided ('[kg]') was not found in the value set 'Body Weight Units' (http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code '[kg]' in the ValueSet 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1'; The provided code '#[kg]' was not found in the value set 'http://hl7.org/fhir/ValueSet/ucum-bodyweight|4.0.1')
+== fsh-generated/resources/Observation-TLSVObservationExample05.json ==
+ERROR: Observation/TLSVObservationExample05: Observation.derivedFrom[0]: Unable to resolve resource with reference 'QuestionnaireResponse001'
+== fsh-generated/resources/Observation-TLSVObservationExampleDAS28-01.json ==
+INFORMATION: Observation/TLSVObservationExampleDAS28-01: Observation.code.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#442736000 for language(s) 'fr-FR'. The display is 'Tender 28 joint count' which is a valid display for the default language
+ERROR: Observation/TLSVObservationExampleDAS28-01: Observation.derivedFrom[0]: Unable to resolve resource with reference 'https://somefhirserver.fr/QuestionResponse/4365462658738'
+== fsh-generated/resources/Observation-TLSVObservationExampleDAS28-02.json ==
+INFORMATION: Observation/TLSVObservationExampleDAS28-02: Observation.code.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#442687006 for language(s) 'fr-FR'. The display is 'Swollen 28 joint count' which is a valid display for the default language
+ERROR: Observation/TLSVObservationExampleDAS28-02: Observation.derivedFrom[0]: Unable to resolve resource with reference 'https://somefhirserver.fr/QuestionResponse/4365462658738'
+== fsh-generated/resources/Observation-TLSVObservationExampleDAS28-03.json ==
+INFORMATION: Observation/TLSVObservationExampleDAS28-03: Observation.code.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#443394008 for language(s) 'fr-FR'. The display is 'Visual analog scale pain score' which is a valid display for the default language
+INFORMATION: Observation/TLSVObservationExampleDAS28-03: Observation.method.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#445719003 for language(s) 'fr-FR'. The display is 'Assessment using visual analog pain scale' which is a valid display for the default language
+ERROR: Observation/TLSVObservationExampleDAS28-03: Observation.derivedFrom[0]: Unable to resolve resource with reference 'https://somefhirserver.fr/QuestionResponse/4365462658738'
+== fsh-generated/resources/Observation-TLSVObservationExampleDAS28-04.json ==
+INFORMATION: Observation/TLSVObservationExampleDAS28-04: Observation.code.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#441870009 for language(s) 'fr-FR'. The display is 'Disease activity score using 28 joint count' which is a valid display for the default language
+INFORMATION: Observation/TLSVObservationExampleDAS28-04: Observation.method.coding[0].display: There are no valid display names found for the code http://snomed.info/sct#444009006 for language(s) 'fr-FR'. The display is 'Assessment of rheumatoid arthritis' which is a valid display for the default language
+INFORMATION: Observation/TLSVObservationExampleDAS28-04: Observation.referenceRange[0].type: None of the codings provided are in the value set 'Observation Reference Range Meaning Codes' (http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1), and a coding is recommended to come from this value set (codes = http://snomed.info/sct#277022003)
+INFORMATION: Observation/TLSVObservationExampleDAS28-04: Observation.referenceRange[1].type: None of the codings provided are in the value set 'Observation Reference Range Meaning Codes' (http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1), and a coding is recommended to come from this value set (codes = http://loinc.org#LA28784-9)
+INFORMATION: Observation/TLSVObservationExampleDAS28-04: Observation.referenceRange[2].type: None of the codings provided are in the value set 'Observation Reference Range Meaning Codes' (http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1), and a coding is recommended to come from this value set (codes = http://loinc.org#LA28786-4)
+ERROR: Observation/TLSVObservationExampleDAS28-04: Observation.derivedFrom[3]: Unable to resolve resource with reference 'https://somefhirserver.fr/Observation/9548722577657'
+WARNING: Observation/TLSVObservationExampleDAS28-04: Observation: Best Practice Recommendation: In general, all observations should have a performer
+== fsh-generated/resources/Patient-ExamplefrCorePatient001.json ==
+INFORMATION: Patient/ExamplefrCorePatient001: Patient.meta.profile[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient-ins|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Patient/ExamplefrCorePatient001: Patient.extension[0].extension[0].value.ofType(Coding): Reference to draft CodeSystem https://hl7.fr/ig/fhir/core/CodeSystem/fr-core-cs-v2-0445|2.1.0
+WARNING: Patient/ExamplefrCorePatient001: Patient.extension[1].value.ofType(Address).extension[0].value.ofType(Coding).system: A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+ERROR: Patient/ExamplefrCorePatient001: Patient.extension[1].value.ofType(Address).extension[0].value.ofType(Coding): The code provided (https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#01006) was not found in the value set 'FR Core ValueSet INSEE code' (https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0), and a code from this value set is required: The provided code 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune#01006' was not found in the value set 'https://hl7.fr/ig/fhir/core/ValueSet/fr-core-vs-insee-code|2.1.0'; A definition for CodeSystem 'https://mos.esante.gouv.fr/NOS/TRE_R13-Commune/FHIR/TRE-R13-Commune' could not be found, so the code cannot be validated
+WARNING: Patient/ExamplefrCorePatient001: Patient.identifier[0].system: No definition could be found for URL value 'urn:oid:1.2.250.1.213.1.4.8'
+INFORMATION: Patient/ExamplefrCorePatient001: Patient.name[0].extension[0]: This element does not match any known slice defined in the profile https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-human-name|2.1.0 (this may not be a problem, but you should check that it's not intended to match a slice)
+== fsh-generated/resources/StructureDefinition-tlsv-observation.json ==
+ERROR: StructureDefinition/tlsv-observation: StructureDefinition.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr-FR')
+INFORMATION: StructureDefinition/tlsv-observation: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 is deprecated with the note: 'Use additionalBinding extension or element instead'
+INFORMATION: Resource: The resource StructureDefinition/tlsv-observation could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/ValueSet-TLSVCategory.json ==
+ERROR: ValueSet.where(url = 'https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory'): Conformance resource /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/ValueSet-TLSVCategory.json - the canonical URL (https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TLSVCategory) does not match the URL (https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory). Use the special-url parameter if you really mean for it not to match
+INFORMATION: ValueSet.compose.include[0]: Pinned the version of http://terminology.hl7.org/CodeSystem/observation-category to 2.0.0 from choices of 1.0.1 (hl7.terminology.r4#6.0.2), 2.0.0 (hl7.terminology.r4#7.2.0)
+ERROR: ValueSet/TLSVCategory: ValueSet.jurisdiction[0].coding[0].display: Wrong Display Name 'FRANCE' for urn:iso:std:iso:3166#FR. Valid display is 'France (la)' (fr) (for the language(s) 'fr-FR')
+INFORMATION: ValueSet/TLSVCategory: ValueSet.compose.include[0]: This include has some concepts with displays and some without - check that this is what is intended
+WARNING: Resource: The resource ValueSet/TLSVCategory should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+ERROR: /__w/IG-fhir-telesurveillance/IG-fhir-telesurveillance/igSource/fsh-generated/resources/ValueSet-TLSVCategory: URL Mismatch https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TLSVCategory vs https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory
