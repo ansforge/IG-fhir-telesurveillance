@@ -1,6 +1,5 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -8,57 +7,62 @@
 
 <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TLSVCategory> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "TLSVCategory"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs TLSVCategory</b></p><a name=\"TLSVCategory\"> </a><a name=\"hcTLSVCategory\"> </a><ul><li>Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans <a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-observation-category.html\"><code>http://terminology.hl7.org/CodeSystem/observation-category</code></a><span title=\"La version nest pas explicitement indiquée, ce qui signifie quelle est fixée à 2.0.0, la version trouvée via les références de package\"> version ?2.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-observation-category.html#observation-category-survey\">survey</a></td><td>Survey</td><td>Observations from survey instruments (e.g., patient experience surveys), questionnaires, forms (e.g., patient admission forms) and assessment tools (e.g., Apgar Scores, Montreal Cognitive Assessment [MoCA]).</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-observation-category.html#observation-category-vital-signs\">vital-signs</a></td><td style=\"color: #cccccc\">Vital Signs</td><td>Clinical observations measure the body's basic functions such as blood pressure, heart rate, respiratory rate, height, weight, body mass index, head circumference, pulse oximetry, temperature, and body surface area.</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.0.0/CodeSystem-observation-category.html#observation-category-activity\">activity</a></td><td>Activity</td><td>Observations that measure or record any bodily activity that enhances or maintains physical fitness and overall health and wellness.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:url [
-     fhir:v "https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory"^^xsd:anyURI ;
-     fhir:l <https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory>
-  ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "TLSVCategory"] ; # 
-  fhir:title [ fhir:v "TLSV Categories"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-12-03T11:18:09+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "ANS"] ; # 
-  fhir:contact ( [
-     fhir:name [ fhir:v "ANS" ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "https://esante.gouv.fr" ]
-     ] )
-  ] ) ; # 
-  fhir:description [ fhir:v "Liste des codes autorisés dans category dans le cadre du profil TLSVObservation"] ; # 
-  fhir:jurisdiction ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
-         fhir:l <urn:iso:std:iso:3166>
-       ] ;
-       fhir:code [ fhir:v "FR" ] ;
-       fhir:display [ fhir:v "FRANCE" ]
-     ] )
-  ] ) ; # 
-  fhir:compose [
-     fhir:include ( [
-       fhir:system [
-         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
-       ] ;
-       fhir:concept ( [
-         fhir:code [ fhir:v "survey" ] ;
-         fhir:display [ fhir:v "Survey" ]
-       ] [
-         fhir:code [ fhir:v "vital-signs" ]
-       ] [
-         fhir:code [ fhir:v "activity" ] ;
-         fhir:display [ fhir:v "Activity" ]
-       ] )
-     ] )
-  ] . # 
+  fhir:Resource.id [ fhir:value "TLSVCategory"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs TLSVCategory</b></p><a name=\"TLSVCategory\"> </a><a name=\"hcTLSVCategory\"> </a><ul><li>Include ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html\"><code>http://terminology.hl7.org/CodeSystem/observation-category</code></a><span title=\"La version est explicitement indiquée comme étant 2.0.0\"> version ?2.0.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html#observation-category-survey\">survey</a></td><td>Survey</td><td>Observations from survey instruments (e.g., patient experience surveys), questionnaires, forms (e.g., patient admission forms) and assessment tools (e.g., Apgar Scores, Montreal Cognitive Assessment [MoCA]).</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html#observation-category-vital-signs\">vital-signs</a></td><td style=\"color: #cccccc\">Vital Signs</td><td>Clinical observations measure the body's basic functions such as blood pressure, heart rate, respiratory rate, height, weight, body mass index, head circumference, pulse oximetry, temperature, and body surface area.</td></tr><tr><td><a href=\"http://terminology.hl7.org/7.2.0/CodeSystem-observation-category.html#observation-category-activity\">activity</a></td><td>Activity</td><td>Observations that measure or record any bodily activity that enhances or maintains physical fitness and overall health and wellness.</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory"] ;
+  fhir:ValueSet.version [ fhir:value "0.1.0"] ;
+  fhir:ValueSet.name [ fhir:value "TLSVCategory"] ;
+  fhir:ValueSet.title [ fhir:value "TLSV Categories"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:ValueSet.date [ fhir:value "2026-06-26T11:58:36+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "ANS"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "ANS" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://esante.gouv.fr" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Liste des codes autorisés dans category dans le cadre du profil TLSVObservation"] ;
+  fhir:ValueSet.jurisdiction [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "FR" ] ;
+       fhir:Coding.display [ fhir:value "FRANCE" ]
+     ]
+  ] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ] ;
+       fhir:ValueSet.compose.include.version [ fhir:value "2.0.0" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "survey" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Survey" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "vital-signs" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "activity" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Activity" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/telesurveillance/ValueSet/TLSVCategory.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

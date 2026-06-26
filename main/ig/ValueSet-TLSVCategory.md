@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/ig/fhir/tlsv/ValueSet/TLSVCategory | *Version*:0.1.0 |
-| Draft as of 2025-12-03 | *Computable Name*:TLSVCategory |
+| Draft as of 2026-06-26 | *Computable Name*:TLSVCategory |
 
  
 Liste des codes autorisés dans category dans le cadre du profil TLSVObservation 
@@ -20,15 +20,9 @@ Liste des codes autorisés dans category dans le cadre du profil TLSVObservation
 
 ### Définition logique (CLD)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/observation-category`](http://terminology.hl7.org/7.0.0/CodeSystem-observation-category.html)version 📦2.0.0
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem Observation Category Codes v2.0.0 (CodeSystem)](http://terminology.hl7.org/7.0.0/CodeSystem-observation-category.html)
-
-Ce jeu de valeur (ValueSet) contient 3 concepts
 
 -------
 
@@ -57,50 +51,39 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
   "title" : "TLSV Categories",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2025-12-03T11:18:09+00:00",
+  "date" : "2026-06-26T11:58:36+00:00",
   "publisher" : "ANS",
-  "contact" : [
-    {
-      "name" : "ANS",
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://esante.gouv.fr"
-        }
-      ]
-    }
-  ],
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
   "description" : "Liste des codes autorisés dans category dans le cadre du profil TLSVObservation",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR",
-          "display" : "FRANCE"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "FRANCE"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "version" : "2.0.0",
+      "concept" : [{
+        "code" : "survey",
+        "display" : "Survey"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-        "concept" : [
-          {
-            "code" : "survey",
-            "display" : "Survey"
-          },
-          {
-            "code" : "vital-signs"
-          },
-          {
-            "code" : "activity",
-            "display" : "Activity"
-          }
-        ]
-      }
-    ]
+        "code" : "vital-signs"
+      },
+      {
+        "code" : "activity",
+        "display" : "Activity"
+      }]
+    }]
   }
 }
 

@@ -3,9 +3,9 @@
 ## Pages
 
 * [Accueil](index.md)
-* [Artifacts Summary](artifacts.md)
-* [Autres Ressources](autres_ressources.md)
 * [Téléchargements et usages](downloads.md)
+* [Autres Ressources](autres_ressources.md)
+* [Artifacts Summary](artifacts.md)
 
 ## Resources
 

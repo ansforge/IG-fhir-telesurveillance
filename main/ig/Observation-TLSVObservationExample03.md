@@ -35,29 +35,21 @@ Profil: [Profil Observation pour la telesurveillance](StructureDefinition-tlsv-o
   "resourceType" : "Observation",
   "id" : "TLSVObservationExample03",
   "meta" : {
-    "profile" : [
-      "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
-    ]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"]
   },
   "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "survey"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "survey"
+    }]
+  }],
   "code" : {
-    "coding" : [
-      {
-        "system" : "http://snomed.info/sct",
-        "code" : "279001004",
-        "display" : "Pain finding at anatomical site"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "279001004",
+      "display" : "Pain finding at anatomical site"
+    }]
   },
   "subject" : {
     "reference" : "Patient/ExamplefrCorePatient001",
@@ -67,22 +59,18 @@ Profil: [Profil Observation pour la telesurveillance](StructureDefinition-tlsv-o
     "start" : "2023-10-09",
     "end" : "2023-10-15"
   },
-  "performer" : [
-    {
-      "reference" : "Patient/ExamplefrCorePatient001",
-      "display" : "Pierre Durand"
-    }
-  ],
+  "performer" : [{
+    "reference" : "Patient/ExamplefrCorePatient001",
+    "display" : "Pierre Durand"
+  }],
   "valueString" : "J'ai pris un anti-douleur",
   "device" : {
     "reference" : "Device/phd-74E8FFFEFF051C00"
   },
-  "derivedFrom" : [
-    {
-      "reference" : "QuestionnaireResponse001",
-      "display" : "QuestionnaireResponse001"
-    }
-  ]
+  "derivedFrom" : [{
+    "reference" : "QuestionnaireResponse001",
+    "display" : "QuestionnaireResponse001"
+  }]
 }
 
 ```

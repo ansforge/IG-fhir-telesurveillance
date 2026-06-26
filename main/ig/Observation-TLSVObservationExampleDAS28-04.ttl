@@ -1,7 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
-@prefix loinc: <https://loinc.org/rdf/> .
+@prefix loinc: <http://loinc.org/rdf#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sct: <http://snomed.info/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -10,138 +9,135 @@
 
 <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-04> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "TLSVObservationExampleDAS28-04"] ; # 
-  fhir:meta [
-     fhir:profile ( [
-       fhir:v "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"^^xsd:anyURI ;
-       fhir:l <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
-     ] )
-  ] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Observation TLSVObservationExampleDAS28-04</b></p><a name=\"TLSVObservationExampleDAS28-04\"> </a><a name=\"hcTLSVObservationExampleDAS28-04\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-tlsv-observation.html\">Profil Observation pour la telesurveillance</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes :{http://snomed.info/sct 441870009}\">Disease activity score using 28 joint count</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2023-10-09 10:45:00+0200</p><p><b>value</b>: 3.34</p><p><b>interpretation</b>: <span title=\"Codes :{http://loinc.org LA9642-5}\">Moderate activity</span></p><p><b>method</b>: <span title=\"Codes :{http://snomed.info/sct 444009006}\">Assessment of rheumatoid arthritis</span></p><blockquote><p><b>referenceRange</b></p><p><b>high</b>: 2.59</p><p><b>type</b>: <span title=\"Codes :{http://snomed.info/sct 277022003}\">Remission phase</span></p></blockquote><blockquote><p><b>referenceRange</b></p><p><b>low</b>: 2.6</p><p><b>high</b>: 3.2</p><p><b>type</b>: <span title=\"Codes :{http://loinc.org LA28784-9}\">Low activity</span></p></blockquote><blockquote><p><b>referenceRange</b></p><p><b>low</b>: 5.11</p><p><b>high</b>: 5.1</p><p><b>type</b>: <span title=\"Codes :{http://loinc.org LA28786-4}\">High activity</span></p></blockquote><p><b>derivedFrom</b>: </p><ul><li><a href=\"Observation-TLSVObservationExampleDAS28-01.html\">Observation Tender 28 joint count</a></li><li><a href=\"Observation-TLSVObservationExampleDAS28-02.html\">Observation Swollen 28 joint count</a></li><li><a href=\"Observation-TLSVObservationExampleDAS28-03.html\">Observation Visual analog scale pain score</a></li><li><a href=\"https://somefhirserver.fr/Observation/9548722577657\">https://somefhirserver.fr/Observation/9548722577657</a></li></ul></div>"^^rdf:XMLLiteral ]
-  ] ; # 
-  fhir:status [ fhir:v "final"] ; # 
-  fhir:category ( [
-     fhir:coding ( [
-       fhir:system [
-         fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
-         fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
-       ] ;
-       fhir:code [ fhir:v "survey" ]
-     ] )
-  ] ) ; # 
-  fhir:code [
-     fhir:coding ( [
+  fhir:Resource.id [ fhir:value "TLSVObservationExampleDAS28-04"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation" ;
+       fhir:index 0 ;
+       fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : Observation TLSVObservationExampleDAS28-04</b></p><a name=\"TLSVObservationExampleDAS28-04\"> </a><a name=\"hcTLSVObservationExampleDAS28-04\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-tlsv-observation.html\">Profil Observation pour la telesurveillance</a></p></div><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes :{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes :{http://snomed.info/sct 441870009}\">Disease activity score using 28 joint count</span></p><p><b>subject</b>: <a href=\"Patient-ExamplefrCorePatient001.html\">Pierre Durand</a></p><p><b>effective</b>: 2023-10-09 10:45:00+0200</p><p><b>value</b>: 3.34</p><p><b>interpretation</b>: <span title=\"Codes :{http://loinc.org LA9642-5}\">Moderate activity</span></p><p><b>method</b>: <span title=\"Codes :{http://snomed.info/sct 444009006}\">Assessment of rheumatoid arthritis</span></p><blockquote><p><b>referenceRange</b></p><p><b>high</b>: 2.59</p><p><b>type</b>: <span title=\"Codes :{http://snomed.info/sct 277022003}\">Remission phase</span></p></blockquote><blockquote><p><b>referenceRange</b></p><p><b>low</b>: 2.6</p><p><b>high</b>: 3.2</p><p><b>type</b>: <span title=\"Codes :{http://loinc.org LA28784-9}\">Low activity</span></p></blockquote><blockquote><p><b>referenceRange</b></p><p><b>low</b>: 5.11</p><p><b>high</b>: 5.1</p><p><b>type</b>: <span title=\"Codes :{http://loinc.org LA28786-4}\">High activity</span></p></blockquote><p><b>derivedFrom</b>: </p><ul><li><a href=\"Observation-TLSVObservationExampleDAS28-01.html\">Observation Tender 28 joint count</a></li><li><a href=\"Observation-TLSVObservationExampleDAS28-02.html\">Observation Swollen 28 joint count</a></li><li><a href=\"Observation-TLSVObservationExampleDAS28-03.html\">Observation Visual analog scale pain score</a></li><li><a href=\"https://somefhirserver.fr/Observation/9548722577657\">https://somefhirserver.fr/Observation/9548722577657</a></li></ul></div>"
+  ] ;
+  fhir:Observation.status [ fhir:value "final"] ;
+  fhir:Observation.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/observation-category" ] ;
+       fhir:Coding.code [ fhir:value "survey" ]
+     ]
+  ] ;
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
        a sct:441870009 ;
-       fhir:system [
-         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:l <http://snomed.info/sct>
-       ] ;
-       fhir:code [ fhir:v "441870009" ] ;
-       fhir:display [ fhir:v "Disease activity score using 28 joint count" ]
-     ] )
-  ] ; # 
-  fhir:subject [
-     fhir:l <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
-     fhir:reference [ fhir:v "Patient/ExamplefrCorePatient001" ] ;
-     fhir:display [ fhir:v "Pierre Durand" ]
-  ] ; # 
-  fhir:effective [
-     a fhir:DateTime ;
-     fhir:v "2023-10-09T10:45:00+02:00"^^xsd:dateTime
-  ] ; # 
-  fhir:value [
-     a fhir:Quantity ;
-     fhir:value [ fhir:v 3.34 ]
-  ] ; # 
-  fhir:interpretation ( [
-     fhir:coding ( [
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:Coding.code [ fhir:value "441870009" ] ;
+       fhir:Coding.display [ fhir:value "Disease activity score using 28 joint count" ]
+     ]
+  ] ;
+  fhir:Observation.subject [
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Patient/ExamplefrCorePatient001> ;
+     fhir:Reference.reference [ fhir:value "Patient/ExamplefrCorePatient001" ] ;
+     fhir:Reference.display [ fhir:value "Pierre Durand" ]
+  ] ;
+  fhir:Observation.effectiveDateTime [ fhir:value "2023-10-09T10:45:00+02:00"^^xsd:dateTime] ;
+  fhir:Observation.valueQuantity [
+     fhir:Quantity.value [ fhir:value "3.34"^^xsd:decimal ]
+  ] ;
+  fhir:Observation.interpretation [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
        a loinc:LA9642-5 ;
-       fhir:system [
-         fhir:v "http://loinc.org"^^xsd:anyURI ;
-         fhir:l <http://loinc.org>
-       ] ;
-       fhir:code [ fhir:v "LA9642-5" ] ;
-       fhir:display [ fhir:v "Moderate activity" ]
-     ] )
-  ] ) ; # 
-  fhir:method [
-     fhir:coding ( [
+       fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+       fhir:Coding.code [ fhir:value "LA9642-5" ] ;
+       fhir:Coding.display [ fhir:value "Moderate activity" ]
+     ]
+  ] ;
+  fhir:Observation.method [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
        a sct:444009006 ;
-       fhir:system [
-         fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-         fhir:l <http://snomed.info/sct>
-       ] ;
-       fhir:code [ fhir:v "444009006" ] ;
-       fhir:display [ fhir:v "Assessment of rheumatoid arthritis" ]
-     ] )
-  ] ; # 
-  fhir:referenceRange ( [
-     fhir:high [
-       fhir:value [ fhir:v 2.59 ]
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:Coding.code [ fhir:value "444009006" ] ;
+       fhir:Coding.display [ fhir:value "Assessment of rheumatoid arthritis" ]
+     ]
+  ] ;
+  fhir:Observation.referenceRange [
+     fhir:index 0 ;
+     fhir:Observation.referenceRange.high [
+       fhir:Quantity.value [ fhir:value "2.59"^^xsd:decimal ]
      ] ;
-     fhir:type [
-       fhir:coding ( [
+     fhir:Observation.referenceRange.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
          a sct:277022003 ;
-         fhir:system [
-           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
-           fhir:l <http://snomed.info/sct>
-         ] ;
-         fhir:code [ fhir:v "277022003" ] ;
-         fhir:display [ fhir:v "Remission phase" ]
-       ] )
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+         fhir:Coding.code [ fhir:value "277022003" ] ;
+         fhir:Coding.display [ fhir:value "Remission phase" ]
+       ]
      ]
-  ] [
-     fhir:low [
-       fhir:value [ fhir:v 2.6 ]
+  ], [
+     fhir:index 1 ;
+     fhir:Observation.referenceRange.low [
+       fhir:Quantity.value [ fhir:value "2.6"^^xsd:decimal ]
      ] ;
-     fhir:high [
-       fhir:value [ fhir:v 3.2 ]
+     fhir:Observation.referenceRange.high [
+       fhir:Quantity.value [ fhir:value "3.2"^^xsd:decimal ]
      ] ;
-     fhir:type [
-       fhir:coding ( [
+     fhir:Observation.referenceRange.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
          a loinc:LA28784-9 ;
-         fhir:system [
-           fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:l <http://loinc.org>
-         ] ;
-         fhir:code [ fhir:v "LA28784-9" ] ;
-         fhir:display [ fhir:v "Low activity" ]
-       ] )
+         fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+         fhir:Coding.code [ fhir:value "LA28784-9" ] ;
+         fhir:Coding.display [ fhir:value "Low activity" ]
+       ]
      ]
-  ] [
-     fhir:low [
-       fhir:value [ fhir:v 5.11 ]
+  ], [
+     fhir:index 2 ;
+     fhir:Observation.referenceRange.low [
+       fhir:Quantity.value [ fhir:value "5.11"^^xsd:decimal ]
      ] ;
-     fhir:high [
-       fhir:value [ fhir:v 5.1 ]
+     fhir:Observation.referenceRange.high [
+       fhir:Quantity.value [ fhir:value "5.1"^^xsd:decimal ]
      ] ;
-     fhir:type [
-       fhir:coding ( [
+     fhir:Observation.referenceRange.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
          a loinc:LA28786-4 ;
-         fhir:system [
-           fhir:v "http://loinc.org"^^xsd:anyURI ;
-           fhir:l <http://loinc.org>
-         ] ;
-         fhir:code [ fhir:v "LA28786-4" ] ;
-         fhir:display [ fhir:v "High activity" ]
-       ] )
+         fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+         fhir:Coding.code [ fhir:value "LA28786-4" ] ;
+         fhir:Coding.display [ fhir:value "High activity" ]
+       ]
      ]
-  ] ) ; # 
-  fhir:derivedFrom ( [
-     fhir:l <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-01> ;
-     fhir:reference [ fhir:v "Observation/TLSVObservationExampleDAS28-01" ]
-  ] [
-     fhir:l <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-02> ;
-     fhir:reference [ fhir:v "Observation/TLSVObservationExampleDAS28-02" ]
-  ] [
-     fhir:l <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-03> ;
-     fhir:reference [ fhir:v "Observation/TLSVObservationExampleDAS28-03" ]
-  ] [
-     fhir:l <https://somefhirserver.fr/Observation/9548722577657> ;
-     fhir:reference [ fhir:v "https://somefhirserver.fr/Observation/9548722577657" ]
-  ] ) . # 
+  ] ;
+  fhir:Observation.derivedFrom [
+     fhir:index 0 ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-01> ;
+     fhir:Reference.reference [ fhir:value "Observation/TLSVObservationExampleDAS28-01" ]
+  ], [
+     fhir:index 1 ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-02> ;
+     fhir:Reference.reference [ fhir:value "Observation/TLSVObservationExampleDAS28-02" ]
+  ], [
+     fhir:index 2 ;
+     fhir:link <https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-03> ;
+     fhir:Reference.reference [ fhir:value "Observation/TLSVObservationExampleDAS28-03" ]
+  ], [
+     fhir:index 3 ;
+     fhir:link <https://somefhirserver.fr/Observation/9548722577657> ;
+     fhir:Reference.reference [ fhir:value "https://somefhirserver.fr/Observation/9548722577657" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/ig/fhir/telesurveillance/Observation/TLSVObservationExampleDAS28-04.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
 

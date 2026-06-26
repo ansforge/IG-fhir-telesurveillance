@@ -33,48 +33,36 @@ Profil: [Profil Observation pour la telesurveillance](StructureDefinition-tlsv-o
   "resourceType" : "Observation",
   "id" : "TLSVObservationExample01",
   "meta" : {
-    "profile" : [
-      "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
-    ]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"]
   },
   "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "survey"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "survey"
+    }]
+  }],
   "code" : {
-    "coding" : [
-      {
-        "system" : "http://loinc.org",
-        "code" : "65502-7",
-        "display" : "Falling asleep in past 7 days [QIDS]"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "65502-7",
+      "display" : "Falling asleep in past 7 days [QIDS]"
+    }]
   },
   "subject" : {
     "reference" : "Patient/ExamplefrCorePatient001",
     "display" : "Pierre Durand"
   },
   "effectiveDateTime" : "2023-10-09",
-  "performer" : [
-    {
-      "reference" : "Patient/ExamplefrCorePatient001",
-      "display" : "Pierre Durand"
-    }
-  ],
+  "performer" : [{
+    "reference" : "Patient/ExamplefrCorePatient001",
+    "display" : "Pierre Durand"
+  }],
   "valueCodeableConcept" : {
-    "coding" : [
-      {
-        "system" : "http://loinc.org",
-        "code" : "LA14809-0"
-      }
-    ]
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "LA14809-0"
+    }]
   },
   "device" : {
     "reference" : "Device/phd-74E8FFFEFF051C00"

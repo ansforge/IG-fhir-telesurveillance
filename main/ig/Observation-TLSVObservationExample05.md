@@ -35,21 +35,15 @@ Profil: [Profil Observation pour la telesurveillance](StructureDefinition-tlsv-o
   "resourceType" : "Observation",
   "id" : "TLSVObservationExample05",
   "meta" : {
-    "profile" : [
-      "https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"
-    ]
+    "profile" : ["https://interop.esante.gouv.fr/ig/fhir/telesurveillance/StructureDefinition/tlsv-observation"]
   },
   "status" : "final",
-  "category" : [
-    {
-      "coding" : [
-        {
-          "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
-          "code" : "survey"
-        }
-      ]
-    }
-  ],
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "survey"
+    }]
+  }],
   "code" : {
     "text" : "Avez-vous réalisé ou prévu de réaliser votre prise de sang 2-3 jours avant votre venue en hôpital de jour?"
   },
@@ -58,22 +52,18 @@ Profil: [Profil Observation pour la telesurveillance](StructureDefinition-tlsv-o
     "display" : "Pierre Durand"
   },
   "effectiveDateTime" : "2023-10-09",
-  "performer" : [
-    {
-      "reference" : "Patient/ExamplefrCorePatient001",
-      "display" : "Pierre Durand"
-    }
-  ],
+  "performer" : [{
+    "reference" : "Patient/ExamplefrCorePatient001",
+    "display" : "Pierre Durand"
+  }],
   "valueBoolean" : false,
   "device" : {
     "reference" : "Device/phd-74E8FFFEFF051C00"
   },
-  "derivedFrom" : [
-    {
-      "reference" : "QuestionnaireResponse001",
-      "display" : "QuestionnaireResponse001"
-    }
-  ]
+  "derivedFrom" : [{
+    "reference" : "QuestionnaireResponse001",
+    "display" : "QuestionnaireResponse001"
+  }]
 }
 
 ```
