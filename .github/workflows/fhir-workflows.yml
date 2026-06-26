@@ -21,4 +21,5 @@ jobs:
           bake: "false"
           validator_cli: "false"
           generate_testscript: "false"
-          generate_plantuml : "true"          container_mode: "true"
+          generate_plantuml : "true"
+          container_mode: "true"
